@@ -20,7 +20,7 @@ SiteTree:
   comments:
     enabled: false
     frontend_moderation: true
-    require_moderation: true
+    require_moderation_nonmembers: true
     require_moderation_cms: true
     require_login: false
     require_login_cms: true
