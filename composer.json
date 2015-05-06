@@ -13,6 +13,9 @@
 	"require-dev": {
 		"cwp/cwp-recipe-basic-dev": "~1.0.6@stable"
 	},
+	"suggest": {
+		"silverstripe/textextraction": "Required for document text searching within CWP"
+	},
 	"config": {
 		"process-timeout": 900
 	},
