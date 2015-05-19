@@ -2,13 +2,9 @@
 	"name": "cwp/cwp-installer",
 	"description": "CWP Project Template",
 	"require": {
-		"cwp/cwp": "dev-master as 1.0.7",
-		"cwp/cwp-core": "dev-master as 1.0.6",
-		"cwp/cwp-recipe-basic": "~1.0.7@stable",
-		"cwp/cwp-recipe-blog": "dev-master",
-		"cwp-themes/default": "dev-master as 1.0.7",
-		"silverstripe/cms": "3.1.x-dev as 3.1.12",
-		"silverstripe/framework": "3.1.x-dev as 3.1.12"
+		"cwp/cwp-recipe-basic": "1.1.0.x-dev",
+		"cwp/cwp-recipe-blog": "1.1.0.x-dev",
+		"cwp-themes/default": "dev-master"
 	},
 	"require-dev": {
 		"cwp/cwp-recipe-basic-dev": "~1.0.6@stable"
