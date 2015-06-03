@@ -278,12 +278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-blog.git",
-                "reference": "786b9c04ac75d3bf3a08b3e7151a58b58701297e"
+                "reference": "e2344235584120482210e35fa863ab93029f7b65"
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "2.1.1.1",
                 "silverstripe/akismet": "3.2.0",
-                "silverstripe/blog": "2.0.x-dev",
+                "silverstripe/blog": "2.0.1",
                 "silverstripe/comment-notifications": "1.0.0",
                 "silverstripe/comments": "2.0.0",
                 "silverstripe/content-widget": "1.0.1",
@@ -293,7 +293,7 @@
             },
             "type": "silverstripe-module",
             "description": "CWP Blog Recipe metapackage",
-            "time": "2015-06-02 06:22:53"
+            "time": "2015-06-03 07:04:45"
         },
         {
             "name": "silverstripe-themes/module_bootstrap",
@@ -411,16 +411,16 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "83673d933d57ea5569b73e9f963bfc578a6e05d9"
+                "reference": "8b082e013f1f8db09d0e502787a81fc32adf5fdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/83673d933d57ea5569b73e9f963bfc578a6e05d9",
-                "reference": "83673d933d57ea5569b73e9f963bfc578a6e05d9",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/8b082e013f1f8db09d0e502787a81fc32adf5fdc",
+                "reference": "8b082e013f1f8db09d0e502787a81fc32adf5fdc",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2015-06-03 01:57:37"
+            "time": "2015-06-03 06:57:52"
         },
         {
             "name": "silverstripe/cms",
