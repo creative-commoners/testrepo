@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "54d35e94f540f036e91e7a9af01779e1",
+    "hash": "6ac08d68bd442469767ffb8ad09ecb99",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -174,11 +174,11 @@
         },
         {
             "name": "cwp-themes/default",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp-themes/default.git",
-                "reference": "6a3c63dd1a6cb08b6c0f13af4677ca86e129ca33"
+                "reference": "fd6a8151ee13e1d0764dd4e993c0464edd435799"
             },
             "require": {
                 "composer/installers": "*",
@@ -194,7 +194,7 @@
                 }
             },
             "description": "CWP Default Theme",
-            "time": "2015-05-26 05:39:55"
+            "time": "2015-06-04 04:57:59"
         },
         {
             "name": "cwp/cwp",
@@ -202,7 +202,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp.git",
-                "reference": "936787bcf2c2667824a8012c61dca805ae79192e"
+                "reference": "dad5978ac6643ae6a27d3a3b9c51887054166f5d"
             },
             "require": {
                 "cwp/cwp-core": "*",
@@ -210,7 +210,7 @@
             },
             "type": "silverstripe-module",
             "description": "CWP features module. We strongly recommend using it for all new sites. Future features will be delivered here.",
-            "time": "2015-06-02 22:42:04"
+            "time": "2015-06-04 05:18:23"
         },
         {
             "name": "cwp/cwp-core",
@@ -237,7 +237,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "c1e8cec4cc7755ab1613d496df02c6df9ab7ce33"
+                "reference": "bab46b4ef0005e4be05a4fa8d265427cfed3f90c"
             },
             "require": {
                 "cwp/cwp": "1.1.0.x-dev",
@@ -254,7 +254,7 @@
                 "silverstripe/mimevalidator": "1.0.3",
                 "silverstripe/multivaluefield": "2.0.6",
                 "silverstripe/queuedjobs": "2.6.0",
-                "silverstripe/registry": "1.0.5",
+                "silverstripe/registry": "1.0.6",
                 "silverstripe/restfulserver": "1.0.2",
                 "silverstripe/secureassets": "1.0.3",
                 "silverstripe/securityreport": "1.0.2",
@@ -270,7 +270,7 @@
             },
             "type": "silverstripe-module",
             "description": "CWP Basic Recipe metapackage",
-            "time": "2015-06-02 06:19:41"
+            "time": "2015-06-04 05:22:56"
         },
         {
             "name": "cwp/cwp-recipe-blog",
@@ -278,12 +278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-blog.git",
-                "reference": "e2344235584120482210e35fa863ab93029f7b65"
+                "reference": "97f58a09c66d60ee559446acd16a9e0cd5752e88"
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "2.1.1.1",
                 "silverstripe/akismet": "3.2.0",
-                "silverstripe/blog": "2.0.1",
+                "silverstripe/blog": "2.0.4",
                 "silverstripe/comment-notifications": "1.0.0",
                 "silverstripe/comments": "2.0.0",
                 "silverstripe/content-widget": "1.0.1",
@@ -293,7 +293,7 @@
             },
             "type": "silverstripe-module",
             "description": "CWP Blog Recipe metapackage",
-            "time": "2015-06-03 07:04:45"
+            "time": "2015-06-04 05:24:13"
         },
         {
             "name": "silverstripe-themes/module_bootstrap",
@@ -411,16 +411,16 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "2.0.1",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "8b082e013f1f8db09d0e502787a81fc32adf5fdc"
+                "reference": "0522b1b7db1fb37df5846fbd3c12c33a1d8b0ad8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/8b082e013f1f8db09d0e502787a81fc32adf5fdc",
-                "reference": "8b082e013f1f8db09d0e502787a81fc32adf5fdc",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/0522b1b7db1fb37df5846fbd3c12c33a1d8b0ad8",
+                "reference": "0522b1b7db1fb37df5846fbd3c12c33a1d8b0ad8",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2015-06-03 06:57:52"
+            "time": "2015-06-04 01:55:34"
         },
         {
             "name": "silverstripe/cms",
@@ -1073,16 +1073,16 @@
         },
         {
             "name": "silverstripe/registry",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-registry.git",
-                "reference": "c9efb93c302b7b97ff35e96580cd097c3c70865b"
+                "reference": "2c36e2cddc2f2ebf5df6ffebb47c3b347ef2be6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-registry/zipball/c9efb93c302b7b97ff35e96580cd097c3c70865b",
-                "reference": "c9efb93c302b7b97ff35e96580cd097c3c70865b",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-registry/zipball/2c36e2cddc2f2ebf5df6ffebb47c3b347ef2be6c",
+                "reference": "2c36e2cddc2f2ebf5df6ffebb47c3b347ef2be6c",
                 "shasum": ""
             },
             "require": {
@@ -1108,7 +1108,7 @@
             "keywords": [
                 "silverstripe"
             ],
-            "time": "2015-02-23 03:46:24"
+            "time": "2015-06-04 01:58:04"
         },
         {
             "name": "silverstripe/restfulserver",
