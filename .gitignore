@@ -25,6 +25,7 @@ _ss_environment.php
 /externallinks
 /framework
 /fulltextsearch
+/gridfieldextensions
 /html5
 /hybridsessions
 /iframe
@@ -36,6 +37,7 @@ _ss_environment.php
 /restfulserver
 /securityreport
 /secureassets
+/segment-field
 /selectupload
 /sortablegridfield
 /spellcheck
