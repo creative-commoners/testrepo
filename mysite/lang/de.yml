@@ -1,0 +1,15 @@
+de:
+  HomePage:
+    PLURALNAME: 'Grundseiten'
+  Page:
+    DESCRIPTION: 'Allgemeine Inhaltsseite'
+    PLURALNAME: 'Grundseiten'
+    SINGULARNAME: Seite
+  SiteTree:
+    PLURALNAME: Seiten
+    SINGULARNAME: Seite
+  CommentsInterface_singlecomment_ss:
+    APPROVE: 'Bestätigen'
+    ISNTSPAM: 'Kein Spam'
+    ISSPAM: 'Spam'
+    REMCOM: 'Löschen'

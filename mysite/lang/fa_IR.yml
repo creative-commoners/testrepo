@@ -1,0 +1,11 @@
+fa_IR:
+  HomePage:
+    PLURALNAME: 'صفحات پایه'
+    SINGULARNAME: 'صفحه اصلی'
+  Page:
+    DESCRIPTION: 'صفحه محتوا عمومی'
+    PLURALNAME: 'صفحات پایه'
+    SINGULARNAME: صفحه
+  SiteTree:
+    PLURALNAME: صفحه ها
+    SINGULARNAME: صفحه
