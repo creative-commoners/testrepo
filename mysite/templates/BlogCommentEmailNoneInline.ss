@@ -824,7 +824,7 @@
                             <table class="button spam">
                               <tr>
                                 <td>
-                                  <a href="#">Mark as spam</a>
+                                  <a href="$SpamLink">Mark as spam</a>
                                 </td>
                               </tr>
                             </table>
@@ -836,7 +836,7 @@
                             <table class="button delete">
                               <tr>
                                 <td>
-                                  <a href="#">Delete it</a>
+                                  <a href="$DeleteLink">Delete it</a>
                                 </td>
                               </tr>
                             </table>
@@ -848,7 +848,7 @@
                             <table class="button ham">
                               <tr>
                                 <td>
-                                  <a href="#">Mark as not spam</a>
+                                  <a href="$HamLink">Mark as not spam</a>
                                 </td>
                               </tr>
                             </table>
@@ -860,7 +860,7 @@
                             <table class="button approve">
                               <tr>
                                 <td>
-                                  <a href="#">Approve it</a>
+                                  <a href="$ApproveLink">Approve it</a>
                                 </td>
                               </tr>
                             </table>
