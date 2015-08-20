@@ -1,38 +1,19 @@
 ## Overview
 
-Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:
+Base project for the Common Web Platform Installer. See [the CWP home page](https://www.cwp.govt.nz/) for information.
 
- * [`framework`](http://github.com/silverstripe/silverstripe-framework): Module including the base framework
- * [`cms`](http://github.com/silverstripe/silverstripe-cms): Module including a Content Management System
- * `themes/simple` (optional)
+## Getting started
 
-## Installation ##
+Please see the [https://www.cwp.govt.nz/guides/core-technical-documentation/common-web-platform-core/en/quick-start](quickstart guide)
+for information on getting started with the CWP installer.
 
-See [installation on different platforms](http://doc.silverstripe.org/framework/en/installation/),
-and [installation from source](http://doc.silverstripe.org/framework/en/installation/from-source).
+## Getting support
 
-## Bugtracker ##
+For CWP related issues please raise a [https://www.cwp.govt.nz/service-desk/new-request/](service desk) ticket.
 
-Bugs are tracked on github.com ([framework issues](https://github.com/silverstripe/silverstripe-framework/issues),
-[cms issues](https://github.com/silverstripe/silverstripe-cms/issues)). 
-Please read our [issue reporting guidelines](http://doc.silverstripe.org/framework/en/misc/contributing/issues).
+## License
 
-## Development and Contribution ##
-
-If you would like to make changes to the SilverStripe core codebase, we have an extensive [guide to contributing code](http://doc.silverstripe.org/framework/en/misc/contributing/code).
-
-## Links ##
-
- * [Changelogs](http://doc.silverstripe.org/framework/en/changelogs/)
- * [Bugtracker: Framework](https://github.com/silverstripe/silverstripe-framework/issues)
- * [Bugtracker: CMS](https://github.com/silverstripe/silverstripe-cms/issues)
- * [Bugtracker: Installer](https://github.com/silverstripe/silverstripe-installer/issues)
- * [Forums](http://silverstripe.org/forums)
- * [Developer Mailinglist](https://groups.google.com/forum/#!forum/silverstripe-dev)
-
-## License ##
-
-	Copyright (c) 2007-2013, SilverStripe Limited - www.silverstripe.com
+	Copyright (c) 2007-2015, SilverStripe Limited - www.silverstripe.com
 	All rights reserved.
 
 	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
