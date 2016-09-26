@@ -11,9 +11,11 @@ _ss_environment.php
 /toolsphing-metadata
 /silverstripe-cache
 /advancedworkflow
+/auditor
 /buildtools
 /comment-notifications
 /content-widget
+/contentreview
 /cms
 /cwp
 /cwp-core
@@ -34,11 +36,14 @@ _ss_environment.php
 /nginx
 /queuedjobs
 /registry
+/reports
 /restfulserver
 /securityreport
 /secureassets
 /segment-field
 /selectupload
+/siteconfig
+/sitewidecontent-report
 /sortablegridfield
 /spellcheck
 /subsites
