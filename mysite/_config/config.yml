@@ -16,3 +16,6 @@ MySQLDatabase:
   connection_charset: 'utf8'
 LeftAndMain:
   help_link: "https://www.cwp.govt.nz/user-help/"
+VersionFeed:
+  allchanges_enabled: false
+  changes_enabled: false
