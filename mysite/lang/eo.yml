@@ -8,8 +8,8 @@ eo:
     REMCOM: Forigi
   HomePage:
     DESCRIPTION: 'Enirejo al la retejo. Ĝi havas karuselon, reliefigitajn panelojn, rapidajn ligilojn kaj novaĵajn resumojn.'
-    PLURALNAME: 'Hejmpaĝoj'
-    SINGULARNAME: 'Hejmpaĝo'
+    PLURALNAME: Hejmpaĝoj
+    SINGULARNAME: Hejmpaĝo
   Page:
     DESCRIPTION: 'Komuna enhava paĝo'
     PLURALNAME: 'Bazaj paĝoj'

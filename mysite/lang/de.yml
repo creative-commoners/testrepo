@@ -8,11 +8,11 @@ de:
     REMCOM: Löschen
   HomePage:
     DESCRIPTION: 'Start der Webseite. Beinhaltet Karussell, hervorgehobene Panelle, Direktlinks und Zusammenfassungen der Neuigkeiten'
-    PLURALNAME: 'Startseiten'
-    SINGULARNAME: 'Startseite'
+    PLURALNAME: Startseiten
+    SINGULARNAME: Startseite
   Page:
     DESCRIPTION: 'Allgemeine Inhaltsseite'
-    PLURALNAME: 'Grundseiten'
+    PLURALNAME: Grundseiten
     SINGULARNAME: Seite
   SiteTree:
     PLURALNAME: Seiten
