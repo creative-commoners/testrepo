@@ -1,0 +1,19 @@
+de:
+  AkismetField:
+    SPAM: 'Ihr Kommentar wurde abgelehnt, weil ein Wort oder Symbol als Spam eingestuft wurde. Bitte stellen Sie sich, dass ihr Kommentar eine geeignete Wortwohl hat bevor Sie den Kommentar erneut einsenden. '
+  CommentsInterface_singlecomment_ss:
+    APPROVE: Bestätigen
+    ISNTSPAM: 'Kein Spam'
+    ISSPAM: Spam
+    REMCOM: Löschen
+  HomePage:
+    DESCRIPTION: 'Start der Webseite. Beinhaltet Karussell, hervorgehobene Panelle, Direktlinks und Zusammenfassungen der Neuigkeiten'
+    PLURALNAME: Startseiten
+    SINGULARNAME: Startseite
+  Page:
+    DESCRIPTION: 'Allgemeine Inhaltsseite'
+    PLURALNAME: Grundseiten
+    SINGULARNAME: Seite
+  SiteTree:
+    PLURALNAME: Seiten
+    SINGULARNAME: Seite

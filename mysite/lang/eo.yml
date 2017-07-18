@@ -1,0 +1,19 @@
+eo:
+  AkismetField:
+    SPAM: 'Via komento estas malakceptita ĉar vorto aŭ signo estas traktita kiel spamo. Bonvolu certigi ke via komento uzas taŭgan lingvaĵon antaŭ ol reenmeti ĝin.'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: Aprobi
+    ISNTSPAM: 'Ne spamo'
+    ISSPAM: Spamo
+    REMCOM: Forigi
+  HomePage:
+    DESCRIPTION: 'Enirejo al la retejo. Ĝi havas karuselon, reliefigitajn panelojn, rapidajn ligilojn kaj novaĵajn resumojn.'
+    PLURALNAME: Hejmpaĝoj
+    SINGULARNAME: Hejmpaĝo
+  Page:
+    DESCRIPTION: 'Komuna enhava paĝo'
+    PLURALNAME: 'Bazaj paĝoj'
+    SINGULARNAME: Paĝo
+  SiteTree:
+    PLURALNAME: Paĝoj
+    SINGULARNAME: Paĝo
