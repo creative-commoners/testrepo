@@ -19,3 +19,7 @@ LeftAndMain:
 VersionFeed:
   allchanges_enabled: false
   changes_enabled: false
+
+Page:
+  extensions:
+    - DocumentConverterDecorator
