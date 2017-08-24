@@ -1,0 +1,19 @@
+ru:
+  AkismetField:
+    SPAM: 'Ваш комментарий не принят, т.к. его содержание похоже на спам. Удостоверьтесь в правильности используемого языка и попробуйте отправить снова.'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: Одобрить
+    ISNTSPAM: 'Не спам'
+    ISSPAM: Спам
+    REMCOM: Удалить
+  HomePage:
+    DESCRIPTION: 'Главная страница. Содержит слайдер, виджеты, ссылки, новостную ленту.'
+    PLURALNAME: 'Домашние страницы'
+    SINGULARNAME: 'Домашняя страница'
+  Page:
+    DESCRIPTION: 'Стандартная страница'
+    PLURALNAME: 'Простая страница'
+    SINGULARNAME: Страница
+  SiteTree:
+    PLURALNAME: Страницы
+    SINGULARNAME: Страница
