@@ -7,7 +7,8 @@
         "silverstripe/recipe-cms": "1.0.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
         "dnadesign/silverstripe-elemental": "dev-ss4 as dev-master",
-        "dnadesign/silverstripe-elemental-skeletons": "dev-master"
+        "dnadesign/silverstripe-elemental-skeletons": "dev-master",
+        "silverstripe/elemental-blocks": "1.0.x-dev"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
@@ -18,6 +19,9 @@
         },
         "project-files-installed": [
             ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
             "mysite/.htaccess",
             "mysite/_config.php",
             "mysite/_config/mysite.yml",
@@ -29,6 +33,12 @@
     "config": {
         "process-timeout": 600
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-elemental.git"
+        }
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
