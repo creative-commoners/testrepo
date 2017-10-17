@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2694de8a3cbab9da2590ffa13e29f734",
+    "content-hash": "42b0cb638d74b7469166f19337829128",
     "packages": [
         {
             "name": "arillo/silverstripe-dataobject-preview",
@@ -534,18 +534,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dnadesign/silverstripe-elemental-skeletons.git",
-                "reference": "7cea94a15945cf7aa3f8b0f926f4b8a9b1b17b35"
+                "reference": "46df7bcc4a7842fc1ec3e57f53025434f04c7d81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental-skeletons/zipball/7cea94a15945cf7aa3f8b0f926f4b8a9b1b17b35",
-                "reference": "7cea94a15945cf7aa3f8b0f926f4b8a9b1b17b35",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental-skeletons/zipball/46df7bcc4a7842fc1ec3e57f53025434f04c7d81",
+                "reference": "46df7bcc4a7842fc1ec3e57f53025434f04c7d81",
                 "shasum": ""
             },
             "require": {
-                "dnadesign/silverstripe-elemental": "dev-master"
+                "dnadesign/silverstripe-elemental": "2.x-dev"
             },
-            "type": "silverstripe-module",
+            "type": "silverstripe-vendormodule",
             "extra": {
                 "installer-name": "elemental-skeletons"
             },
@@ -567,7 +567,7 @@
                 "silverstripe",
                 "skeletons"
             ],
-            "time": "2017-09-12 23:24:52"
+            "time": "2017-10-17 18:40:24"
         },
         {
             "name": "embed/embed",
@@ -1886,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-elemental-blocks.git",
-                "reference": "c8111e86985ec3bcf2dc349e8ed0c739f390b83e"
+                "reference": "d844ef5edfb42a286af132847bd7cf9bf860075a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental-blocks/zipball/c8111e86985ec3bcf2dc349e8ed0c739f390b83e",
-                "reference": "c8111e86985ec3bcf2dc349e8ed0c739f390b83e",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental-blocks/zipball/d844ef5edfb42a286af132847bd7cf9bf860075a",
+                "reference": "d844ef5edfb42a286af132847bd7cf9bf860075a",
                 "shasum": ""
             },
             "require": {
@@ -1925,7 +1925,7 @@
                 "elemental",
                 "silverstripe"
             ],
-            "time": "2017-10-12 01:01:13"
+            "time": "2017-10-16 07:01:37"
         },
         {
             "name": "silverstripe/errorpage",
@@ -3000,16 +3000,16 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "cec32398a973a9bfe9d2f94f4b5d5e186b40b698"
+                "reference": "04f62674339602def515bff4bc6901fc1d4951e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/cec32398a973a9bfe9d2f94f4b5d5e186b40b698",
-                "reference": "cec32398a973a9bfe9d2f94f4b5d5e186b40b698",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/04f62674339602def515bff4bc6901fc1d4951e8",
+                "reference": "04f62674339602def515bff4bc6901fc1d4951e8",
                 "shasum": ""
             },
             "require": {
@@ -3018,10 +3018,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Apcu\\": ""
+                },
                 "files": [
                     "bootstrap.php"
                 ]
@@ -3049,20 +3052,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-07-05T15:09:33+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
                 "shasum": ""
             },
             "require": {
@@ -3074,7 +3077,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -3108,7 +3111,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/process",
@@ -3928,16 +3931,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.22",
+            "version": "5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "10df877596c9906d4110b5b905313829043f2ada"
+                "reference": "78532d5269d984660080d8e0f4c99c5c2ea65ffe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/10df877596c9906d4110b5b905313829043f2ada",
-                "reference": "10df877596c9906d4110b5b905313829043f2ada",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/78532d5269d984660080d8e0f4c99c5c2ea65ffe",
+                "reference": "78532d5269d984660080d8e0f4c99c5c2ea65ffe",
                 "shasum": ""
             },
             "require": {
@@ -4006,7 +4009,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-09-24T07:23:38+00:00"
+            "time": "2017-10-15T06:13:55+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4631,14 +4634,7 @@
             "time": "2016-11-23T20:04:58+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "dev-master",
-            "alias_normalized": "9999999-dev",
-            "version": "dev-ss4",
-            "package": "dnadesign/silverstripe-elemental"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "dnadesign/silverstripe-elemental": 20,

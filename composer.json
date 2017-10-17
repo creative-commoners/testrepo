@@ -5,7 +5,7 @@
         "php": ">=5.6.0",
         "silverstripe/recipe-cms": "^1.0",
         "silverstripe-themes/simple": "~3.2.0",
-        "dnadesign/silverstripe-elemental": "dev-ss4 as dev-master",
+        "dnadesign/silverstripe-elemental": "2.x-dev",
         "dnadesign/silverstripe-elemental-skeletons": "dev-master",
         "silverstripe/elemental-blocks": "1.0.x-dev",
         "silverstripe/vendor-plugin-helper": "^1.0@dev"
