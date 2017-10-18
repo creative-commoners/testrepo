@@ -7,46 +7,6 @@
     "content-hash": "42b0cb638d74b7469166f19337829128",
     "packages": [
         {
-            "name": "arillo/silverstripe-dataobject-preview",
-            "version": "4.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arillo/silverstripe-dataobject-preview.git",
-                "reference": "71c917e40fca6366e0f73f9cb6937b7383d4f4d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arillo/silverstripe-dataobject-preview/zipball/71c917e40fca6366e0f73f9cb6937b7383d4f4d9",
-                "reference": "71c917e40fca6366e0f73f9cb6937b7383d4f4d9",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/framework": "~4.0"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "dataobject-preview"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Murcia",
-                    "email": "dm@arillo.net"
-                }
-            ],
-            "description": "Shows a preview of your dataobjects like the one you get for pages.",
-            "homepage": "https://github.com/arillo/silverstripe-dataobject-preview",
-            "keywords": [
-                "dataobject",
-                "preview",
-                "silverstripe"
-            ],
-            "time": "2017-10-11 17:48:44"
-        },
-        {
             "name": "composer/ca-bundle",
             "version": "1.0.8",
             "source": {
@@ -463,20 +423,19 @@
         },
         {
             "name": "dnadesign/silverstripe-elemental",
-            "version": "dev-ss4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dnadesign/silverstripe-elemental.git",
-                "reference": "7073d14f8bf65c4eb628d222095fbfe45c56b7fd"
+                "reference": "54a54b4ac30ca2196202ffdbd317df48815693b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental/zipball/7073d14f8bf65c4eb628d222095fbfe45c56b7fd",
-                "reference": "7073d14f8bf65c4eb628d222095fbfe45c56b7fd",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental/zipball/54a54b4ac30ca2196202ffdbd317df48815693b9",
+                "reference": "54a54b4ac30ca2196202ffdbd317df48815693b9",
                 "shasum": ""
             },
             "require": {
-                "arillo/silverstripe-dataobject-preview": "4.0.x-dev",
                 "dnadesign/silverstripe-advanceddropdowns": "^2.0",
                 "silverstripe/cms": "^4.0@dev",
                 "silverstripe/vendor-plugin": "^1.0",
@@ -496,7 +455,7 @@
             "extra": {
                 "installer-name": "elemental",
                 "branch-alias": {
-                    "dev-ss4": "2.x-dev"
+                    "dev-master": "2.x-dev"
                 },
                 "expose": [
                     "css",
@@ -526,7 +485,7 @@
                 "elemental",
                 "silverstripe"
             ],
-            "time": "2017-10-12 01:25:43"
+            "time": "2017-10-17T20:30:00+00:00"
         },
         {
             "name": "dnadesign/silverstripe-elemental-skeletons",
@@ -534,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dnadesign/silverstripe-elemental-skeletons.git",
-                "reference": "46df7bcc4a7842fc1ec3e57f53025434f04c7d81"
+                "reference": "001215a3daeb05d56dfdd1cd84127283b583be27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental-skeletons/zipball/46df7bcc4a7842fc1ec3e57f53025434f04c7d81",
-                "reference": "46df7bcc4a7842fc1ec3e57f53025434f04c7d81",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental-skeletons/zipball/001215a3daeb05d56dfdd1cd84127283b583be27",
+                "reference": "001215a3daeb05d56dfdd1cd84127283b583be27",
                 "shasum": ""
             },
             "require": {
@@ -547,7 +506,9 @@
             },
             "type": "silverstripe-vendormodule",
             "extra": {
-                "installer-name": "elemental-skeletons"
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -567,7 +528,7 @@
                 "silverstripe",
                 "skeletons"
             ],
-            "time": "2017-10-17 18:40:24"
+            "time": "2017-10-17T21:41:24+00:00"
         },
         {
             "name": "embed/embed",
@@ -1550,7 +1511,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2017-02-01 23:56:41"
+            "time": "2017-02-01T23:56:41+00:00"
         },
         {
             "name": "silverstripe/admin",
@@ -1925,7 +1886,7 @@
                 "elemental",
                 "silverstripe"
             ],
-            "time": "2017-10-16 07:01:37"
+            "time": "2017-10-16T07:01:37+00:00"
         },
         {
             "name": "silverstripe/errorpage",
@@ -2642,7 +2603,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2017-10-11 14:52:29"
+            "time": "2017-10-11T14:52:29+00:00"
         },
         {
             "name": "symfony/cache",

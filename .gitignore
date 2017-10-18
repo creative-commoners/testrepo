@@ -10,6 +10,9 @@
 # ignore composer vendor folder
 /vendor/
 
+# ignore 'exposed' assets
+/resources/
+
 # ignore default modules from composer
 /asset-admin/
 /campaign-admin/
