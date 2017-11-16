@@ -3,9 +3,9 @@
   "description": "CWP Project Template",
   "license": "BSD-3-Clause",
   "require": {
-    "cwp/cwp-recipe-basic": "1.6.x-dev",
-    "cwp/cwp-recipe-blog": "1.6.x-dev",
-    "cwp/starter-theme": "1.0.x-dev"
+    "cwp/cwp-recipe-basic": "1.8.x-dev",
+    "cwp/cwp-recipe-blog": "1.8.x-dev",
+    "cwp/starter-theme": "1.1.x-dev"
   },
   "require-dev": {
     "cwp/cwp-recipe-basic-dev": "^1.1@stable"
@@ -18,7 +18,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.8.x-dev"
+      "dev-master": "1.9.x-dev"
     }
   },
   "repositories": [
