@@ -1,32 +1,28 @@
 {
-  "name": "cwp/cwp-installer",
-  "description": "CWP Project Template",
-  "license": "BSD-3-Clause",
-  "require": {
-    "cwp/cwp-recipe-basic": "1.8.x-dev",
-    "cwp/cwp-recipe-blog": "1.8.x-dev",
-    "cwp/starter-theme": "1.1.x-dev"
-  },
-  "require-dev": {
-    "cwp/cwp-recipe-basic-dev": "^1.1@stable"
-  },
-  "suggest": {
-    "silverstripe/textextraction": "Required for document text searching within CWP"
-  },
-  "config": {
-    "process-timeout": 900
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.8.x-dev"
-    }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.cwp.govt.nz/"
-    }
-  ],
-  "prefer-stable": true,
-  "minimum-stability": "dev"
+    "name": "cwp/cwp-installer",
+    "description": "CWP Project Template",
+    "license": "BSD-3-Clause",
+    "require": {
+        "cwp/cwp-recipe-basic": "1.8.x-dev",
+        "cwp/cwp-recipe-blog": "1.8.x-dev",
+        "cwp/starter-theme": "1.1.x-dev"
+    },
+    "require-dev": {
+        "cwp/cwp-recipe-basic-dev": "^1.1@stable"
+    },
+    "suggest": {
+        "silverstripe/textextraction": "Required for document text searching within CWP"
+    },
+    "config": {
+        "process-timeout": 900
+    },
+    "extra": [],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.cwp.govt.nz/"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
