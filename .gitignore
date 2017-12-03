@@ -3,3 +3,17 @@
 /vendor/
 /themes/simple/
 /resources/
+# installed modules still in site root:
+/blog
+/comment-notifications
+/comments
+/gridfield-bulk-editing-tools
+/hybridsessions
+/mimevalidator
+/queuedjobs
+/securityreport
+/subsites
+/taxonomy
+/themes/starter
+/themes/watea
+/widgets
