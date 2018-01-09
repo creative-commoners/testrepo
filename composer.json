@@ -79,7 +79,10 @@
         ]
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "platform": {
+            "php": "5.6.0"
+        }
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
