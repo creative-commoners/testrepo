@@ -1,26 +1,11 @@
 {
-    "name": "silverstripe/installer",
+    "name": "cwp/installer-test",
     "type": "silverstripe-recipe",
     "description": "Combination of silverstripe/installer, cwp/cwp-installer, and silverstripe/platform-project",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/silverstripe/cwp-watea-theme"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/silverstripe/cwp-starter-theme"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.cwp.govt.nz/"
-        }
-    ],
     "require": {
         "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "^1",
-        "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/dynamodb": "4.0.x-dev",
         "silverstripe/crontask": "2.x-dev",
         "silverstripe/taxonomy": "2.0.x-dev",
@@ -33,7 +18,7 @@
         "symbiote/silverstripe-gridfieldextensions": "3.0.x-dev",
         "silverstripe/html5": "2.x-dev",
         "silverstripe/iframe": "2.0.x-dev",
-        "silverstripe/mimevalidator": "2.0.x-dev",
+        "silverstripe/mimevalidator": "2.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.0.x-dev",
         "symbiote/silverstripe-queuedjobs": "4.x-dev",
         "silverstripe/registry": "2.x-dev",
@@ -51,19 +36,21 @@
         "silverstripe/comments": "3.x-dev",
         "silverstripe/comment-notifications": "2.0.x-dev",
         "colymba/gridfield-bulk-editing-tools": "3.x-dev",
+        "cwp/cwp-core": "2.x-dev",
+        "cwp/cwp": "2.x-dev",
         "cwp/starter-theme": "2.x-dev",
-        "cwp/watea-theme": "2.x-dev"
+        "cwp/watea-theme": "2.x-dev",
+        "silverstripe/documentconverter": "2.x-dev",
+        "silverstripe/spellcheck": "2.x-dev",
+        "silverstripe/versionfeed": "2.x-dev",
+        "silverstripe/akismet": "4.x-dev",
+        "silverstripe/content-widget": "2.x-dev"
     },
     "suggest": {
-        "silverstripe/documentconverter": "2.x-dev, // cwp/cwp-recipe-basic -- not ready",
         "silverstripe/secureassets": "1.1.7@stable, // cwp/cwp-recipe-basic -- deprecated (superceded by core).",
         "silverstripe/selectupload": "2.x-dev, // cwp/cwp-recipe-basic -- not ready",
-        "silverstripe/spellcheck": "2.x-dev, // cwp/cwp-recipe-basic -- not ready",
         "silverstripe/translatable": "2.2.5@stable, // cwp/cwp-recipe-basic -- deprecated (superceded by fluent).",
-        "symbiote/silverstripe-versionedfiles": "3.x-dev, // cwp/cwp-recipe-basic -- deprecated (superceded by core)",
-        "silverstripe/versionfeed": "2.x-dev, // cwp/cwp-recipe-basic -- not ready",
-        "silverstripe/akismet": "4.x-dev, // cwp/cwp-recipe-blog -- not ready",
-        "silverstripe/content-widget": "2.x-dev, // cwp/cwp-recipe-blog -- not ready"
+        "symbiote/silverstripe-versionedfiles": "3.x-dev, // cwp/cwp-recipe-basic -- deprecated (superceded by core)"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"

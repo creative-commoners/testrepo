@@ -5,5 +5,5 @@ SilverStripe\View\SSViewer:
   themes:
     - 'watea'
     - 'starter'
-    - 'simple'
+   # - 'simple'
     - '$default'

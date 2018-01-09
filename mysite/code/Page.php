@@ -1,8 +1,8 @@
 <?php
 
-use SilverStripe\CMS\Model\SiteTree;
+use CWP\CWP\PageTypes\BasePage;
 
-class Page extends SiteTree
+class Page extends BasePage
 {
     private static $db = [];
 
