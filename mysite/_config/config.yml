@@ -1,21 +1,11 @@
 ---
-Name: mysiteconfig
-After:
-  - 'framework/*'
-  - 'cms/*'
+Name: mycwpsite
 ---
-# YAML configuration for SilverStripe
-# See http://doc.silverstripe.org/framework/en/topics/configuration
-# Caution: Indentation through two spaces, not tabs
-SiteTree:
-  extensions:
-    - WorkflowEmbargoExpiryExtension
-SSViewer:
-  theme: 'starter'
-MySQLDatabase:
-  connection_charset: 'utf8'
-LeftAndMain:
+SilverStripe\View\SSViewer:
+  themes:
+    - 'starter'
+    - '$default'
+SilverStripe\Admin\LeftAndMain:
   help_link: "https://www.cwp.govt.nz/user-help/"
-VersionFeed:
-  allchanges_enabled: false
-  changes_enabled: false
+SilverStripe\Control\Email:
+  admin_email: 'no-reply@cwp.govt.nz'
