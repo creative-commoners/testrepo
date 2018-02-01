@@ -1,10 +1,6 @@
 ---
-Name: mycwpsite
+Name: cwpadmin
 ---
-SilverStripe\View\SSViewer:
-  themes:
-    - 'starter'
-    - '$default'
 SilverStripe\Admin\LeftAndMain:
   help_link: "https://www.cwp.govt.nz/user-help/"
 SilverStripe\Control\Email:
