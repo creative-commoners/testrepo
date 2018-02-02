@@ -6,66 +6,36 @@
     "require": {
         "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-core": "1.1.x-dev",
-        "silverstripe/assets": "1.1.x-dev",
-        "silverstripe/config": "1.0.x-dev",
-        "silverstripe/framework": "4.1.x-dev",
+
         "silverstripe/recipe-cms": "1.1.x-dev",
-        "silverstripe/admin": "1.1.x-dev",
-        "silverstripe/asset-admin": "1.1.x-dev",
-        "silverstripe/campaign-admin": "1.1.x-dev",
-        "silverstripe/cms": "4.1.x-dev",
-        "silverstripe/errorpage": "1.1.x-dev",
-        "silverstripe/graphql": "1.1.x-dev",
-        "silverstripe/reports": "4.1.x-dev",
-        "silverstripe/siteconfig": "4.1.x-dev",
-        "silverstripe/versioned": "1.1.x-dev",
+
         "cwp/cwp-recipe-core": "2.x-dev",
-        "cwp/cwp-core": "2.x-dev",
-        "silverstripe/hybridsessions": "2.0.x-dev",
-        "silverstripe/auditor": "2.x-dev",
-        "silverstripe/environmentcheck": "2.x-dev",
+
         "cwp/cwp": "2.x-dev",
         "silverstripe/html5": "2.x-dev",
         "symbiote/silverstripe-gridfieldextensions": "3.0.x-dev",
         "cwp/cwp-pdfexport": "1.x-dev",
+
         "cwp/cwp-search": "1.x-dev",
         "symbiote/silverstripe-queuedjobs": "4.x-dev",
+        "silverstripe/textextraction": "3.x-dev",
+
         "silverstripe/subsites": "2.0.x-dev",
         "tractorcow/silverstripe-fluent": "4.0.x-dev",
         "silverstripe/registry": "2.x-dev",
         "cwp/starter-theme": "2.x-dev"
     },
-    "suggest": {
-        "silverstripe/textextraction": "3.x-dev requires framework 4.0.x, but CWP needs 4.1.x (part of cwp/recipe-search)"
-    },
+    "suggest": {},
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "squizlabs/php_codesniffer": "^3",
         "lekoala/silverstripe-debugbar": "^2@dev"
     },
     "extra": {
-        "project-files": [
-            "mysite/*"
-        ],
+        "project-files": ["mysite/*"],
         "branch-alias": {
             "dev-master": "2.x-dev"
-        },
-        "project-files-installed": [
-            "mysite/.htaccess",
-            "mysite/_config.php",
-            "mysite/_config/environmentcheck.yml",
-            "mysite/_config/mysite.yml",
-            "mysite/code/Page.php",
-            "mysite/code/PageController.php"
-        ],
-        "public-files-installed": [
-            ".htaccess",
-            "index.php",
-            "install-frameworkmissing.html",
-            "install.php",
-            "web.config"
-        ]
+        }
     },
     "config": {
         "process-timeout": 600
