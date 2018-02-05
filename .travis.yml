@@ -13,7 +13,7 @@ matrix:
     - php: 7.0
       env: PHPUNIT_TEST=admin,cwpcms,Default
     - php: 7.1
-      env: PHPCS_TEST=1 PHPUNIT_COVERAGE_TEST=1
+      env: PHPCS_TEST=1
     - php: 7.2
       env: PHPUNIT_TEST=cwpsearch
 
@@ -27,7 +27,7 @@ before_script:
   - composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
 script:
-  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite ${PHPUNIT_TEST/1/Default}; fi
+  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite $PHPUNIT_TEST; fi
   - if [[ $PHPUNIT_COVERAGE_TEST ]]; then phpdbg -qrr vendor/bin/phpunit --coverage-clover=coverage.xml; fi
   - if [[ $PHPCS_TEST ]]; then vendor/bin/phpcs mysite/ *.php; fi
 

@@ -2,7 +2,7 @@
 
 use CWP\CWP\PageTypes\BaseHomePageController;
 
-class HomePage extends BaseHomePageController
+class HomePageController extends BaseHomePageController
 {
     
 }

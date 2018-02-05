@@ -2,7 +2,7 @@
 
 use CWP\CWP\PageTypes\BasePageController;
 
-class Page extends BasePageController
+class PageController extends BasePageController
 {
     
 }
