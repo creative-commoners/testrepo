@@ -13,7 +13,7 @@ matrix:
     - php: 7.0
       env: PHPUNIT_TEST=admin,cwpcms,Default
     - php: 7.1
-      env: PHPCS_TEST=1
+      env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms,Default,cwpsearch PHPCS_TEST=1
     - php: 7.2
       env: PHPUNIT_TEST=cwpsearch
 
@@ -24,7 +24,7 @@ before_script:
 
   # Install composer dependencies
   - composer validate
-  - composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
+  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
 script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite $PHPUNIT_TEST; fi
