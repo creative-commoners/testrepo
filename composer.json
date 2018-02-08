@@ -6,26 +6,23 @@
     "require": {
         "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1",
-
-        "silverstripe/recipe-cms": "1.1.x-dev",
-
         "cwp/cwp-recipe-core": "2.x-dev",
-
-        "cwp/cwp": "2.x-dev",
-        "silverstripe/html5": "2.x-dev",
-        "symbiote/silverstripe-gridfieldextensions": "3.0.x-dev",
-        "cwp/cwp-pdfexport": "1.x-dev",
-
-        "cwp/cwp-search": "1.x-dev",
-        "symbiote/silverstripe-queuedjobs": "4.x-dev",
-        "silverstripe/textextraction": "3.x-dev",
-
+        "cwp/cwp-recipe-cms": "2.x-dev",
+        "silverstripe/recipe-blog": "1.x-dev",
+        "silverstripe/recipe-form-building": "1.x-dev",
+        "silverstripe/recipe-authoring-tools": "1.x-dev",
+        "silverstripe/recipe-collaboration": "1.x-dev",
+        "silverstripe/recipe-reporting-tools": "1.x-dev",
+        "cwp/cwp-recipe-search": "2.x-dev",
+        "silverstripe/recipe-services": "1.x-dev",
         "silverstripe/subsites": "2.0.x-dev",
         "tractorcow/silverstripe-fluent": "4.0.x-dev",
         "silverstripe/registry": "2.x-dev",
         "cwp/starter-theme": "2.x-dev"
     },
-    "suggest": {},
+    "suggest": {
+        "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"
+    },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "squizlabs/php_codesniffer": "^3",

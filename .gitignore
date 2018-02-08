@@ -10,5 +10,6 @@ _ss_environment.php
 /assets
 /silverstripe-cache
 /resources
+/public/resources
 /themes/starter
 /vendor
