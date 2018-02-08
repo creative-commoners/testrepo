@@ -1,10 +1,15 @@
 {
+  "github-slug": "silverstripe/cwp-installer",
   "changelog-holder": "cwp/cwp",
   "changelog-path": "docs/en/05_Releases_and_changelogs/cwp_recipe_basic_{version}.md",
   "child-stability-inherit": true,
-  "dependency-constraint": "loose",
+  "dependency-constraint": "exact",
   "vendors": [
     "cwp",
-    "cwp-themes"
+    "silverstripe",
+    "tractorcow"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
   ]
 }
