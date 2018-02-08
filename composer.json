@@ -1,32 +1,42 @@
 {
-  "name": "cwp/cwp-installer",
-  "description": "CWP Project Template",
-  "license": "BSD-3-Clause",
-  "require": {
-    "cwp/cwp-recipe-basic": "1.8.x-dev",
-    "cwp/cwp-recipe-blog": "1.8.x-dev",
-    "cwp/starter-theme": "1.1.x-dev"
-  },
-  "require-dev": {
-    "cwp/cwp-recipe-basic-dev": "^1.1@stable"
-  },
-  "suggest": {
-    "silverstripe/textextraction": "Required for document text searching within CWP"
-  },
-  "config": {
-    "process-timeout": 900
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.8.x-dev"
-    }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.cwp.govt.nz/"
-    }
-  ],
-  "prefer-stable": true,
-  "minimum-stability": "dev"
+    "name": "cwp/cwp-installer",
+    "type": "silverstripe-recipe",
+    "description": "CWP Project Template",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.6.0",
+        "silverstripe/recipe-plugin": "^1",
+        "cwp/cwp-recipe-core": "2.x-dev",
+        "cwp/cwp-recipe-cms": "2.x-dev",
+        "silverstripe/recipe-blog": "1.x-dev",
+        "silverstripe/recipe-form-building": "1.x-dev",
+        "silverstripe/recipe-authoring-tools": "1.x-dev",
+        "silverstripe/recipe-collaboration": "1.x-dev",
+        "silverstripe/recipe-reporting-tools": "1.x-dev",
+        "cwp/cwp-recipe-search": "2.x-dev",
+        "silverstripe/recipe-services": "1.x-dev",
+        "silverstripe/subsites": "2.0.x-dev",
+        "tractorcow/silverstripe-fluent": "4.0.x-dev",
+        "silverstripe/registry": "2.x-dev",
+        "cwp/starter-theme": "2.x-dev"
+    },
+    "suggest": {
+        "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3",
+        "lekoala/silverstripe-debugbar": "^2@dev"
+    },
+    "extra": {
+        "project-files": ["mysite/*"],
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
