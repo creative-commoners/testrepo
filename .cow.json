@@ -1,0 +1,12 @@
+{
+  "github-slug": "silverstripe/cwp-recipe-kitchen-sink",
+  "child-stability-inherit": true,
+  "dependency-constraint": "exact",
+  "vendors": [
+    "cwp",
+    "silverstripe"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ]
+}

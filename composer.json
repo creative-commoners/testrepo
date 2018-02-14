@@ -1,0 +1,35 @@
+{
+    "name": "cwp/cwp-recipe-kitchen-sink",
+    "type": "silverstripe-recipe",
+    "description": "Internal testing CWP recipe for all modules, optional and suggested",
+    "homepage": "https://www.cwp.govt.nz",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-plugin": "^1",
+        "cwp/cwp-installer": "2.x-dev",
+        "cwp/agency-extensions": "2.x-dev",
+        "cwp/watea-theme": "2.x-dev",
+        "silverstripe/controllerpolicy": "2.x-dev",
+        "silverstripe/crontask": "2.x-dev",
+        "silverstripe/gridfieldqueuedexport": "2.x-dev",
+        "silverstripe/ldap": "1.0.x-dev",
+        "silverstripe/recipe-content-blocks": "1.x-dev",
+        "dnadesign/silverstripe-elemental-subsites": "1.x-dev",
+        "dnadesign/silverstripe-elemental-userforms": "1.x-dev",
+        "undefinedoffset/sortablegridfield": "2.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "extra": {
+        "project-files": [],
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
