@@ -16,6 +16,11 @@
     "config": {
         "process-timeout": 900
     },
+    "extra": {
+        "branch-alias": {
+            "1.x-dev": "1.9.x-dev"
+        }
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
