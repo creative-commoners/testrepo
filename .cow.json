@@ -8,5 +8,10 @@
   ],
   "exclude": [
     "silverstripe/recipe-plugin"
+  ],
+  "upgrade-only": [
+    "dnadesign/silverstripe-elemental-subsites",
+    "dnadesign/silverstripe-elemental-userforms",
+    "undefinedoffset/sortablegridfield"
   ]
 }
