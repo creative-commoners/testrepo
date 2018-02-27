@@ -1,0 +1,63 @@
+---
+Name: mywidgetsconfig
+Only:
+  moduleexists: silverstripe/widgets
+---
+# Disable if you do not use widgets on your site
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - SilverStripe\Widgets\Extensions\WidgetPageExtension
+
+---
+Name: mycommentsextension
+Only:
+  moduleexists: silverstripe/comments
+---
+# Enable page comments on the site by default, including frontend moderation / approval
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - SilverStripe\Comments\Extensions\CommentsExtension
+  comments:
+    enabled: false
+    frontend_moderation: true
+    require_moderation_nonmembers: true
+    require_moderation_cms: true
+    require_login: false
+    require_login_cms: true
+    nested_comments: true
+    order_comments_by: '"Created" ASC'
+
+---
+Name: myblogconfig
+Only:
+  moduleexists: silverstripe/blog
+---
+# Customise the email notification template here
+SilverStripe\Blog\Model\BlogPost:
+  default_notification_template: SilverStripe\CommentNotifications\BlogCommentEmail
+  comments:
+    enabled: true
+
+---
+Name: akismetconfig
+Only:
+  moduleexists: silverstripe/akismet
+---
+# Customise your akismet configuration here
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - SilverStripe\Akismet\Config\AkismetConfig
+# Allows spam posts to be saved for review if necessary
+SilverStripe\Akismet\AkismetSpamProtector:
+  save_spam: true
+
+---
+Name: mycommentspamprotection
+Only:
+  moduleexists: silverstripe/spamprotection
+  classexists: SilverStripe\Comments\Controllers\CommentingController
+---
+# Enable spam protection for comments by default
+SilverStripe\Comments\Controllers\CommentingController:
+  extensions:
+    - SilverStripe\SpamProtection\Extension\CommentSpamProtection
