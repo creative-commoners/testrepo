@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e52554efb75621722b1067f49fb3dc1f",
+    "content-hash": "1a67574ca1a628e62507a2f5581c7845",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -639,6 +639,70 @@
                 "theme"
             ],
             "time": "2018-02-26T02:30:44+00:00"
+        },
+        {
+            "name": "dnadesign/silverstripe-elemental",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnadesign/silverstripe-elemental.git",
+                "reference": "0bbe2357573805384a2708c7f7560e1635d87c09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental/zipball/0bbe2357573805384a2708c7f7560e1635d87c09",
+                "reference": "0bbe2357573805384a2708c7f7560e1635d87c09",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^4.0@dev",
+                "silverstripe/vendor-plugin": "^1.0",
+                "symbiote/silverstripe-gridfieldextensions": "^3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "suggest": {
+                "dnadesign/silverstripe-elemental-subsites": "Adds subsite support to elemental",
+                "dnadesign/silverstripe-elemental-userforms": "Adds userform support to elemental",
+                "dnadesign/silverstripe-elemental-virtual": "Adds support to share blocks between pages",
+                "silverstripe/elemental-blocks": "Adds a set of common SilverStripe content block types",
+                "silverstripe/fulltextsearch": "Adds fulltext search capability for elements using Solr"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "2.x-dev": "2.1.x-dev"
+                },
+                "expose": [
+                    "client/dist"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "DNADesign\\Elemental\\": "src/",
+                    "DNADesign\\Elemental\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Saelens",
+                    "email": "alexandre.saelens@dna.co.nz"
+                }
+            ],
+            "description": "Elemental pagetype and collection of Elements",
+            "keywords": [
+                "Content Blocks",
+                "element",
+                "elemental",
+                "silverstripe"
+            ],
+            "time": "2018-03-18T21:47:12+00:00"
         },
         {
             "name": "embed/embed",
@@ -2369,6 +2433,57 @@
             "time": "2018-02-22T05:54:53+00:00"
         },
         {
+            "name": "silverstripe/elemental-blocks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-elemental-blocks.git",
+                "reference": "e91721b0d217e0da64932c0e91c9c01dc915cbdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental-blocks/zipball/e91721b0d217e0da64932c0e91c9c01dc915cbdc",
+                "reference": "e91721b0d217e0da64932c0e91c9c01dc915cbdc",
+                "shasum": ""
+            },
+            "require": {
+                "dnadesign/silverstripe-elemental": "2.x-dev",
+                "silverstripe/assets": "^1.0",
+                "silverstripe/cms": "^4.0",
+                "silverstripe/vendor-plugin": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "expose": [
+                    "client/dist"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverStripe\\ElementalBlocks\\": "src/",
+                    "SilverStripe\\ElementalBlocks\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "A collection of CMS blocks for the silverstripe-elemental module",
+            "keywords": [
+                "Content Blocks",
+                "elemental",
+                "silverstripe"
+            ],
+            "time": "2018-03-19T21:40:52+00:00"
+        },
+        {
             "name": "silverstripe/environmentcheck",
             "version": "dev-master",
             "source": {
@@ -3196,6 +3311,50 @@
             "description": "Add extra functionality to enhance CMS user collaboration",
             "homepage": "https://www.silverstripe.org",
             "time": "2018-02-22T01:44:35+00:00"
+        },
+        {
+            "name": "silverstripe/recipe-content-blocks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/recipe-content-blocks.git",
+                "reference": "86552dc97ceb70c4685d86127618c6cb1b508b99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/recipe-content-blocks/zipball/86552dc97ceb70c4685d86127618c6cb1b508b99",
+                "reference": "86552dc97ceb70c4685d86127618c6cb1b508b99",
+                "shasum": ""
+            },
+            "require": {
+                "dnadesign/silverstripe-elemental": "2.x-dev",
+                "silverstripe/elemental-blocks": "1.0.x-dev",
+                "silverstripe/recipe-cms": "1.1.x-dev",
+                "silverstripe/recipe-plugin": "^1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "suggest": {
+                "dnadesign/silverstripe-elemental-subsites": "Add integration logic for Elemental and Subsites",
+                "dnadesign/silverstripe-elemental-userforms": "Add integration logic for Elemental and Userforms"
+            },
+            "type": "silverstripe-recipe",
+            "extra": {
+                "project-files": [
+                    "mysite/*"
+                ],
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Add content blocks to your SilverStripe project",
+            "homepage": "https://www.silverstripe.org",
+            "time": "2018-02-22T01:22:18+00:00"
         },
         {
             "name": "silverstripe/recipe-core",
@@ -6867,7 +7026,8 @@
         "silverstripe/subsites": 20,
         "tractorcow/silverstripe-fluent": 20,
         "silverstripe/registry": 20,
-        "cwp/starter-theme": 20
+        "cwp/starter-theme": 20,
+        "silverstripe/recipe-content-blocks": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
