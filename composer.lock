@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a67574ca1a628e62507a2f5581c7845",
+    "content-hash": "4fedfaaa8d1cbcbd31e37379812059c1",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -1911,12 +1911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "049e77227ea7f1262adae9d397a9180f00f04394"
+                "reference": "374c3e289366dc841bf852ebdc56f06c9b363c59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/049e77227ea7f1262adae9d397a9180f00f04394",
-                "reference": "049e77227ea7f1262adae9d397a9180f00f04394",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/374c3e289366dc841bf852ebdc56f06c9b363c59",
+                "reference": "374c3e289366dc841bf852ebdc56f06c9b363c59",
                 "shasum": ""
             },
             "require": {
@@ -1969,7 +1969,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2018-03-14T14:27:52+00:00"
+            "time": "2018-03-20T01:16:03+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
