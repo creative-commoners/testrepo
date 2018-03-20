@@ -28,10 +28,25 @@
         "squizlabs/php_codesniffer": "^3"
     },
     "extra": {
-        "project-files": ["mysite/*"],
         "branch-alias": {
             "dev-master": "2.x-dev"
-        }
+        },
+        "project-files-installed": [
+            "mysite/.htaccess",
+            "mysite/_config.php",
+            "mysite/_config/blog.yml",
+            "mysite/_config/environmentcheck.yml",
+            "mysite/_config/mysite.yml",
+            "mysite/code/Page.php",
+            "mysite/code/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
     },
     "config": {
         "process-timeout": 600
