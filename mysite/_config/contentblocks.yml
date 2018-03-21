@@ -5,6 +5,9 @@ BlocksPage:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
 
+DNADesign\Elemental\Controllers\ElementController:
+  include_default_styles: false
+
 ---
 Name: contentblockssubsites
 Only:
