@@ -39,6 +39,7 @@ see https://www.cwp.govt.nz/working-with-cwp/content-management-system-guides/.
 * Ensure you can unpublish a page, and that it restores the frontend version to the draft state (note: if you are
   logged into the CMS you'll still see draft content)
 * Ensure you can archive a page
+* Duplicate a page that has children and check that the child pages are also duplicated
 
 ### Files
 
@@ -84,6 +85,7 @@ see https://www.cwp.govt.nz/working-with-cwp/content-management-system-guides/.
 * Post comments on a blog or blog post (frontend)
 * In the CMS, check that you can approve, spam or delete comments that have been posted on a page
 * Upload a featured image onto a blog post, publish the post and ensure that the image has also been published
+* Assign a specific author access to a blog, and check that the user can only access that blog
 
 ### Content blocks
 
@@ -156,6 +158,26 @@ _Note: The "Taxonomy" admin area section is an example of a ModelAdmin that mana
 * View any of the reports in the CMS
 * Filter/search report data
 * Export to CSV and/or render the "print" view
+
+### User defined forms
+
+* Create a User Defined Form page and add some fields to it
+* Add multiple pages to the form fields and check that the frontend renders them correctly into each page, and that
+  you can navigate between the pages
+* Ensure required fields are validated for input, minimum and maximum length etc, and that custom error messages
+  defined on form fields are shown when a validation error occurs on the field
+* Assign yourself as an email recipient for submissions in a user defined form and check that you get an email when a
+  submission is made
+* Duplicate a user defined form page and check that all form fields and form field options (for multiple select fields)
+  are also duplicated and associated to the new page
+
+### Frontend search
+
+_Note: Only if search is enabled, for example on the CWP platform._
+
+* Check that searching for a term returns pages that contain the term in a title, content field, etc, or that a page
+  with content blocks that match the term are returned
+* Search for a misspelt term and check that the Solr search engine suggests the correct spelling for it
 
 ### General test variations
 
