@@ -107,7 +107,7 @@ see https://www.cwp.govt.nz/working-with-cwp/content-management-system-guides/.
 * Create some new subsites
 * Switch between subsites via the top left subsite dropdown selector
 * Check that the CMS site tree is filtered by subsite
-* In "Files" if you set a subsite in a file or folder's detail screen and save, check that it doesn't show up in other
+* In "Files" if you set a subsite in a folder's detail screen and save, check that it doesn't show up in other
   subsites
 
 ### Queued jobs
