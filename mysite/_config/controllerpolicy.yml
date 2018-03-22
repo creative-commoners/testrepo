@@ -1,0 +1,13 @@
+---
+Name: mycontrollerpolicies
+---
+# Adds a hello world header to the home page
+SilverStripe\Core\Injector\Injector:
+  MyHomePagePolicy:
+    class: Mysite\Project\Policy\MyHomePagePolicy
+
+HomePageController:
+  dependencies:
+    Policies: '%$MyHomePagePolicy'
+  extensions:
+    - SilverStripe\ControllerPolicy\ControllerPolicyApplicator

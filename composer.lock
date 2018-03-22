@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4fedfaaa8d1cbcbd31e37379812059c1",
+    "content-hash": "3d7196efeb63b9e71521869a22421da1",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -2410,12 +2410,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "374c3e289366dc841bf852ebdc56f06c9b363c59"
+                "reference": "836c7b4c2214ba186cc9622403335e6f2eab49ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/374c3e289366dc841bf852ebdc56f06c9b363c59",
-                "reference": "374c3e289366dc841bf852ebdc56f06c9b363c59",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/836c7b4c2214ba186cc9622403335e6f2eab49ca",
+                "reference": "836c7b4c2214ba186cc9622403335e6f2eab49ca",
                 "shasum": ""
             },
             "require": {
@@ -2468,7 +2468,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2018-03-20T01:16:03+00:00"
+            "time": "2018-03-20T10:03:49+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -2881,6 +2881,57 @@
             "time": "2018-01-12T00:18:25+00:00"
         },
         {
+            "name": "silverstripe/controllerpolicy",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-controllerpolicy.git",
+                "reference": "f9d4310160beebd06ec757a7f705553dc1a94fd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-controllerpolicy/zipball/f9d4310160beebd06ec757a7f705553dc1a94fd8",
+                "reference": "f9d4310160beebd06ec757a7f705553dc1a94fd8",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverStripe\\ControllerPolicy\\": "src/",
+                    "SilverStripe\\ControllerPolicy\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Mateusz Uzdowski",
+                    "email": "mateusz@silverstripe.com"
+                }
+            ],
+            "description": "SilverStripe module providing a framework for per-controller policies. Includes a caching policy implementation that's more flexible than the Framework's default.",
+            "keywords": [
+                "Policy",
+                "caching",
+                "silverstripe"
+            ],
+            "time": "2018-01-17T20:29:02+00:00"
+        },
+        {
             "name": "silverstripe/documentconverter",
             "version": "dev-master",
             "source": {
@@ -3282,12 +3333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-fulltextsearch.git",
-                "reference": "c9a0fef3262c02c36a8e2472876eb53138acfd7a"
+                "reference": "bd01a56346de4f7dabe6c5d1b85667d1f21c93a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-fulltextsearch/zipball/c9a0fef3262c02c36a8e2472876eb53138acfd7a",
-                "reference": "c9a0fef3262c02c36a8e2472876eb53138acfd7a",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-fulltextsearch/zipball/bd01a56346de4f7dabe6c5d1b85667d1f21c93a8",
+                "reference": "bd01a56346de4f7dabe6c5d1b85667d1f21c93a8",
                 "shasum": ""
             },
             "require": {
@@ -3339,7 +3390,7 @@
                 "solr",
                 "sphinx"
             ],
-            "time": "2018-03-14T22:06:42+00:00"
+            "time": "2018-03-20T11:01:29+00:00"
         },
         {
             "name": "silverstripe/graphql",
