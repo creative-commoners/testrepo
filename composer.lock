@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d7196efeb63b9e71521869a22421da1",
+    "content-hash": "62066b495433544200a106509692930e",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -4806,12 +4806,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-taxonomy.git",
-                "reference": "d33af82d813c2fb3c1c45380c0e1399e3cbaaa85"
+                "reference": "45bad0b55f79432a814f095d15cdba1019d1b79e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-taxonomy/zipball/d33af82d813c2fb3c1c45380c0e1399e3cbaaa85",
-                "reference": "d33af82d813c2fb3c1c45380c0e1399e3cbaaa85",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-taxonomy/zipball/45bad0b55f79432a814f095d15cdba1019d1b79e",
+                "reference": "45bad0b55f79432a814f095d15cdba1019d1b79e",
                 "shasum": ""
             },
             "require": {
@@ -4853,7 +4853,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2018-02-22T00:41:15+00:00"
+            "time": "2018-04-15T23:01:46+00:00"
         },
         {
             "name": "silverstripe/userforms",
@@ -7080,7 +7080,8 @@
         "tractorcow/silverstripe-fluent": 20,
         "silverstripe/registry": 20,
         "cwp/starter-theme": 20,
-        "silverstripe/recipe-content-blocks": 20
+        "silverstripe/recipe-content-blocks": 20,
+        "silverstripe/taxonomy": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

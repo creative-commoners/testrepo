@@ -1,0 +1,6 @@
+---
+Name: taxonomyconfig
+---
+SilverStripe\Control\Director:
+  rules:
+    'tag/$ID!': 'SilverStripe\Taxonomy\Controllers\TaxonomyDirectoryController'

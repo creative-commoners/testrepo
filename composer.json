@@ -20,7 +20,8 @@
         "silverstripe/registry": "2.x-dev",
         "cwp/starter-theme": "2.x-dev",
         "silverstripe/recipe-content-blocks": "1.x-dev",
-        "silverstripe/controllerpolicy": "^2.0"
+        "silverstripe/controllerpolicy": "^2.0",
+        "silverstripe/taxonomy": "2.0.x-dev"
     },
     "suggest": {
         "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"
