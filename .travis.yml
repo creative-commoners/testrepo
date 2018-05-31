@@ -1,0 +1,59 @@
+language: php
+
+addons:
+  apt:
+    packages:
+      - hunspell
+      - libhunspell-dev
+      - hunspell-en-us
+
+env:
+  global:
+    - COMPOSER_ROOT_VERSION="4.1.x-dev"
+    - DB=MYSQL
+
+matrix:
+  include:
+    - php: 5.6
+      env: PHPUNIT_TEST=Default PDO=1
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-core
+    - php: 5.6
+      env: PHPUNIT_TEST=recipe-cms
+    - php: 7.1
+      env: PHPUNIT_TEST=cwp-recipe-core PDO=1
+    - php: 7.0
+      env: PHPUNIT_TEST=cwp-recipe-cms
+    - php: 7.2
+      env: PHPUNIT_TEST=cwp-recipe-search PDO=1
+    - php: 5.6
+      env: PHPUNIT_TEST=recipe-authoring-tools
+    - php: 7.0
+      env: PHPUNIT_TEST=recipe-blog
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-collaboration
+    - php: 7.2
+      env: PHPUNIT_TEST=recipe-content-blocks
+    - php: 5.6
+      env: PHPUNIT_TEST=recipe-form-building
+    - php: 7.0
+      env: PHPUNIT_TEST=recipe-reporting-tools
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-services
+
+before_script:
+  # Configure PHP
+  - phpenv rehash
+  - phpenv config-rm xdebug.ini || true
+  - echo 'memory_limit = 2048M' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+
+  # Install dependencies
+  - composer validate
+  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
+
+  # Validate cow schema
+  - composer global require silverstripe/cow ^2
+  - ~/.composer/vendor/bin/cow schema:validate
+
+script:
+  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST"; fi
