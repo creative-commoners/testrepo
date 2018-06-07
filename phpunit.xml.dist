@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
-    <!-- Core SilverStripe recipes -->
+    <!-- Core SilverStripe modules (except framework) -->
     <testsuite name="recipe-core">
-        <directory>vendor/silverstripe/framework/tests/php/</directory>
         <directory>vendor/silverstripe/config/tests</directory>
         <directory>vendor/silverstripe/assets/tests/php/</directory>
         <directory>vendor/silverstripe/versioned/tests/php/</directory>
+    </testsuite>
+
+    <!-- Framework tests are split up to run in parallel -->
+    <testsuite name="framework-orm">
+        <directory>vendor/silverstripe/framework/tests/php/ORM</directory>
+        <directory>vendor/silverstripe/framework/tests/php/Security</directory>
+    </testsuite>
+    <testsuite name="framework-core">
+        <directory>vendor/silverstripe/framework/tests/php/Control</directory>
+        <directory>vendor/silverstripe/framework/tests/php/Core</directory>
+        <directory>vendor/silverstripe/framework/tests/php/Dev</directory>
+        <directory>vendor/silverstripe/framework/tests/php/Forms</directory>
+        <directory>vendor/silverstripe/framework/tests/php/Logging</directory>
+        <directory>vendor/silverstripe/framework/tests/php/View</directory>
+        <directory>vendor/silverstripe/framework/tests/php/i18n</directory>
     </testsuite>
 
     <testsuite name="recipe-cms">
