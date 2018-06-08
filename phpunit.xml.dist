@@ -7,10 +7,9 @@
         <directory>vendor/silverstripe/versioned/tests/php/</directory>
     </testsuite>
 
-    <!-- Framework tests are split up to run in parallel -->
+    <!-- Framework ORM tests are split up to run in parallel -->
     <testsuite name="framework-orm">
         <directory>vendor/silverstripe/framework/tests/php/ORM</directory>
-        <directory>vendor/silverstripe/framework/tests/php/Security</directory>
     </testsuite>
     <testsuite name="framework-core">
         <directory>vendor/silverstripe/framework/tests/php/Control</directory>
@@ -18,6 +17,7 @@
         <directory>vendor/silverstripe/framework/tests/php/Dev</directory>
         <directory>vendor/silverstripe/framework/tests/php/Forms</directory>
         <directory>vendor/silverstripe/framework/tests/php/Logging</directory>
+        <directory>vendor/silverstripe/framework/tests/php/Security</directory>
         <directory>vendor/silverstripe/framework/tests/php/View</directory>
         <directory>vendor/silverstripe/framework/tests/php/i18n</directory>
     </testsuite>
