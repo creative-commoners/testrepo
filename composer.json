@@ -13,9 +13,9 @@
         "silverstripe/crontask": "2.1.x-dev",
         "silverstripe/gridfieldqueuedexport": "2.1.x-dev",
         "silverstripe/ldap": "1.0.x-dev",
-        "silverstripe/recipe-content-blocks": "1.1.x-dev",
-        "dnadesign/silverstripe-elemental-subsites": "1.x-dev",
-        "dnadesign/silverstripe-elemental-userforms": "1.x-dev"
+        "silverstripe/recipe-content-blocks": "2.0.x-dev",
+        "dnadesign/silverstripe-elemental-subsites": "2.0.x-dev",
+        "dnadesign/silverstripe-elemental-userforms": "2.0.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
