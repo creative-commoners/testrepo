@@ -1,0 +1,25 @@
+{
+  "github-slug": "silverstripe/cwp-installer",
+  "changelog-holder": "cwp/cwp",
+  "changelog-path": "docs/en/05_Releases_and_changelogs/cwp_recipe_basic_{version}.md",
+  "child-stability-inherit": [
+    "cwp/cwp-recipe-core",
+    "cwp/cwp-recipe-cms",
+    "silverstripe/recipe-blog",
+    "silverstripe/recipe-form-building",
+    "silverstripe/recipe-authoring-tools",
+    "silverstripe/recipe-collaboration",
+    "silverstripe/recipe-reporting-tools",
+    "cwp/cwp-recipe-search",
+    "silverstripe/recipe-services"
+  ],
+  "dependency-constraint": "exact",
+  "vendors": [
+    "cwp",
+    "silverstripe",
+    "tractorcow"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ]
+}
