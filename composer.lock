@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2da8dbc89ee86e1b87e93f52c445a1c1",
+    "content-hash": "ac976f284b0474a92ef0e57d6baf7bf1",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -332,16 +332,16 @@
         },
         {
             "name": "cwp/cwp-core",
-            "version": "2.0.0",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp-core.git",
-                "reference": "ed94ae6ba68b54f250473c58bd82cb54aec454b5"
+                "reference": "3b742665dc1332874e3f91dd731e4c9488e5644a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/ed94ae6ba68b54f250473c58bd82cb54aec454b5",
-                "reference": "ed94ae6ba68b54f250473c58bd82cb54aec454b5",
+                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/3b742665dc1332874e3f91dd731e4c9488e5644a",
+                "reference": "3b742665dc1332874e3f91dd731e4c9488e5644a",
                 "shasum": ""
             },
             "require": {
@@ -360,10 +360,7 @@
                 "expose": [
                     "css",
                     "javascript"
-                ],
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                }
+                ]
             },
             "autoload": {
                 "psr-4": {
@@ -380,7 +377,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2018-05-24T22:07:49+00:00"
+            "time": "2018-06-14T04:48:25+00:00"
         },
         {
             "name": "cwp/cwp-pdfexport",
@@ -6850,7 +6847,14 @@
             "time": "2018-06-06T23:58:19+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "2.0.0",
+            "alias_normalized": "2.0.0.0",
+            "version": "2.0.9999999.9999999-dev",
+            "package": "cwp/cwp-core"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "cwp/cwp-recipe-core": 0,
@@ -6865,7 +6869,8 @@
         "silverstripe/subsites": 0,
         "tractorcow/silverstripe-fluent": 0,
         "silverstripe/registry": 0,
-        "cwp/starter-theme": 0
+        "cwp/starter-theme": 0,
+        "cwp/cwp-core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
