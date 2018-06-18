@@ -75,6 +75,7 @@
 
     <testsuite name="recipe-blog">
         <directory>vendor/silverstripe/blog/tests</directory>
+        <directory>vendor/silverstripe/lumberjack/tests</directory>
         <directory>vendor/silverstripe/widgets/tests</directory>
         <directory>vendor/silverstripe/content-widget/tests</directory>
         <directory>vendor/silverstripe/spamprotection/tests</directory>
