@@ -1,33 +1,20 @@
 {
-  "github-slug": "silverstripe/silverstripe-installer",
-  "changelog-holder": "silverstripe/framework",
-  "changelog-path": "docs/en/04_Changelogs/{stability}/{version}.md",
-  "child-stability-inherit": true,
+  "github-slug": "silverstripe/cwp-recipe-kitchen-sink",
+  "child-stability-inherit": [
+    "cwp/cwp-installer",
+    "silverstripe/recipe-content-blocks"
+  ],
   "dependency-constraint": "exact",
   "vendors": [
+    "cwp",
     "silverstripe"
-  ],
-  "tests": [
-    "vendor/bin/phpunit vendor/silverstripe/framework/tests/php",
-    "vendor/bin/phpunit vendor/silverstripe/cms/tests/php"
   ],
   "exclude": [
     "silverstripe/recipe-plugin"
   ],
-  "archives": [
-    {
-      "recipe": "silverstripe/recipe-core",
-      "files": [
-        "SilverStripe-framework-v{version}.zip",
-        "SilverStripe-framework-v{version}.tar.gz"
-      ]
-    },
-    {
-      "recipe": "silverstripe/installer",
-      "files": [
-        "SilverStripe-cms-v{version}.zip",
-        "SilverStripe-cms-v{version}.tar.gz"
-      ]
-    }
+  "upgrade-only": [
+    "dnadesign/silverstripe-elemental-subsites",
+    "dnadesign/silverstripe-elemental-userforms",
+    "undefinedoffset/sortablegridfield"
   ]
 }
