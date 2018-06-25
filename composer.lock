@@ -773,12 +773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp-core.git",
-                "reference": "8ae4f4844e35dd874bca71321f92becd3f3b4814"
+                "reference": "1730377c76562a45f1999979d7cd4c4362404ee9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/8ae4f4844e35dd874bca71321f92becd3f3b4814",
-                "reference": "8ae4f4844e35dd874bca71321f92becd3f3b4814",
+                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/1730377c76562a45f1999979d7cd4c4362404ee9",
+                "reference": "1730377c76562a45f1999979d7cd4c4362404ee9",
                 "shasum": ""
             },
             "require": {
@@ -814,7 +814,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2018-06-18T23:24:04+00:00"
+            "time": "2018-06-25T03:47:42+00:00"
         },
         {
             "name": "cwp/cwp-installer",
