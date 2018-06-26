@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-composer-update-checker.git",
-                "reference": "0894a3fb49b0be694ea1d151f7d6ae0769eba5e2"
+                "reference": "2a99730a414bc2eb44ae7962b3ddbf13f80dd9f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-composer-update-checker/zipball/0894a3fb49b0be694ea1d151f7d6ae0769eba5e2",
-                "reference": "0894a3fb49b0be694ea1d151f7d6ae0769eba5e2",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-composer-update-checker/zipball/2a99730a414bc2eb44ae7962b3ddbf13f80dd9f7",
+                "reference": "2a99730a414bc2eb44ae7962b3ddbf13f80dd9f7",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
                 "issues": "https://github.com/bringyourownideas/silverstripe-composer-update-checker/issues",
                 "source": "https://github.com/creative-commoners/silverstripe-composer-update-checker/tree/pulls/2.0/composer-home"
             },
-            "time": "2018-06-25T23:54:32+00:00"
+            "time": "2018-06-26T00:15:51+00:00"
         },
         {
             "name": "bringyourownideas/silverstripe-maintenance",
