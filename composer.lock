@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "31d337d95cfb5c9e5c016d1df0cd1d84",
+    "content-hash": "c7b65375d2478a6a3e509181d3e8863b",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -168,16 +168,16 @@
         },
         {
             "name": "bringyourownideas/silverstripe-maintenance",
-            "version": "dev-pulls/2.0/client-options",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-maintenance.git",
-                "reference": "1d060179186fdd042519626dc01a054172c4e4a9"
+                "url": "https://github.com/bringyourownideas/silverstripe-maintenance.git",
+                "reference": "3d498326328b89c92db3f367b314c566a43cad3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-maintenance/zipball/1d060179186fdd042519626dc01a054172c4e4a9",
-                "reference": "1d060179186fdd042519626dc01a054172c4e4a9",
+                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-maintenance/zipball/3d498326328b89c92db3f367b314c566a43cad3a",
+                "reference": "3d498326328b89c92db3f367b314c566a43cad3a",
                 "shasum": ""
             },
             "require": {
@@ -209,6 +209,7 @@
                     "BringYourOwnIdeas\\Maintenance\\Tests\\": "tests/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -228,11 +229,7 @@
                 "updates",
                 "vulnerabilities"
             ],
-            "support": {
-                "issues": "https://github.com/bringyourownideas/silverstripe-maintenance/issues",
-                "source": "https://github.com/creative-commoners/silverstripe-maintenance/tree/pulls/2.0/client-options"
-            },
-            "time": "2018-06-26T03:22:03+00:00"
+            "time": "2018-06-26T03:56:49+00:00"
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -720,16 +717,16 @@
         },
         {
             "name": "cwp/cwp",
-            "version": "dev-pulls/2.1/maintenance-proxy-config",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/cwp.git",
-                "reference": "1f0a0b6fae9ffda65a833466666dabada568a044"
+                "url": "https://github.com/silverstripe/cwp.git",
+                "reference": "3ad235e1286939a5291a911c602ca42907b1746c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/cwp/zipball/1f0a0b6fae9ffda65a833466666dabada568a044",
-                "reference": "1f0a0b6fae9ffda65a833466666dabada568a044",
+                "url": "https://api.github.com/repos/silverstripe/cwp/zipball/3ad235e1286939a5291a911c602ca42907b1746c",
+                "reference": "3ad235e1286939a5291a911c602ca42907b1746c",
                 "shasum": ""
             },
             "require": {
@@ -759,6 +756,7 @@
                     "CWP\\CWP\\Tests\\": "tests/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -767,10 +765,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "support": {
-                "source": "https://github.com/creative-commoners/cwp/tree/pulls/2.1/maintenance-proxy-config"
-            },
-            "time": "2018-06-26T03:23:15+00:00"
+            "time": "2018-06-26T03:52:20+00:00"
         },
         {
             "name": "cwp/cwp-core",
@@ -8605,20 +8600,7 @@
             "time": "2016-10-03T07:35:21+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "2.0.x-dev",
-            "alias_normalized": "2.0.9999999.9999999-dev",
-            "version": "dev-pulls/2.0/client-options",
-            "package": "bringyourownideas/silverstripe-maintenance"
-        },
-        {
-            "alias": "2.1.x-dev",
-            "alias_normalized": "2.1.9999999.9999999-dev",
-            "version": "dev-pulls/2.1/maintenance-proxy-config",
-            "package": "cwp/cwp"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "cwp/cwp-installer": 20,
@@ -8630,9 +8612,7 @@
         "silverstripe/ldap": 20,
         "silverstripe/recipe-content-blocks": 20,
         "dnadesign/silverstripe-elemental-subsites": 20,
-        "dnadesign/silverstripe-elemental-userforms": 20,
-        "bringyourownideas/silverstripe-maintenance": 20,
-        "cwp/cwp": 20
+        "dnadesign/silverstripe-elemental-userforms": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
