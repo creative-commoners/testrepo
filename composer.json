@@ -16,10 +16,12 @@
         "silverstripe/recipe-content-blocks": "2.0.x-dev",
         "dnadesign/silverstripe-elemental-subsites": "2.0.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "2.0.x-dev",
-        "bringyourownideas/silverstripe-composer-update-checker": "dev-pulls/2.0/composer-home as 2.0.x-dev"
+        "bringyourownideas/silverstripe-maintenance": "dev-pulls/2.0/client-options as 2.0.x-dev",
+        "cwp/cwp": "dev-pulls/2.1/maintenance-proxy-config as 2.1.x-dev"
     },
     "repositories": [
-        {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-composer-update-checker.git"}
+        {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-maintenance.git"},
+        {"type": "vcs", "url": "git@github.com:creative-commoners/cwp.git"}
     ],
     "require-dev": {
         "phpunit/phpunit": "^5.7",
