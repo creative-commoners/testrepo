@@ -61,3 +61,6 @@ before_script:
 
 script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST"; fi
+
+notifications:
+  slack: silverstripeltd:PThlNsYgoIKpxL3l01PiMQK6
