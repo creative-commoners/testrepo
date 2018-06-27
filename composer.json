@@ -7,6 +7,9 @@
         "cwp/cwp-recipe-blog": "1.9.x-dev",
         "cwp/starter-theme": "1.1.x-dev"
     },
+    "repositories": [
+      {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-composer-update-checker.git"}
+    ],
     "require-dev": {
         "cwp/cwp-recipe-basic-dev": "^1.1@stable"
     },

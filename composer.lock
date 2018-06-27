@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e0a6293f60ed1e49845cd676026a399",
+    "content-hash": "bc2a9c70165df951db9f3476369122f4",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -132,13 +132,13 @@
             "version": "1.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bringyourownideas/silverstripe-composer-update-checker.git",
-                "reference": "73e62b1caa6204800a33652a342be8f0018a05d4"
+                "url": "https://github.com/creative-commoners/silverstripe-composer-update-checker.git",
+                "reference": "950a6c9e5d1b75133c31648609771684d0e862d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-update-checker/zipball/73e62b1caa6204800a33652a342be8f0018a05d4",
-                "reference": "73e62b1caa6204800a33652a342be8f0018a05d4",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-composer-update-checker/zipball/950a6c9e5d1b75133c31648609771684d0e862d8",
+                "reference": "950a6c9e5d1b75133c31648609771684d0e862d8",
                 "shasum": ""
             },
             "require": {
@@ -161,11 +161,14 @@
                     "BringYourOwnIdeas\\UpdateChecker\\Tests\\": "tests/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
+                {
+                    "name": "Peter Thaleikis",
+                    "homepage": "https://thaleikis.de"
+                },
                 {
                     "name": "Matt Dwen",
                     "email": "matt@dwen.co.nz",
@@ -175,10 +178,6 @@
                     "name": "Xplore Developers",
                     "email": "developers@xplore.net",
                     "role": "Contributors"
-                },
-                {
-                    "name": "Peter Thaleikis",
-                    "homepage": "https://thaleikis.de"
                 },
                 {
                     "name": "Other contributors",
@@ -193,7 +192,11 @@
                 "composer",
                 "update"
             ],
-            "time": "2018-06-27T00:03:39+00:00"
+            "support": {
+                "issues": "https://github.com/bringyourownideas/silverstripe-composer-update-checker/issues",
+                "source": "https://github.com/creative-commoners/silverstripe-composer-update-checker/tree/1.0"
+            },
+            "time": "2018-06-27T02:54:42+00:00"
         },
         {
             "name": "bringyourownideas/silverstripe-maintenance",
