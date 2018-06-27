@@ -75,6 +75,7 @@
 
     <testsuite name="recipe-blog">
         <directory>vendor/silverstripe/blog/tests</directory>
+        <directory>vendor/silverstripe/lumberjack/tests</directory>
         <directory>vendor/silverstripe/widgets/tests</directory>
         <directory>vendor/silverstripe/content-widget/tests</directory>
         <directory>vendor/silverstripe/spamprotection/tests</directory>
@@ -92,7 +93,8 @@
 
     <testsuite name="recipe-content-blocks">
         <directory>vendor/dnadesign/silverstripe-elemental/tests</directory>
-        <directory>vendor/silverstripe/elemental-blocks/tests</directory>
+        <directory>vendor/silverstripe/elemental-fileblock/tests</directory>
+        <directory>vendor/silverstripe/elemental-bannerblock/tests</directory>
     </testsuite>
 
     <testsuite name="recipe-form-building">
@@ -106,6 +108,9 @@
         <directory>vendor/silverstripe/reports/tests</directory>
         <directory>vendor/silverstripe/securityreport/tests</directory>
         <directory>vendor/silverstripe/sitewidecontent-report/tests</directory>
+        <directory>vendor/bringyourownideas/silverstripe-maintenance/tests</directory>
+        <directory>vendor/bringyourownideas/silverstripe-composer-update-checker/tests</directory>
+        <directory>vendor/bringyourownideas/silverstripe-composer-security-checker/tests</directory>
     </testsuite>
 
     <testsuite name="recipe-services">
