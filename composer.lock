@@ -682,16 +682,16 @@
         },
         {
             "name": "cwp/cwp",
-            "version": "1.x-dev",
+            "version": "1.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp.git",
-                "reference": "118e752ac811e77878e44d2307c6599156eaadc6"
+                "reference": "92e3cec25ddd6fca74cea28467a6f83683b65e3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp/zipball/118e752ac811e77878e44d2307c6599156eaadc6",
-                "reference": "118e752ac811e77878e44d2307c6599156eaadc6",
+                "url": "https://api.github.com/repos/silverstripe/cwp/zipball/92e3cec25ddd6fca74cea28467a6f83683b65e3a",
+                "reference": "92e3cec25ddd6fca74cea28467a6f83683b65e3a",
                 "shasum": ""
             },
             "require": {
@@ -702,11 +702,6 @@
                 "phpunit/phpunit": "^3.7"
             },
             "type": "silverstripe-module",
-            "extra": {
-                "branch-alias": {
-                    "1.x-dev": "1.9.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -716,20 +711,20 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2018-06-25T05:01:35+00:00"
+            "time": "2018-06-27T00:39:02+00:00"
         },
         {
             "name": "cwp/cwp-core",
-            "version": "1.x-dev",
+            "version": "1.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp-core.git",
-                "reference": "5e70872148fdbb0606f94d699fc80cfe5719bac9"
+                "reference": "429e1fdd4e1596c092db1e3f1eacf3af4fe988d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/5e70872148fdbb0606f94d699fc80cfe5719bac9",
-                "reference": "5e70872148fdbb0606f94d699fc80cfe5719bac9",
+                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/429e1fdd4e1596c092db1e3f1eacf3af4fe988d6",
+                "reference": "429e1fdd4e1596c092db1e3f1eacf3af4fe988d6",
                 "shasum": ""
             },
             "require": {
@@ -744,11 +739,6 @@
                 "phpunit/phpunit": "^3.7"
             },
             "type": "silverstripe-module",
-            "extra": {
-                "branch-alias": {
-                    "1.x-dev": "1.9.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -758,7 +748,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2017-12-20T03:49:10+00:00"
+            "time": "2018-06-27T04:35:22+00:00"
         },
         {
             "name": "cwp/cwp-recipe-basic",
