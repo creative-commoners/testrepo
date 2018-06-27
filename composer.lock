@@ -133,12 +133,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bringyourownideas/silverstripe-composer-update-checker.git",
-                "reference": "4fab6a680fa7f62f1afeb8787ba175b10ca14ccb"
+                "reference": "73e62b1caa6204800a33652a342be8f0018a05d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-update-checker/zipball/4fab6a680fa7f62f1afeb8787ba175b10ca14ccb",
-                "reference": "4fab6a680fa7f62f1afeb8787ba175b10ca14ccb",
+                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-update-checker/zipball/73e62b1caa6204800a33652a342be8f0018a05d4",
+                "reference": "73e62b1caa6204800a33652a342be8f0018a05d4",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
                 "composer",
                 "update"
             ],
-            "time": "2018-06-25T03:20:54+00:00"
+            "time": "2018-06-27T00:03:39+00:00"
         },
         {
             "name": "bringyourownideas/silverstripe-maintenance",
@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bringyourownideas/silverstripe-maintenance.git",
-                "reference": "f871f320d5728668f568400285aea29e35d53c66"
+                "reference": "63fa0fdbfb9ea937442cd0c15f49a4ff59be52fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-maintenance/zipball/f871f320d5728668f568400285aea29e35d53c66",
-                "reference": "f871f320d5728668f568400285aea29e35d53c66",
+                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-maintenance/zipball/63fa0fdbfb9ea937442cd0c15f49a4ff59be52fb",
+                "reference": "63fa0fdbfb9ea937442cd0c15f49a4ff59be52fb",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +254,7 @@
                 "updates",
                 "vulnerabilities"
             ],
-            "time": "2018-06-25T03:20:53+00:00"
+            "time": "2018-06-27T00:03:34+00:00"
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
