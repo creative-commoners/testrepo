@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5b995f06fe8b742bb30caf3e492f3e7",
+    "content-hash": "babf9a3773dee65924fd961d64f1f880",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -720,16 +720,16 @@
         },
         {
             "name": "cwp/cwp",
-            "version": "2.1.0-beta1",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp.git",
-                "reference": "0725f25b8dd6c5f257ed9e5a07f03cdb689509b8"
+                "reference": "360049507d0ed0238bf8eb5ea03476d1a8393366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp/zipball/0725f25b8dd6c5f257ed9e5a07f03cdb689509b8",
-                "reference": "0725f25b8dd6c5f257ed9e5a07f03cdb689509b8",
+                "url": "https://api.github.com/repos/silverstripe/cwp/zipball/360049507d0ed0238bf8eb5ea03476d1a8393366",
+                "reference": "360049507d0ed0238bf8eb5ea03476d1a8393366",
                 "shasum": ""
             },
             "require": {
@@ -768,20 +768,20 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2018-06-18T23:29:21+00:00"
+            "time": "2018-06-29T03:15:48+00:00"
         },
         {
             "name": "cwp/cwp-core",
-            "version": "2.1.0-beta1",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/cwp-core.git",
-                "reference": "1730377c76562a45f1999979d7cd4c4362404ee9"
+                "reference": "73d09478d2325dc11dd69dddfe70357b27e3a445"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/1730377c76562a45f1999979d7cd4c4362404ee9",
-                "reference": "1730377c76562a45f1999979d7cd4c4362404ee9",
+                "url": "https://api.github.com/repos/silverstripe/cwp-core/zipball/73d09478d2325dc11dd69dddfe70357b27e3a445",
+                "reference": "73d09478d2325dc11dd69dddfe70357b27e3a445",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +817,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2018-06-25T03:47:42+00:00"
+            "time": "2018-06-27T04:36:28+00:00"
         },
         {
             "name": "cwp/cwp-installer",
@@ -8702,13 +8702,27 @@
             "alias_normalized": "2.0.0.0",
             "version": "2.0.9999999.9999999-dev",
             "package": "bringyourownideas/silverstripe-composer-security-checker"
+        },
+        {
+            "alias": "2.1.0-beta1",
+            "alias_normalized": "2.1.0.0-beta1",
+            "version": "2.1.9999999.9999999-dev",
+            "package": "cwp/cwp"
+        },
+        {
+            "alias": "2.1.0-beta1",
+            "alias_normalized": "2.1.0.0-beta1",
+            "version": "2.1.9999999.9999999-dev",
+            "package": "cwp/cwp-core"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
         "bringyourownideas/silverstripe-maintenance": 20,
         "bringyourownideas/silverstripe-composer-update-checker": 20,
-        "bringyourownideas/silverstripe-composer-security-checker": 20
+        "bringyourownideas/silverstripe-composer-security-checker": 20,
+        "cwp/cwp": 20,
+        "cwp/cwp-core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
