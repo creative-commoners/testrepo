@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e37a383f412c55c82e8a780a391542c9",
+    "content-hash": "e5b995f06fe8b742bb30caf3e492f3e7",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -42,16 +42,16 @@
         },
         {
             "name": "bringyourownideas/silverstripe-composer-security-checker",
-            "version": "2.0.0",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bringyourownideas/silverstripe-composer-security-checker.git",
-                "reference": "d6f66d9e671853bf1ae830e6a56d21dff7d33173"
+                "reference": "25801611d0180cd52d769cf3825c1a603f9fb4c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-security-checker/zipball/d6f66d9e671853bf1ae830e6a56d21dff7d33173",
-                "reference": "d6f66d9e671853bf1ae830e6a56d21dff7d33173",
+                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-security-checker/zipball/25801611d0180cd52d769cf3825c1a603f9fb4c9",
+                "reference": "25801611d0180cd52d769cf3825c1a603f9fb4c9",
                 "shasum": ""
             },
             "require": {
@@ -97,20 +97,20 @@
                 "updates",
                 "vulnerabilities"
             ],
-            "time": "2018-06-13T01:53:42+00:00"
+            "time": "2018-06-27T04:50:55+00:00"
         },
         {
             "name": "bringyourownideas/silverstripe-composer-update-checker",
-            "version": "2.0.0",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bringyourownideas/silverstripe-composer-update-checker.git",
-                "reference": "eef9d4ecde2fd2ec6e84f5a10b3373bdfe8476ea"
+                "reference": "cecbb83b34d21d4e03e91572ae5e4b8ccddfb358"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-update-checker/zipball/eef9d4ecde2fd2ec6e84f5a10b3373bdfe8476ea",
-                "reference": "eef9d4ecde2fd2ec6e84f5a10b3373bdfe8476ea",
+                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-composer-update-checker/zipball/cecbb83b34d21d4e03e91572ae5e4b8ccddfb358",
+                "reference": "cecbb83b34d21d4e03e91572ae5e4b8ccddfb358",
                 "shasum": ""
             },
             "require": {
@@ -164,20 +164,20 @@
                 "composer",
                 "update"
             ],
-            "time": "2018-06-13T01:52:41+00:00"
+            "time": "2018-06-27T04:47:07+00:00"
         },
         {
             "name": "bringyourownideas/silverstripe-maintenance",
-            "version": "2.0.0",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bringyourownideas/silverstripe-maintenance.git",
-                "reference": "b6b747d4b45f2fdd44378d78da25cd3a4979d19e"
+                "reference": "4421f0b57c876488e7a7598d9ac464969303e2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-maintenance/zipball/b6b747d4b45f2fdd44378d78da25cd3a4979d19e",
-                "reference": "b6b747d4b45f2fdd44378d78da25cd3a4979d19e",
+                "url": "https://api.github.com/repos/bringyourownideas/silverstripe-maintenance/zipball/4421f0b57c876488e7a7598d9ac464969303e2e0",
+                "reference": "4421f0b57c876488e7a7598d9ac464969303e2e0",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "updates",
                 "vulnerabilities"
             ],
-            "time": "2018-06-25T02:44:53+00:00"
+            "time": "2018-06-27T02:28:57+00:00"
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -8684,9 +8684,32 @@
             "time": "2016-10-03T07:35:21+00:00"
         }
     ],
-    "aliases": [],
-    "minimum-stability": "beta",
-    "stability-flags": [],
+    "aliases": [
+        {
+            "alias": "2.0.0",
+            "alias_normalized": "2.0.0.0",
+            "version": "2.0.9999999.9999999-dev",
+            "package": "bringyourownideas/silverstripe-maintenance"
+        },
+        {
+            "alias": "2.0.0",
+            "alias_normalized": "2.0.0.0",
+            "version": "2.0.9999999.9999999-dev",
+            "package": "bringyourownideas/silverstripe-composer-update-checker"
+        },
+        {
+            "alias": "2.0.0",
+            "alias_normalized": "2.0.0.0",
+            "version": "2.0.9999999.9999999-dev",
+            "package": "bringyourownideas/silverstripe-composer-security-checker"
+        }
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "bringyourownideas/silverstripe-maintenance": 20,
+        "bringyourownideas/silverstripe-composer-update-checker": 20,
+        "bringyourownideas/silverstripe-composer-security-checker": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
