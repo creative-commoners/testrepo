@@ -37,6 +37,7 @@
         <directory>mysite/tests</directory>
         <directory>vendor/silverstripe/subsites/tests</directory>
         <directory>vendor/silverstripe/registry/tests</directory>
+        <directory>vendor/silverstripe/textextraction/tests</directory>
         <directory>vendor/tractorcow/silverstripe-fluent/tests</directory>
     </testsuite>
 
