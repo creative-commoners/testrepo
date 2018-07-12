@@ -94,6 +94,8 @@
 
     <testsuite name="recipe-content-blocks">
         <directory>vendor/dnadesign/silverstripe-elemental/tests</directory>
+        <directory>vendor/dnadesign/silverstripe-elemental-subsites/tests</directory>
+        <directory>vendor/dnadesign/silverstripe-elemental-userforms/tests</directory>
         <directory>vendor/silverstripe/elemental-fileblock/tests</directory>
         <directory>vendor/silverstripe/elemental-bannerblock/tests</directory>
     </testsuite>
