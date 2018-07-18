@@ -19,3 +19,5 @@ LeftAndMain:
 VersionFeed:
   allchanges_enabled: false
   changes_enabled: false
+MultiValueField:
+  disable_unserialize: true
