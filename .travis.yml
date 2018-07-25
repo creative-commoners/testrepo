@@ -18,9 +18,9 @@ matrix:
       env: PHPUNIT_TEST=Default PDO=1
     - php: 7.1
       env: PHPUNIT_TEST=recipe-core
-    - php: 7.2
+    - php: 7.1
       env: PHPUNIT_TEST=framework-orm
-    - php: 7.2
+    - php: 7.1
       env: PHPUNIT_TEST=framework-core
     - php: 5.6
       env: PHPUNIT_TEST=recipe-cms
@@ -28,7 +28,7 @@ matrix:
       env: PHPUNIT_TEST=cwp-recipe-core PDO=1
     - php: 7.0
       env: PHPUNIT_TEST=cwp-recipe-cms
-    - php: 7.2
+    - php: 7.1
       env: PHPUNIT_TEST=cwp-recipe-search PDO=1
     - php: 5.6
       env: PHPUNIT_TEST=recipe-authoring-tools
@@ -36,7 +36,7 @@ matrix:
       env: PHPUNIT_TEST=recipe-blog
     - php: 7.1
       env: PHPUNIT_TEST=recipe-collaboration
-    - php: 7.2
+    - php: 7.1
       env: PHPUNIT_TEST=recipe-content-blocks
     - php: 5.6
       env: PHPUNIT_TEST=recipe-form-building
