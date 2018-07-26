@@ -9,7 +9,7 @@
         "cwp/cwp-installer": "2.1.x-dev",
         "cwp/agency-extensions": "2.0.x-dev",
         "cwp/watea-theme": "2.0.x-dev",
-        "silverstripe/controllerpolicy": "2.0.x-dev",
+        "silverstripe/controllerpolicy": "2.1.x-dev",
         "silverstripe/crontask": "2.1.x-dev",
         "silverstripe/gridfieldqueuedexport": "2.1.x-dev",
         "silverstripe/ldap": "1.0.x-dev",
