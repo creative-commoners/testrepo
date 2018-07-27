@@ -237,12 +237,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/GridFieldBulkEditingTools.git",
-                "reference": "b7caa970ced7d624bdce4806050811b2e3bc3afe"
+                "reference": "f2c74c5b3313eb9f934870a55fac738985ca0850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/GridFieldBulkEditingTools/zipball/b7caa970ced7d624bdce4806050811b2e3bc3afe",
-                "reference": "b7caa970ced7d624bdce4806050811b2e3bc3afe",
+                "url": "https://api.github.com/repos/creative-commoners/GridFieldBulkEditingTools/zipball/f2c74c5b3313eb9f934870a55fac738985ca0850",
+                "reference": "f2c74c5b3313eb9f934870a55fac738985ca0850",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/GridFieldBulkEditingTools/tree/temp"
             },
-            "time": "2018-07-27T01:50:46+00:00"
+            "time": "2018-07-27T02:19:07+00:00"
         },
         {
             "name": "composer/ca-bundle",
