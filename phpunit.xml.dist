@@ -35,7 +35,11 @@
     <!-- Optional CWP modules that aren't in recipes -->
     <testsuite name="Default">
         <directory>mysite/tests</directory>
+        <directory>vendor/cwp/agency-extensions/tests</directory>
         <directory>vendor/silverstripe/subsites/tests</directory>
+        <directory>vendor/silverstripe/controllerpolicy/tests</directory>
+        <directory>vendor/silverstripe/crontask/tests</directory>
+        <directory>vendor/silverstripe/gridfieldqueuedexport/tests</directory>
         <directory>vendor/silverstripe/registry/tests</directory>
         <directory>vendor/tractorcow/silverstripe-fluent/tests</directory>
     </testsuite>
@@ -55,6 +59,7 @@
         <directory>vendor/cwp/cwp-pdfexport/tests</directory>
         <directory>vendor/silverstripe/html5/tests</directory>
         <directory>vendor/symbiote/silverstripe-gridfieldextensions/tests</directory>
+        <directory>vendor/symbiote/silverstripe-errorpage/tests</directory>
     </testsuite>
 
     <testsuite name="cwp-recipe-search">
@@ -97,6 +102,7 @@
         <directory>vendor/dnadesign/silverstripe-elemental-userforms/tests</directory>
         <directory>vendor/silverstripe/elemental-fileblock/tests</directory>
         <directory>vendor/silverstripe/elemental-bannerblock/tests</directory>
+        <directory>vendor/silverstripe/versioned-admin/tests</directory>
     </testsuite>
 
     <testsuite name="recipe-form-building">
@@ -118,5 +124,10 @@
     <testsuite name="recipe-services">
         <directory>vendor/silverstripe/restfulserver/tests</directory>
         <directory>vendor/silverstripe/versionfeed/tests</directory>
+    </testsuite>
+
+    <testsuite name="optional-authenticators">
+        <directory>vendor/silverstripe/ldap/tests</directory>
+        <directory>vendor/silverstripe/realme/tests</directory>
     </testsuite>
 </phpunit>
