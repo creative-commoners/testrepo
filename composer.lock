@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ae3fdc69c49513f63a6c4de33a0c1fa",
+    "content-hash": "7079e295c57ac268e16d9e47fdc2b87e",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -233,16 +233,16 @@
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "3.0.0-beta4",
+            "version": "dev-pulls/3.0/webpack-refactor",
             "source": {
                 "type": "git",
-                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "7f2045e7aa6a28650c616445bb58dd81971839f9"
+                "url": "https://github.com/creative-commoners/GridFieldBulkEditingTools.git",
+                "reference": "c4af6a2cbb14213623563e1e5bc0239291e10f1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/7f2045e7aa6a28650c616445bb58dd81971839f9",
-                "reference": "7f2045e7aa6a28650c616445bb58dd81971839f9",
+                "url": "https://api.github.com/repos/creative-commoners/GridFieldBulkEditingTools/zipball/c4af6a2cbb14213623563e1e5bc0239291e10f1e",
+                "reference": "c4af6a2cbb14213623563e1e5bc0239291e10f1e",
                 "shasum": ""
             },
             "require": {
@@ -266,29 +266,31 @@
                     "Colymba\\BulkUpload\\": "src/BulkUploader/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
             "authors": [
                 {
-                    "name": "GitHub contributors",
-                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
-                },
-                {
                     "name": "Thierry Francois",
                     "homepage": "http://t-f.io"
+                },
+                {
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
                 }
             ],
             "description": "SilverStripe GridField component to upload images/files and edit records in bulk",
             "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
             "keywords": [
-                "Image upload",
                 "bulk upload",
                 "gridfield bulk upload",
+                "image upload",
                 "silverstripe"
             ],
-            "time": "2018-03-14T20:44:41+00:00"
+            "support": {
+                "source": "https://github.com/creative-commoners/GridFieldBulkEditingTools/tree/pulls/3.0/webpack-refactor"
+            },
+            "time": "2018-07-27T04:27:50+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -8599,7 +8601,14 @@
             "time": "2016-10-03T07:35:21+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "3.0.0-beta4",
+            "alias_normalized": "3.0.0.0-beta4",
+            "version": "dev-pulls/3.0/webpack-refactor",
+            "package": "colymba/gridfield-bulk-editing-tools"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "cwp/cwp-installer": 20,
@@ -8611,7 +8620,8 @@
         "silverstripe/ldap": 20,
         "silverstripe/recipe-content-blocks": 20,
         "dnadesign/silverstripe-elemental-subsites": 20,
-        "dnadesign/silverstripe-elemental-userforms": 20
+        "dnadesign/silverstripe-elemental-userforms": 20,
+        "colymba/gridfield-bulk-editing-tools": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
