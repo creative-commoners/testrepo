@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5453b5e54eabd22a4d3506c732ed6a14",
+    "content-hash": "d63bcce970f24082a68deeca89c25725",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -233,21 +233,21 @@
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "dev-temp",
+            "version": "3.0.0-beta3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/GridFieldBulkEditingTools.git",
-                "reference": "f2c74c5b3313eb9f934870a55fac738985ca0850"
+                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
+                "reference": "de2d3234f4e40518c8266f194d38b340fbd9c577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/GridFieldBulkEditingTools/zipball/f2c74c5b3313eb9f934870a55fac738985ca0850",
-                "reference": "f2c74c5b3313eb9f934870a55fac738985ca0850",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/de2d3234f4e40518c8266f194d38b340fbd9c577",
+                "reference": "de2d3234f4e40518c8266f194d38b340fbd9c577",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/asset-admin": "~1",
-                "silverstripe/framework": "~4"
+                "silverstripe/asset-admin": "^1.0",
+                "silverstripe/framework": "^4.0"
             },
             "type": "silverstripe-vendormodule",
             "extra": {
@@ -261,36 +261,33 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Colymba\\BulkTools\\": "src/BulkTools/",
                     "Colymba\\BulkManager\\": "src/BulkManager/",
                     "Colymba\\BulkUpload\\": "src/BulkUploader/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
             "authors": [
                 {
-                    "name": "Thierry Francois",
-                    "homepage": "http://t-f.io"
-                },
-                {
                     "name": "GitHub contributors",
                     "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                },
+                {
+                    "name": "Thierry Francois",
+                    "homepage": "http://t-f.io"
                 }
             ],
             "description": "SilverStripe GridField component to upload images/files and edit records in bulk",
             "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
             "keywords": [
+                "Image upload",
                 "bulk upload",
                 "gridfield bulk upload",
-                "image upload",
                 "silverstripe"
             ],
-            "support": {
-                "source": "https://github.com/creative-commoners/GridFieldBulkEditingTools/tree/temp"
-            },
-            "time": "2018-07-27T02:19:07+00:00"
+            "time": "2018-03-05T22:03:12+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -8601,14 +8598,7 @@
             "time": "2016-10-03T07:35:21+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "3.0.0",
-            "alias_normalized": "3.0.0.0",
-            "version": "dev-temp",
-            "package": "colymba/gridfield-bulk-editing-tools"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "cwp/cwp-installer": 20,
@@ -8620,8 +8610,7 @@
         "silverstripe/ldap": 20,
         "silverstripe/recipe-content-blocks": 20,
         "dnadesign/silverstripe-elemental-subsites": 20,
-        "dnadesign/silverstripe-elemental-userforms": 20,
-        "colymba/gridfield-bulk-editing-tools": 20
+        "dnadesign/silverstripe-elemental-userforms": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
