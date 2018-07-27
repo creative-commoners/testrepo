@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d63bcce970f24082a68deeca89c25725",
+    "content-hash": "ab8749aa04e8fd67022a80602cdb518d",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -233,16 +233,16 @@
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "3.0.0-beta3",
+            "version": "3.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "de2d3234f4e40518c8266f194d38b340fbd9c577"
+                "reference": "e185eed5378735fe61b7f73be0e683cee79072ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/de2d3234f4e40518c8266f194d38b340fbd9c577",
-                "reference": "de2d3234f4e40518c8266f194d38b340fbd9c577",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/e185eed5378735fe61b7f73be0e683cee79072ee",
+                "reference": "e185eed5378735fe61b7f73be0e683cee79072ee",
                 "shasum": ""
             },
             "require": {
@@ -271,12 +271,12 @@
             ],
             "authors": [
                 {
-                    "name": "GitHub contributors",
-                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                    "name": "Thierry Francois",
+                    "homepage": "http://colymba.com"
                 },
                 {
-                    "name": "Thierry Francois",
-                    "homepage": "http://t-f.io"
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
                 }
             ],
             "description": "SilverStripe GridField component to upload images/files and edit records in bulk",
@@ -287,7 +287,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2018-03-05T22:03:12+00:00"
+            "time": "2018-02-27T13:57:16+00:00"
         },
         {
             "name": "composer/ca-bundle",
