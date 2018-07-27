@@ -15,8 +15,13 @@
         "silverstripe/ldap": "1.0.x-dev",
         "silverstripe/recipe-content-blocks": "2.0.x-dev",
         "dnadesign/silverstripe-elemental-subsites": "2.0.x-dev",
-        "dnadesign/silverstripe-elemental-userforms": "2.0.x-dev"
+        "dnadesign/silverstripe-elemental-userforms": "2.0.x-dev",
+        "colymba/gridfield-bulk-editing-tools": "dev-temp as 3.0.0"
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:creative-commoners/GridFieldBulkEditingTools.git"
+    }],
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "mikey179/vfsStream": "^1.6"
