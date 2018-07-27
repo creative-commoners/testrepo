@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7079e295c57ac268e16d9e47fdc2b87e",
+    "content-hash": "a0b6071a328c70e0bd5f12839cad62e4",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -233,16 +233,16 @@
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "dev-pulls/3.0/webpack-refactor",
+            "version": "dev-temp",
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/GridFieldBulkEditingTools.git",
-                "reference": "c4af6a2cbb14213623563e1e5bc0239291e10f1e"
+                "reference": "fdd0453b23a547ef1d030583bef9bcfa2c196f29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/GridFieldBulkEditingTools/zipball/c4af6a2cbb14213623563e1e5bc0239291e10f1e",
-                "reference": "c4af6a2cbb14213623563e1e5bc0239291e10f1e",
+                "url": "https://api.github.com/repos/creative-commoners/GridFieldBulkEditingTools/zipball/fdd0453b23a547ef1d030583bef9bcfa2c196f29",
+                "reference": "fdd0453b23a547ef1d030583bef9bcfa2c196f29",
                 "shasum": ""
             },
             "require": {
@@ -288,9 +288,9 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/creative-commoners/GridFieldBulkEditingTools/tree/pulls/3.0/webpack-refactor"
+                "source": "https://github.com/creative-commoners/GridFieldBulkEditingTools/tree/temp"
             },
-            "time": "2018-07-27T04:27:50+00:00"
+            "time": "2018-07-27T04:43:32+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -8605,7 +8605,7 @@
         {
             "alias": "3.0.0-beta4",
             "alias_normalized": "3.0.0.0-beta4",
-            "version": "dev-pulls/3.0/webpack-refactor",
+            "version": "dev-temp",
             "package": "colymba/gridfield-bulk-editing-tools"
         }
     ],
