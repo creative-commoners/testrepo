@@ -1,0 +1,54 @@
+{
+    "name": "cwp/cwp-installer",
+    "type": "silverstripe-recipe",
+    "description": "CWP Project Template",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.6.0",
+        "silverstripe/recipe-plugin": "^1",
+        "cwp/cwp-recipe-core": "2.1.1-rc2",
+        "cwp/cwp-recipe-cms": "2.1.1-rc2",
+        "silverstripe/recipe-blog": "1.1.1@stable",
+        "silverstripe/recipe-form-building": "1.1.1@stable",
+        "silverstripe/recipe-authoring-tools": "1.1.1@stable",
+        "silverstripe/recipe-collaboration": "1.1.1@stable",
+        "silverstripe/recipe-reporting-tools": "1.1.1@stable",
+        "cwp/cwp-recipe-search": "2.1.1-rc2",
+        "silverstripe/recipe-services": "1.1.1@stable",
+        "silverstripe/subsites": "2.1.1@stable",
+        "tractorcow/silverstripe-fluent": "4.1.4@stable",
+        "silverstripe/registry": "2.1.0@stable",
+        "cwp/starter-theme": "2.0.2@stable"
+    },
+    "suggest": {
+        "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "extra": {
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/blog.yml",
+            "app/_config/environmentcheck.yml",
+            "app/_config/mysite.yml",
+            "app/_config/oembed.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,7 @@
+---
+Name: cwpadmin
+---
+SilverStripe\Admin\LeftAndMain:
+  help_link: "https://www.cwp.govt.nz/user-help/"
+SilverStripe\Control\Email:
+  admin_email: 'no-reply@cwp.govt.nz'
