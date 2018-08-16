@@ -1,0 +1,12 @@
+---
+Name: cwpcorelogging
+---
+SilverStripe\Core\Injector\Injector:
+  Psr\Log\LoggerInterface:
+    calls:
+      pushSilverStripeSyslogHandler: [ pushHandler, [ %$Monolog\Handler\HandlerInterface.silverstripe ] ]
+  Monolog\Handler\HandlerInterface.silverstripe:
+    class: Monolog\Handler\SyslogHandler
+    constructor:
+      - 'SilverStripe_log'
+
