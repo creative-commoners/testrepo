@@ -24,7 +24,10 @@
         "mikey179/vfsStream": "^1.6"
     },
     "extra": {
-        "project-files": []
+        "project-files": [],
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
     },
     "config": {
         "process-timeout": 600
