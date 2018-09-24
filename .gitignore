@@ -4,3 +4,5 @@
 /themes/simple/
 /resources/
 /public/resources/
+.vscode/
+.vagrant/
