@@ -22,7 +22,8 @@
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "mikey179/vfsStream": "^1.6",
-        "silverstripe/frameworktest": "dev-master"
+        "silverstripe/frameworktest": "dev-master",
+        "silverstripe/graphql-devtools": "1.x-dev"
     },
     "extra": {
         "project-files": [],
