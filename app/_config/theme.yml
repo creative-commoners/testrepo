@@ -1,8 +1,8 @@
 ---
-Name: mytheme
+Name: cwptheme
 ---
 SilverStripe\View\SSViewer:
   themes:
-    - 'demo'
-    - 'simple'
+    - '$public'
+    - 'starter'
     - '$default'
