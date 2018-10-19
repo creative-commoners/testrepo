@@ -62,7 +62,7 @@ before_script:
   - ~/.config/composer/vendor/bin/cow schema:validate
 
 script:
-  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST"; fi
+  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST" --exclude-group exclude-from-travis; fi
 
 notifications:
   slack: silverstripeltd:PThlNsYgoIKpxL3l01PiMQK6
