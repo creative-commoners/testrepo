@@ -4,91 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f1fcfcdffb87b026c2e2c729ccf16e9",
+    "content-hash": "de3afc22b1b8be8581241b8c12021d6a",
     "packages": [
-        {
-            "name": "aws/aws-sdk-php",
-            "version": "3.70.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8278052a097a4ebe2b798fab7e2e3c907bc01a47"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8278052a097a4ebe2b798fab7e2e3c907bc01a47",
-                "reference": "8278052a097a4ebe2b798fab7e2e3c907bc01a47",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-pcre": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
-                "guzzlehttp/guzzle": "^5.3.3|^6.2.1",
-                "guzzlehttp/promises": "~1.0",
-                "guzzlehttp/psr7": "^1.4.1",
-                "mtdowling/jmespath.php": "~2.2",
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "andrewsville/php-token-reflection": "^1.4",
-                "aws/aws-php-sns-message-validator": "~1.0",
-                "behat/behat": "~3.0",
-                "doctrine/cache": "~1.4",
-                "ext-dom": "*",
-                "ext-openssl": "*",
-                "ext-pcntl": "*",
-                "ext-sockets": "*",
-                "nette/neon": "^2.3",
-                "phpunit/phpunit": "^4.8.35|^5.4.3",
-                "psr/cache": "^1.0"
-            },
-            "suggest": {
-                "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
-                "doctrine/cache": "To use the DoctrineCacheAdapter",
-                "ext-curl": "To send requests using cURL",
-                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
-                "ext-sockets": "To use client-side monitoring"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Aws\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Amazon Web Services",
-                    "homepage": "http://aws.amazon.com"
-                }
-            ],
-            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
-            "homepage": "http://aws.amazon.com/sdkforphp",
-            "keywords": [
-                "amazon",
-                "aws",
-                "cloud",
-                "dynamodb",
-                "ec2",
-                "glacier",
-                "s3",
-                "sdk"
-            ],
-            "time": "2018-11-02T20:04:36+00:00"
-        },
         {
             "name": "composer/ca-bundle",
             "version": "1.1.3",
@@ -266,81 +183,6 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
-            "name": "doctrine/cache",
-            "version": "v1.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/cache.git",
-                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/d768d58baee9a4862ca783840eca1b9add7a7f57",
-                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~7.1"
-            },
-            "conflict": {
-                "doctrine/common": ">2.2,<2.4"
-            },
-            "require-dev": {
-                "alcaeus/mongo-php-adapter": "^1.1",
-                "doctrine/coding-standard": "^4.0",
-                "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^7.0",
-                "predis/predis": "~1.0"
-            },
-            "suggest": {
-                "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
-            ],
-            "description": "Caching library offering an object-oriented API for many cache backends",
-            "homepage": "https://www.doctrine-project.org",
-            "keywords": [
-                "cache",
-                "caching"
-            ],
-            "time": "2018-08-21T18:01:43+00:00"
-        },
-        {
             "name": "embed/embed",
             "version": "v3.3.7",
             "source": {
@@ -392,6 +234,56 @@
                 "twitter cards"
             ],
             "time": "2018-10-22T21:59:03+00:00"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "squizlabs/php_codesniffer": "^1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2018-07-12T10:23:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -969,105 +861,6 @@
             "time": "2017-06-19T01:22:40+00:00"
         },
         {
-            "name": "mtdowling/cron-expression",
-            "version": "v1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mtdowling/cron-expression.git",
-                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/9504fa9ea681b586028adaaa0877db4aecf32bad",
-                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0|~5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cron\\": "src/Cron/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
-            "keywords": [
-                "cron",
-                "schedule"
-            ],
-            "time": "2017-01-23T04:29:33+00:00"
-        },
-        {
-            "name": "mtdowling/jmespath.php",
-            "version": "2.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
-                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "bin": [
-                "bin/jp.php"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JmesPath\\": "src/"
-                },
-                "files": [
-                    "src/JmesPath.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Declaratively specify how to extract elements from a JSON document",
-            "keywords": [
-                "json",
-                "jsonpath"
-            ],
-            "time": "2016-12-03T22:08:25+00:00"
-        },
-        {
             "name": "nikic/php-parser",
             "version": "v4.1.0",
             "source": {
@@ -1456,11 +1249,11 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "1.x-dev",
+            "version": "1.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:/silverstripe-security/silverstripe-admin",
-                "reference": "8d0cb92c5631196d6747fa60899e73703caba6b6"
+                "reference": "70e23cf84bf9eb15854d67cf7716b402a35aa41e"
             },
             "require": {
                 "silverstripe/framework": "^4@dev",
@@ -1472,9 +1265,6 @@
             },
             "type": "silverstripe-vendormodule",
             "extra": {
-                "branch-alias": {
-                    "1.x-dev": "1.3.x-dev"
-                },
                 "expose": [
                     "client/dist",
                     "client/lang",
@@ -1514,7 +1304,7 @@
                 "admin",
                 "silverstripe"
             ],
-            "time": "2018-09-21 04:43:51"
+            "time": "2018-11-05 08:10:30"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1783,124 +1573,6 @@
             "time": "2018-06-17 22:13:57"
         },
         {
-            "name": "silverstripe/crontask",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-crontask.git",
-                "reference": "5c0ea405cfa8370d95d66bae1c187a1bd828ecf0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-crontask/zipball/5c0ea405cfa8370d95d66bae1c187a1bd828ecf0",
-                "reference": "5c0ea405cfa8370d95d66bae1c187a1bd828ecf0",
-                "shasum": ""
-            },
-            "require": {
-                "mtdowling/cron-expression": "~1.0",
-                "silverstripe/framework": "^4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.0"
-            },
-            "type": "silverstripe-vendormodule",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SilverStripe\\CronTask\\": "src/",
-                    "SilverStripe\\CronTask\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "SilverStripe",
-                    "homepage": "http://silverstripe.com"
-                },
-                {
-                    "name": "The SilverStripe Community",
-                    "homepage": "http://silverstripe.org"
-                },
-                {
-                    "name": "Damian Mooyman",
-                    "email": "damian@silverstripe.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Module for running tasks with a standard cron timeschedule",
-            "keywords": [
-                "cron",
-                "silverstripe"
-            ],
-            "time": "2018-06-11 04:26:11"
-        },
-        {
-            "name": "silverstripe/dynamodb",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-dynamodb.git",
-                "reference": "785c69771b37636515f6a3b0015d04eab1585ca8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-dynamodb/zipball/785c69771b37636515f6a3b0015d04eab1585ca8",
-                "reference": "785c69771b37636515f6a3b0015d04eab1585ca8",
-                "shasum": ""
-            },
-            "require": {
-                "aws/aws-sdk-php": "~3.18",
-                "doctrine/cache": "1.*",
-                "silverstripe/crontask": "*",
-                "silverstripe/framework": "^4@dev"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7"
-            },
-            "type": "silverstripe-vendormodule",
-            "extra": {
-                "installer-name": "silverstripe-dynamodb",
-                "branch-alias": {
-                    "dev-master": "4.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SilverStripe\\DynamoDb\\": "code/",
-                    "SilverStripe\\DynamoDb\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "SilverStripe",
-                    "homepage": "http://silverstripe.com"
-                },
-                {
-                    "name": "The SilverStripe Community",
-                    "homepage": "http://silverstripe.org"
-                }
-            ],
-            "description": "SilverStripe DynamoDB integration.",
-            "keywords": [
-                "aws",
-                "dynamodb",
-                "silverstripe"
-            ],
-            "time": "2017-11-20 22:05:17"
-        },
-        {
             "name": "silverstripe/errorpage",
             "version": "1.3.x-dev",
             "source": {
@@ -2071,6 +1743,58 @@
                 "silverstripe"
             ],
             "time": "2018-11-01 23:33:33"
+        },
+        {
+            "name": "silverstripe/frameworktest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-frameworktest.git",
+                "reference": "cace7979aad5ad17eb65ca9e3e6f77f6aa0f3da7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-frameworktest/zipball/cace7979aad5ad17eb65ca9e3e6f77f6aa0f3da7",
+                "reference": "cace7979aad5ad17eb65ca9e3e6f77f6aa0f3da7",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "^1.7",
+                "guzzlehttp/guzzle": "~6.0",
+                "silverstripe/cms": "~4.0",
+                "silverstripe/framework": "~4.0",
+                "silverstripe/vendor-plugin": "^1.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client/dist",
+                    "css",
+                    "images"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "SSilverStripe\\FrameworkTest\\": "code/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ingo Schommer",
+                    "email": "ingo@silverstripe.com"
+                }
+            ],
+            "description": "Aids core and module developers in testing their code against a set of sample data and behaviour.",
+            "keywords": [
+                "frameworktest",
+                "silverstripe",
+                "testing"
+            ],
+            "time": "2018-10-18 04:27:03"
         },
         {
             "name": "silverstripe/graphql",
@@ -4408,11 +4132,10 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/recipe-cms": 20,
+        "silverstripe/frameworktest": 20,
         "silverstripe/framework": 20,
         "silverstripe/graphql": 20,
-        "silverstripe/admin": 20,
-        "silverstripe/dynamodb": 20,
-        "silverstripe/crontask": 20
+        "silverstripe/admin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
