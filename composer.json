@@ -24,7 +24,12 @@
         "mikey179/vfsStream": "^1.6"
     },
     "extra": {
-        "project-files": []
+        "project-files": [],
+        "project-files-installed": [
+            "app/_config/contentblocks.yml",
+            "app/_config/environmentcheck.yml",
+            "app/src/BlocksPage.php"
+        ]
     },
     "config": {
         "process-timeout": 600

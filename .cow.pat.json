@@ -1,0 +1,490 @@
+{
+    "cwp/cwp-recipe-kitchen-sink": {
+        "PriorVersion": null,
+        "Version": "2.2.0-rc1",
+        "Changelog": null,
+        "Items": {
+            "cwp/cwp-installer": {
+                "PriorVersion": null,
+                "Version": "2.2.0-rc1",
+                "Changelog": null,
+                "Items": {
+                    "cwp/cwp-recipe-core": {
+                        "PriorVersion": null,
+                        "Version": "2.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/recipe-core": {
+                                "PriorVersion": "4.2.1",
+                                "Version": "4.3.0-rc1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "cwp/cwp-core": {
+                                "PriorVersion": null,
+                                "Version": "2.2.0-rc1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/auditor": {
+                                "PriorVersion": null,
+                                "Version": "2.1.4",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/environmentcheck": {
+                                "PriorVersion": "2.0.0",
+                                "Version": "2.0.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/hybridsessions": {
+                                "PriorVersion": null,
+                                "Version": "2.1.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/mimevalidator": {
+                                "PriorVersion": "2.0.0",
+                                "Version": "2.0.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "cwp/cwp-recipe-cms": {
+                        "PriorVersion": null,
+                        "Version": "2.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/recipe-cms": {
+                                "PriorVersion": "4.2.1",
+                                "Version": "4.3.0-rc1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "cwp/cwp": {
+                                "PriorVersion": null,
+                                "Version": "2.2.0-rc1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "cwp/cwp-pdfexport": {
+                                "PriorVersion": "1.0.1",
+                                "Version": "1.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/html5": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/recipe-blog": {
+                        "PriorVersion": null,
+                        "Version": "1.1.2-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/blog": {
+                                "PriorVersion": "3.2.1",
+                                "Version": "3.2.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/widgets": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.2",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/content-widget": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/spamprotection": {
+                                "PriorVersion": null,
+                                "Version": "3.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/akismet": {
+                                "PriorVersion": "4.0.1",
+                                "Version": "4.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/comments": {
+                                "PriorVersion": "3.1.3",
+                                "Version": "3.1.5",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/comment-notifications": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/recipe-form-building": {
+                        "PriorVersion": null,
+                        "Version": "1.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/segment-field": {
+                                "PriorVersion": null,
+                                "Version": "2.2.2",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/userforms": {
+                                "PriorVersion": null,
+                                "Version": "5.3.0",
+                                "Changelog": "\n\n## Change Log\n\n### Bugfixes\n\n * 2018-10-22 [55a9e23](https://github.com/silverstripe/silverstripe-userforms/commit/55a9e235f294fb41696f377da42720f9e22896fd) Fix broken troubleshooting link (wernerkrauss)\n * 2018-08-23 [a95cc1c](https://github.com/silverstripe/silverstripe-userforms/commit/a95cc1c731b4f32f880e17e82ab05aced208096f) fix FIELDISREQUIRED (Bumbus)\n * 2018-07-13 [c906b0c](https://github.com/silverstripe/silverstripe-userforms/commit/c906b0c973c4ea675b77642edfefcec805a678db) Fix misplacement of actions class (Nicholas Sorokin)\n * 2018-07-09 [01520c2](https://github.com/silverstripe/silverstripe-userforms/commit/01520c22bdad530ca6b6108473696b55a611bf64) Fix(shortcode) re-order if block check $UserDefinedForm in $this-&gt;Content. Rename config value to be clearer (Stephen McMahon)\n * 2018-07-05 [ed1e985](https://github.com/silverstripe/silverstripe-userforms/commit/ed1e9858af38d924dc9cd6132aa5f7b947b0f25e) Fix(test) clean up format to make linter happy (Stephen McMahon)\n * 2018-07-05 [a3a2c3d](https://github.com/silverstripe/silverstripe-userforms/commit/a3a2c3d286b6643eb57b9565d8c66382eb4c4c9a) Fix(UserDefinedFormController) change return type of index() when not using shortcode (Stephen McMahon)\n * 2018-07-05 [0a708d9](https://github.com/silverstripe/silverstripe-userforms/commit/0a708d9ea3ff89c4bd9fea48dbe485c714c2b1ff) Fix(tests) change asserts in to check correct values (Stephen McMahon)\n * 2018-06-06 [bbe21fd](https://github.com/silverstripe/silverstripe-userforms/commit/bbe21fd5a07a3596ec4cb26f858b63b0b5870967) fixed PHP lint errors (Nivanka Fonseka)\n\n### Other changes\n\n * 2018-10-04 [feac41e](https://github.com/silverstripe/silverstripe-userforms/commit/feac41ea74221b363dc6bc20880055cdab5f468b) Prevent eslint rules from cascading. (Janzen Zarzoso)\n * 2018-10-01 [5271f14](https://github.com/silverstripe/silverstripe-userforms/commit/5271f149989d7259afdbeb39cade9b9b0affa212) Allows placeholder value of '0' (David Toews)\n * 2018-08-23 [ae8ba5e](https://github.com/silverstripe/silverstripe-userforms/commit/ae8ba5e6da1872ea27b97842a1a0913267809359) de translation (Bumbus)\n * 2018-07-13 [8c07632](https://github.com/silverstripe/silverstripe-userforms/commit/8c0763288f5e82b7dd85ce7b1f10172756e3d1de) Include Actions class alongside step-buttons (Nicholas Sorokin)\n * 2018-07-05 [94192f4](https://github.com/silverstripe/silverstripe-userforms/commit/94192f4b6679341f799077cb1a6546440a002cf5) Add(config) create disable_form_content_interpolation option for ignoring $UserDefinedForm in $this-&gt;Content (Stephen McMahon)\n * 2018-07-02 [d2ddadd](https://github.com/silverstripe/silverstripe-userforms/commit/d2ddaddede9d03eb95e429b4929157d567417ad4) Replace class \"Actions\" with \"btn-toolbar\" (Nicholas Sorokin)\n * 2018-06-15 [a1bb69c](https://github.com/silverstripe/silverstripe-userforms/commit/a1bb69c23cf08dfb7d6a82787f7c472b119f26c9) Add supported module badge to readme (Dylan Wagstaff)\n * 2018-06-05 [68a377b](https://github.com/silverstripe/silverstripe-userforms/commit/68a377b3bae2fd2d095fb09e522e8c708a4e1a9c) updated the CSS, and fixed the colspan over the filters (Nivanka Fonseka)\n * 2018-06-04 [db7a796](https://github.com/silverstripe/silverstripe-userforms/commit/db7a79626da313ee4bc02b9c3b48428b8e8188fc) Added the missing lang strings, checked for the status before setting up default values, and updated the Date formats (Nivanka Fonseka)\n",
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/recipe-authoring-tools": {
+                        "PriorVersion": null,
+                        "Version": "1.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/documentconverter": {
+                                "PriorVersion": null,
+                                "Version": "2.0.2",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/iframe": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/spellcheck": {
+                                "PriorVersion": "2.1.0",
+                                "Version": "2.1.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/tagfield": {
+                                "PriorVersion": null,
+                                "Version": "2.2.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/taxonomy": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/recipe-collaboration": {
+                        "PriorVersion": null,
+                        "Version": "1.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/contentreview": {
+                                "PriorVersion": null,
+                                "Version": "4.1.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/sharedraftcontent": {
+                                "PriorVersion": null,
+                                "Version": "2.2.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "symbiote/silverstripe-advancedworkflow": {
+                                "PriorVersion": null,
+                                "Version": "5.1.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/recipe-reporting-tools": {
+                        "PriorVersion": null,
+                        "Version": "1.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/externallinks": {
+                                "PriorVersion": null,
+                                "Version": "2.0.3",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/securityreport": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/sitewidecontent-report": {
+                                "PriorVersion": "3.0.2",
+                                "Version": "3.0.2",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "bringyourownideas/silverstripe-maintenance": {
+                                "PriorVersion": null,
+                                "Version": "2.1.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "bringyourownideas/silverstripe-composer-update-checker": {
+                                "PriorVersion": "2.0.1",
+                                "Version": "2.0.2",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "bringyourownideas/silverstripe-composer-security-checker": {
+                                "PriorVersion": null,
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "cwp/cwp-recipe-search": {
+                        "PriorVersion": null,
+                        "Version": "2.2.0-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "cwp/cwp-search": {
+                                "PriorVersion": null,
+                                "Version": "1.1.0-rc1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/fulltextsearch": {
+                                "PriorVersion": "3.3.1",
+                                "Version": "3.4.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "symbiote/silverstripe-queuedjobs": {
+                                "PriorVersion": null,
+                                "Version": "4.3.0",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/recipe-services": {
+                        "PriorVersion": null,
+                        "Version": "1.1.2-rc1",
+                        "Changelog": null,
+                        "Items": {
+                            "silverstripe/restfulserver": {
+                                "PriorVersion": null,
+                                "Version": "2.1.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            },
+                            "silverstripe/versionfeed": {
+                                "PriorVersion": null,
+                                "Version": "2.0.1",
+                                "Changelog": null,
+                                "Items": [],
+                                "Branching": null
+                            }
+                        },
+                        "Branching": null
+                    },
+                    "silverstripe/subsites": {
+                        "PriorVersion": null,
+                        "Version": "2.2.0",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    },
+                    "tractorcow/silverstripe-fluent": {
+                        "PriorVersion": "4.1.4",
+                        "Version": "4.2.0",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    },
+                    "silverstripe/registry": {
+                        "PriorVersion": "2.1.0",
+                        "Version": "2.1.0",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    },
+                    "cwp/starter-theme": {
+                        "PriorVersion": null,
+                        "Version": "2.0.3",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    }
+                },
+                "Branching": null
+            },
+            "cwp/agency-extensions": {
+                "PriorVersion": null,
+                "Version": "2.1.0",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "cwp/watea-theme": {
+                "PriorVersion": null,
+                "Version": "2.1.0",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/controllerpolicy": {
+                "PriorVersion": "2.1.0",
+                "Version": "2.1.0",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/crontask": {
+                "PriorVersion": null,
+                "Version": "2.1.1",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/gridfieldqueuedexport": {
+                "PriorVersion": null,
+                "Version": "2.1.1",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/ldap": {
+                "PriorVersion": null,
+                "Version": "1.0.3",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/recipe-content-blocks": {
+                "PriorVersion": null,
+                "Version": "2.1.0-rc1",
+                "Changelog": null,
+                "Items": {
+                    "silverstripe/versioned-admin": {
+                        "PriorVersion": null,
+                        "Version": "1.1.0-rc1",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    },
+                    "dnadesign/silverstripe-elemental": {
+                        "PriorVersion": "3.0.0",
+                        "Version": "4.0.0-beta1",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    },
+                    "silverstripe/elemental-fileblock": {
+                        "PriorVersion": "1.0.0",
+                        "Version": "2.0.0-beta1",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    },
+                    "silverstripe/elemental-bannerblock": {
+                        "PriorVersion": "1.0.1",
+                        "Version": "2.0.0-beta1",
+                        "Changelog": null,
+                        "Items": [],
+                        "Branching": null
+                    }
+                },
+                "Branching": null
+            },
+            "dnadesign/silverstripe-elemental-subsites": {
+                "PriorVersion": null,
+                "Version": "3.0.0-beta1",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "dnadesign/silverstripe-elemental-userforms": {
+                "PriorVersion": null,
+                "Version": "3.0.0-beta1",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/textextraction": {
+                "PriorVersion": null,
+                "Version": "3.0.0",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            },
+            "silverstripe/realme": {
+                "PriorVersion": null,
+                "Version": "3.1.0",
+                "Changelog": null,
+                "Items": [],
+                "Branching": null
+            }
+        },
+        "Branching": null
+    }
+}
