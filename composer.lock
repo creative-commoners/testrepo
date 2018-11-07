@@ -5851,12 +5851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-subsites.git",
-                "reference": "a0ecbdf4b693c83d85db50d227e2358d6fca1755"
+                "reference": "ce9dd1a856e64ee65483de06b0ae8a3122a38fd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-subsites/zipball/a0ecbdf4b693c83d85db50d227e2358d6fca1755",
-                "reference": "a0ecbdf4b693c83d85db50d227e2358d6fca1755",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-subsites/zipball/ce9dd1a856e64ee65483de06b0ae8a3122a38fd4",
+                "reference": "ce9dd1a856e64ee65483de06b0ae8a3122a38fd4",
                 "shasum": ""
             },
             "require": {
@@ -5900,7 +5900,7 @@
                 "silverstripe",
                 "subsites"
             ],
-            "time": "2018-11-07T14:28:40+00:00"
+            "time": "2018-11-07T23:26:59+00:00"
         },
         {
             "name": "silverstripe/tagfield",
