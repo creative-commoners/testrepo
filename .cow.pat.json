@@ -310,7 +310,7 @@
                             },
                             "silverstripe/fulltextsearch": {
                                 "PriorVersion": "3.3.1",
-                                "Version": "3.4.0",
+                                "Version": "3.4.1",
                                 "Changelog": null,
                                 "Items": [],
                                 "Branching": null
