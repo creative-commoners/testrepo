@@ -4603,12 +4603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-hybridsessions.git",
-                "reference": "750d6aae3066260a5cd7b4cb20bcd9eb81ea6d38"
+                "reference": "73c7c9618a890f053fc6d17f36aa4b462f9b1f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-hybridsessions/zipball/750d6aae3066260a5cd7b4cb20bcd9eb81ea6d38",
-                "reference": "750d6aae3066260a5cd7b4cb20bcd9eb81ea6d38",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-hybridsessions/zipball/73c7c9618a890f053fc6d17f36aa4b462f9b1f17",
+                "reference": "73c7c9618a890f053fc6d17f36aa4b462f9b1f17",
                 "shasum": ""
             },
             "require": {
@@ -4642,7 +4642,7 @@
                 "session",
                 "silverstripe"
             ],
-            "time": "2018-11-07T15:07:51+00:00"
+            "time": "2018-11-08T01:42:16+00:00"
         },
         {
             "name": "silverstripe/iframe",
