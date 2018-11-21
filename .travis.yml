@@ -65,4 +65,7 @@ script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST" --exclude-group exclude-from-travis; fi
 
 notifications:
-  slack: silverstripeltd:PThlNsYgoIKpxL3l01PiMQK6
+  slack:
+    on_pull_requests: false
+    rooms:
+      secure: X37wqEdRXnfQ0GQgldToNXDmITIMZXrh/MyJ1OOqZ/tArFeDs/UeM/IilHM9bgmkA+fX4UxL4h3ZUWesE44ySg8PB/MEDAjSBtKp3RoT9usTLsVondFQs1DPMJhxvHeRa93Ev6kypFrZAjxPIYqgwT2Vt6voCC9OgbPx2zaXvUalYt78Vhmmboj4WIn1sZ9YmCUP6PGYgPBKzErqFms+y9zhaYImC9tGHC5Z+t3bmwdmMf+cwwivLgHwua6r1emwp7ON/Hpuocb70k8xCpRG+kAonws1uWdb9bxqobUoTzqdQr0Y793j5y28aOYpdoXJWQieogXVMyJl9Wwxg0RWPw/PwE/5xbO+1jLNUgKmymZ/rNl3peQhhzHE2vxnGOQdUcIE308BeJ5eRh3a9ZpmhImKcuwgVQp9oUE8m2YuKVcAKyD11nNDd19Ku11UjF0RAaFCv+Z1IPjEzMXa8SSDjBJUhX6ctfmXhC2oqr/ia4RgJXOmThWaeQDqRdYi6Eeiqz3FMZsKRGZZqhjoIznCWR6z7GomlP4yP0PVvO2NahnCsU6iyMej4EBvOVX0rhHppI1CE1cBbC7L80CIJAGf5o3s/2A6alnYPq+rLk3bBrDOFn7SqFEFoinsnOjg6n0v2KFZ79EKd4h1YDrQ5Oj9BHCOj3yn0oZZBCDUIvwJTrY=
