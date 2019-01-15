@@ -69,3 +69,6 @@ _ss_environment.php
 /vendor
 /silverstripe-phockito
 /gridfield-bulk-editing-tools
+/silverstripe-composer-security-checker
+/silverstripe-composer-update-checker
+/silverstripe-maintenance
