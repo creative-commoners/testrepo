@@ -14,7 +14,6 @@
         "silverstripe/gridfieldqueuedexport": "2.1.x-dev",
         "silverstripe/ldap": "1.0.x-dev",
         "silverstripe/recipe-content-blocks": "2.1.x-dev",
-        "dnadesign/silverstripe-elemental-subsites": "3.0.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "3.0.x-dev",
         "silverstripe/textextraction": "3.0.x-dev",
         "silverstripe/realme": "3.1.x-dev"
