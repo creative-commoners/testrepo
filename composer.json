@@ -17,12 +17,6 @@
     "process-timeout": 900
   },
   "extra": {},
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.cwp.govt.nz/"
-    }
-  ],
   "prefer-stable": true,
   "minimum-stability": "dev"
 }
