@@ -37,6 +37,7 @@
         <directory>mysite/tests</directory>
         <directory>vendor/cwp/agency-extensions/tests</directory>
         <directory>vendor/silverstripe/subsites/tests</directory>
+        <directory>vendor/silverstripe/ckan-registry/tests</directory>
         <directory>vendor/silverstripe/controllerpolicy/tests</directory>
         <directory>vendor/silverstripe/crontask/tests</directory>
         <directory>vendor/silverstripe/gridfieldqueuedexport/tests</directory>
