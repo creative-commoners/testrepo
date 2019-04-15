@@ -53,8 +53,12 @@ before_script:
   - phpenv config-rm xdebug.ini || true
   - echo 'memory_limit = 2048M' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
-  # Install dependencies
   - composer validate
+
+  # Add PHP 7 only modules that may be required in some of the test suites (until CWP requires ^7.1)
+  - if [[ PHPUNIT_TEST == optional-authenticators ]]; then composer require --no-update silverstripe/mfa:4.0.x-dev silverstripe/totp-authenticator:1.0.x-dev; fi
+
+  # Install dependencies
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
   # Validate cow schema
