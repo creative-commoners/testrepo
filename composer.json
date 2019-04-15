@@ -28,10 +28,7 @@
         "silverstripe/recipe-testing": "1.x-dev"
     },
     "extra": {
-        "project-files": [],
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
+        "project-files": []
     },
     "config": {
         "process-timeout": 600
