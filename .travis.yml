@@ -1,5 +1,11 @@
 language: php
 
+dist: trusty
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
 addons:
   apt:
     packages:
@@ -63,7 +69,7 @@ before_script:
 
   # Validate cow schema
   - composer global require silverstripe/cow ^2
-  - ~/.config/composer/vendor/bin/cow schema:validate
+  - $HOME/.composer/vendor/bin/cow schema:validate
 
 script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST" --exclude-group exclude-from-travis; fi
