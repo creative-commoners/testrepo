@@ -131,6 +131,13 @@
     <testsuite name="optional-authenticators">
         <directory>vendor/silverstripe/ldap/tests</directory>
         <directory>vendor/silverstripe/realme/tests</directory>
+    </testsuite>
+
+    <testsuite name="mfa">
         <directory>vendor/silverstripe/mfa/tests</directory>
+        <directory>vendor/silverstripe/totp-authenticator/tests</directory>
+        <directory>vendor/silverstripe/webauthn-authenticator/tests</directory>
+        <directory>vendor/silverstripe/login-forms/tests</directory>
+        <directory>vendor/silverstripe/security-extensions/tests</directory>
     </testsuite>
 </phpunit>
