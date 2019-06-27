@@ -15,12 +15,11 @@ addons:
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION="4.1.x-dev"
     - DB=MYSQL
 
 matrix:
   include:
-    - php: 5.6
+    - php: 7.1
       env: PHPUNIT_TEST=Default PDO=1
     - php: 7.1
       env: PHPUNIT_TEST=recipe-core
@@ -28,30 +27,32 @@ matrix:
       env: PHPUNIT_TEST=framework-orm
     - php: 7.1
       env: PHPUNIT_TEST=framework-core
-    - php: 5.6
+    - php: 7.2
       env: PHPUNIT_TEST=recipe-cms
     - php: 7.1
       env: PHPUNIT_TEST=cwp-recipe-core PDO=1
-    - php: 7.0
+    - php: 7.2
       env: PHPUNIT_TEST=cwp-recipe-cms
     - php: 7.1
       env: PHPUNIT_TEST=cwp-recipe-search PDO=1
-    - php: 5.6
+    - php: 7.2
       env: PHPUNIT_TEST=recipe-authoring-tools
-    - php: 7.0
+    - php: 7.1
       env: PHPUNIT_TEST=recipe-blog
     - php: 7.1
       env: PHPUNIT_TEST=recipe-collaboration
     - php: 7.1
       env: PHPUNIT_TEST=recipe-content-blocks
-    - php: 5.6
+    - php: 7.2
       env: PHPUNIT_TEST=recipe-form-building
-    - php: 7.0
+    - php: 7.1
       env: PHPUNIT_TEST=recipe-reporting-tools
     - php: 7.1
       env: PHPUNIT_TEST=recipe-services
     - php: 7.1
       env: PHPUNIT_TEST=optional-authenticators
+    - php: 7.2
+      env: PHPUNIT_TEST=mfa
 
 before_script:
   # Configure PHP
@@ -60,9 +61,6 @@ before_script:
   - echo 'memory_limit = 2048M' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
   - composer validate
-
-  # Add PHP 7 only modules that may be required in some of the test suites (until CWP requires ^7.1)
-  - if [[ PHPUNIT_TEST == optional-authenticators ]]; then composer require --no-update silverstripe/mfa:4.0.x-dev silverstripe/totp-authenticator:1.0.x-dev; fi
 
   # Install dependencies
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
