@@ -1544,33 +1544,37 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -1607,7 +1611,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2019-07-01T23:21:34+00:00"
         },
         {
             "name": "intervention/image",
@@ -2836,24 +2840,24 @@
         },
         {
             "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
             },
             "type": "library",
             "autoload": {
@@ -2872,7 +2876,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -3517,12 +3521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "98183ad6775bec92739f7956850054d3de67578f"
+                "reference": "e2bf714757e363e97cb3748f0682522c0b93639b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/98183ad6775bec92739f7956850054d3de67578f",
-                "reference": "98183ad6775bec92739f7956850054d3de67578f",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/e2bf714757e363e97cb3748f0682522c0b93639b",
+                "reference": "e2bf714757e363e97cb3748f0682522c0b93639b",
                 "shasum": ""
             },
             "require": {
@@ -3572,7 +3576,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2019-05-12T21:18:27+00:00"
+            "time": "2019-06-30T22:15:47+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -4179,12 +4183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "6a8c6703d1cff5f90fd87803691e4291847e807c"
+                "reference": "717646feb01acc361ea15c599ff2771cc520abc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/6a8c6703d1cff5f90fd87803691e4291847e807c",
-                "reference": "6a8c6703d1cff5f90fd87803691e4291847e807c",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/717646feb01acc361ea15c599ff2771cc520abc8",
+                "reference": "717646feb01acc361ea15c599ff2771cc520abc8",
                 "shasum": ""
             },
             "require": {
@@ -4224,7 +4228,8 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7",
-                "silverstripe/versioned": "^1"
+                "silverstripe/versioned": "^1",
+                "sminnee/phpunit-mock-objects": "^3.4.5"
             },
             "bin": [
                 "sake"
@@ -4291,7 +4296,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2019-06-20T21:27:48+00:00"
+            "time": "2019-07-03T22:11:34+00:00"
         },
         {
             "name": "silverstripe/fulltextsearch",
@@ -4363,12 +4368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-graphql.git",
-                "reference": "5b747221095857ca1c20da5c3baf360f4aa39795"
+                "reference": "5f98706ec372dc4f9cc26b7a75914083a5c9a5d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-graphql/zipball/5b747221095857ca1c20da5c3baf360f4aa39795",
-                "reference": "5b747221095857ca1c20da5c3baf360f4aa39795",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-graphql/zipball/5f98706ec372dc4f9cc26b7a75914083a5c9a5d6",
+                "reference": "5f98706ec372dc4f9cc26b7a75914083a5c9a5d6",
                 "shasum": ""
             },
             "require": {
@@ -4401,7 +4406,7 @@
                 "BSD-3-Clause"
             ],
             "description": "GraphQL server for SilverStripe models and other data",
-            "time": "2019-06-10T05:40:34+00:00"
+            "time": "2019-06-30T21:26:40+00:00"
         },
         {
             "name": "silverstripe/html5",
@@ -4449,12 +4454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-hybridsessions.git",
-                "reference": "3fcebd6399d18397a59a137856d63cef9170cda7"
+                "reference": "70059579c5b3bdb5d532ac611cc0613fac1ccadc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-hybridsessions/zipball/3fcebd6399d18397a59a137856d63cef9170cda7",
-                "reference": "3fcebd6399d18397a59a137856d63cef9170cda7",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-hybridsessions/zipball/70059579c5b3bdb5d532ac611cc0613fac1ccadc",
+                "reference": "70059579c5b3bdb5d532ac611cc0613fac1ccadc",
                 "shasum": ""
             },
             "require": {
@@ -4488,7 +4493,7 @@
                 "session",
                 "silverstripe"
             ],
-            "time": "2019-05-09T22:08:20+00:00"
+            "time": "2019-07-01T01:28:31+00:00"
         },
         {
             "name": "silverstripe/iframe",
@@ -4636,16 +4641,16 @@
         },
         {
             "name": "silverstripe/mfa",
-            "version": "4.0.0-beta1",
+            "version": "4.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-mfa.git",
-                "reference": "e84bedb7ed77b963f38ff549f2b590715770d468"
+                "reference": "4810e650146382695bdcae0320a99a16efcd59a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-mfa/zipball/e84bedb7ed77b963f38ff549f2b590715770d468",
-                "reference": "e84bedb7ed77b963f38ff549f2b590715770d468",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-mfa/zipball/4810e650146382695bdcae0320a99a16efcd59a3",
+                "reference": "4810e650146382695bdcae0320a99a16efcd59a3",
                 "shasum": ""
             },
             "require": {
@@ -4660,6 +4665,10 @@
             "require-dev": {
                 "phpunit/phpunit": "^5.7",
                 "squizlabs/php_codesniffer": "^3.0"
+            },
+            "suggest": {
+                "silverstripe/totp-authenticator": "Adds a method to authenticate with you phone using a time-based one-time password.",
+                "silverstripe/webauthn-authenticator": "Adds a method to authenticate with security keys or built-in platform authenticators."
             },
             "type": "silverstripe-vendormodule",
             "extra": {
@@ -4692,7 +4701,7 @@
                     "homepage": "https://www.silverstripe.org"
                 }
             ],
-            "description": "Enable multi factor authentication with fallback codes",
+            "description": "Enable multi-factor authentication with fallback codes",
             "keywords": [
                 "2-Factor",
                 "Authentication",
@@ -4700,7 +4709,7 @@
                 "security",
                 "silverstripe"
             ],
-            "time": "2019-06-26T22:09:18+00:00"
+            "time": "2019-07-02T22:06:00+00:00"
         },
         {
             "name": "silverstripe/mimevalidator",
@@ -5095,12 +5104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/recipe-services.git",
-                "reference": "73f0770694b5d6d295d1c16e48d537118c5baeea"
+                "reference": "098ff28ebf7eddc7c88809fd247208a42145c2c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/recipe-services/zipball/73f0770694b5d6d295d1c16e48d537118c5baeea",
-                "reference": "73f0770694b5d6d295d1c16e48d537118c5baeea",
+                "url": "https://api.github.com/repos/silverstripe/recipe-services/zipball/098ff28ebf7eddc7c88809fd247208a42145c2c3",
+                "reference": "098ff28ebf7eddc7c88809fd247208a42145c2c3",
                 "shasum": ""
             },
             "require": {
@@ -5122,7 +5131,7 @@
             ],
             "description": "Add API and content service modules to your SilverStripe project",
             "homepage": "https://www.silverstripe.org",
-            "time": "2019-06-27T21:40:37+00:00"
+            "time": "2019-06-27T22:29:23+00:00"
         },
         {
             "name": "silverstripe/registry",
@@ -5244,12 +5253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-restfulserver.git",
-                "reference": "a9507a7886222bd100fa741fd47e37906a6cdf9b"
+                "reference": "89c811b295c043f963336accc046e982ab00f53f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-restfulserver/zipball/a9507a7886222bd100fa741fd47e37906a6cdf9b",
-                "reference": "a9507a7886222bd100fa741fd47e37906a6cdf9b",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-restfulserver/zipball/89c811b295c043f963336accc046e982ab00f53f",
+                "reference": "89c811b295c043f963336accc046e982ab00f53f",
                 "shasum": ""
             },
             "require": {
@@ -5287,7 +5296,7 @@
                 "rest",
                 "silverstripe"
             ],
-            "time": "2019-06-11T02:09:15+00:00"
+            "time": "2019-06-28T04:24:21+00:00"
         },
         {
             "name": "silverstripe/security-extensions",
@@ -5868,22 +5877,22 @@
         },
         {
             "name": "silverstripe/totp-authenticator",
-            "version": "4.0.0-beta1",
+            "version": "4.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-totp-authenticator.git",
-                "reference": "6c978c1cf3a7375202ccf4e5ac9aec27d9145df7"
+                "reference": "78dc08fbc0f46aaa35c8669a3a354d960e320bf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-totp-authenticator/zipball/6c978c1cf3a7375202ccf4e5ac9aec27d9145df7",
-                "reference": "6c978c1cf3a7375202ccf4e5ac9aec27d9145df7",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-totp-authenticator/zipball/78dc08fbc0f46aaa35c8669a3a354d960e320bf9",
+                "reference": "78dc08fbc0f46aaa35c8669a3a354d960e320bf9",
                 "shasum": ""
             },
             "require": {
                 "paragonie/constant_time_encoding": "^2.0",
                 "php": ">=7.1.0",
-                "silverstripe/mfa": "^4.0",
+                "silverstripe/mfa": "^4.0@dev",
                 "silverstripe/siteconfig": "^4.0",
                 "spomky-labs/otphp": "^9.1"
             },
@@ -5917,7 +5926,7 @@
                 "silverstripe",
                 "totp"
             ],
-            "time": "2019-06-26T22:01:05+00:00"
+            "time": "2019-07-02T04:04:26+00:00"
         },
         {
             "name": "silverstripe/userforms",
@@ -6215,16 +6224,16 @@
         },
         {
             "name": "silverstripe/webauthn-authenticator",
-            "version": "4.0.0-beta1",
+            "version": "4.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-webauthn-authenticator.git",
-                "reference": "ac6885015e8ef7a5eedc0c6028e25263842f2f17"
+                "reference": "31c5cca070924b6cf2966cab2550bb62b4e6b1b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-webauthn-authenticator/zipball/ac6885015e8ef7a5eedc0c6028e25263842f2f17",
-                "reference": "ac6885015e8ef7a5eedc0c6028e25263842f2f17",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-webauthn-authenticator/zipball/31c5cca070924b6cf2966cab2550bb62b4e6b1b7",
+                "reference": "31c5cca070924b6cf2966cab2550bb62b4e6b1b7",
                 "shasum": ""
             },
             "require": {
@@ -6256,7 +6265,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2019-06-26T22:46:42+00:00"
+            "time": "2019-07-02T03:18:52+00:00"
         },
         {
             "name": "silverstripe/widgets",
