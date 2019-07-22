@@ -52,15 +52,19 @@ matrix:
       env: PHPUNIT_TEST=recipe-services
     - php: 7.1
       env: PHPUNIT_TEST=optional-authenticators
+    - php: 7.1
+      env: PHPUNIT_TEST=mfa
 
 before_script:
   # Configure PHP
   - phpenv rehash
   - phpenv config-rm xdebug.ini || true
-  - echo 'memory_limit = 2048M' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+  - echo 'memory_limit = 2G' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
   # Install dependencies
   - composer validate
+  # CWP 2.2/2.3 only: inline require MFA dependencies since they require PHP 7.1
+  - if [[ ${TRAVIS_PHP_VERSION:0:3} == "7.1" ]]; then composer require --no-update silverstripe/mfa:4.0.x-dev silverstripe/login-forms:4.0.x-dev silverstripe/security-extensions:4.0.x-dev silverstripe/totp-authenticator:4.0.x-dev silverstripe/webauthn-authenticator:4.0.x-dev; fi
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
   # Validate cow schema
