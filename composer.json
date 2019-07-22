@@ -25,11 +25,10 @@
         "silverstripe/login-forms": "4.0.x-dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "mikey179/vfsstream": "^1.6",
         "silverstripe/frameworktest": "dev-master",
         "silverstripe/graphql-devtools": "1.x-dev",
-        "silverstripe/recipe-testing": "1.x-dev"
+        "silverstripe/recipe-testing": "^1",
+        "mikey179/vfsstream": "^1.6"
     },
     "suggest": {
         "silverstripe/mfa": "Add MFA authentication. Only available in PHP ^7.1.",
