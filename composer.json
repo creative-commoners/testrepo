@@ -20,7 +20,8 @@
         "silverstripe/registry": "2.2.1@stable",
         "cwp/starter-theme": "3.0.0@stable",
         "silverstripe/webauthn-authenticator": "^4.0",
-        "silverstripe/totp-authenticator": "^4.0"
+        "silverstripe/totp-authenticator": "^4.0",
+        "silverstripe/recipe-content-blocks": "^2.3"
     },
     "suggest": {
         "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"
@@ -34,8 +35,10 @@
             "app/.htaccess",
             "app/_config.php",
             "app/_config/blog.yml",
+            "app/_config/contentblocks.yml",
             "app/_config/environmentcheck.yml",
             "app/_config/mysite.yml",
+            "app/src/BlocksPage.php",
             "app/src/Page.php",
             "app/src/PageController.php"
         ],
