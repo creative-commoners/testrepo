@@ -1,0 +1,70 @@
+{
+    "name": "cwp/cwp-recipe-kitchen-sink",
+    "type": "silverstripe-recipe",
+    "description": "Internal testing CWP recipe for all modules, optional and suggested",
+    "homepage": "https://www.cwp.govt.nz",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-plugin": "^1",
+        "cwp/cwp-installer": "2.4.0-rc1",
+        "cwp/agency-extensions": "2.3.0@stable",
+        "cwp/watea-theme": "3.0.1@stable",
+        "silverstripe/controllerpolicy": "2.1.0@stable",
+        "silverstripe/crontask": "2.1.3@stable",
+        "silverstripe/gridfieldqueuedexport": "2.3.0@stable",
+        "silverstripe/ldap": "1.1.2@stable",
+        "silverstripe/recipe-content-blocks": "2.4.0-rc1",
+        "dnadesign/silverstripe-elemental-userforms": "3.0.0@stable",
+        "silverstripe/textextraction": "3.0.3@stable",
+        "silverstripe/realme": "3.1.3@stable",
+        "silverstripe/ckan-registry": "1.1.0@stable",
+        "silverstripe/mfa": "4.0.0-rc2",
+        "silverstripe/totp-authenticator": "4.0.0-rc3",
+        "silverstripe/webauthn-authenticator": "4.0.0-rc2",
+        "silverstripe/security-extensions": "4.0.0-rc1",
+        "silverstripe/login-forms": "4.0.0-rc2"
+    },
+    "require-dev": {
+        "silverstripe/frameworktest": "dev-master",
+        "silverstripe/graphql-devtools": "1.x-dev",
+        "silverstripe/recipe-testing": "^1",
+        "mikey179/vfsstream": "^1.6"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/blog.yml",
+            "app/_config/contentblocks.yml",
+            "app/_config/cwpadmin.yml",
+            "app/_config/environmentcheck.yml",
+            "app/_config/mysite.yml",
+            "app/_config/security.yml",
+            "app/_config/theme.yml",
+            "app/_config/versionfeed.yml",
+            "app/src/BlocksPage.php",
+            "app/src/HomePage.php",
+            "app/src/HomePageController.php",
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "behat.yml",
+            "phpcs.xml.dist",
+            "phpunit.xml.dist"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
