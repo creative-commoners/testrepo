@@ -1,0 +1,19 @@
+fa_IR:
+  AkismetField:
+    SPAM: 'دیدگاه شما رد شد چراکه واژه یا کاراکتری به عنوان هرزنوشت تلقی شده است. لطفاً پیش از ارسال مجدد، مطمئن شوید دیدگاه شما از زبان مناسب بهره می‌برد'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: تایید
+    ISNTSPAM: 'هرزنوشت نیست'
+    ISSPAM: هرزنوشت
+    REMCOM: حذف
+  HomePage:
+    DESCRIPTION: 'ورود به سایت. دارای اسلایدر، پنل‌های برجسته‌شده، پیوندهای سریع و خلاصه‌ی اخبار است'
+    PLURALNAME: 'صفحات اصلی'
+    SINGULARNAME: 'صفحه اصلی'
+  Page:
+    DESCRIPTION: 'صفحه محتوای عمومی'
+    PLURALNAME: 'صفحات پایه'
+    SINGULARNAME: صفحه
+  SiteTree:
+    PLURALNAME: صفحات
+    SINGULARNAME: صفحه

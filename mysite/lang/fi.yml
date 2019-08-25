@@ -1,0 +1,19 @@
+fi:
+  AkismetField:
+    SPAM: 'Kommenttisi on hylätty koska siinä käytetty sana tai merkki tunnistettiin spämmiksi. Tarkista kommenttisi sisältö ennen kuin lähetät sen uudelleen.'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: Hyväksy
+    ISNTSPAM: 'Ei spämmiä'
+    ISSPAM: Spämmiä
+    REMCOM: Poista
+  HomePage:
+    DESCRIPTION: 'Sivuston sisäänkäynti. Sisältää karuselleja, featured-paneeleita, pikalinkkejä sekä uutiskoonteja.'
+    PLURALNAME: Kotisivut
+    SINGULARNAME: Kotisivu
+  Page:
+    DESCRIPTION: 'Yleinen sisältösivu'
+    PLURALNAME: Pohjasivut
+    SINGULARNAME: Sivu
+  SiteTree:
+    PLURALNAME: Sivut
+    SINGULARNAME: Sivu
