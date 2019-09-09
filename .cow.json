@@ -1,0 +1,24 @@
+{
+  "github-slug": "silverstripe/cwp-recipe-kitchen-sink",
+  "changelog-holder": "cwp/cwp",
+  "changelog-path": "docs/en/05_Releases_and_changelogs/cwp_{version}.md",
+  "changelog-template": ".changelog.md.twig",
+  "changelog-include-other-changes": true,
+  "child-stability-inherit": [
+    "cwp/cwp-installer",
+    "silverstripe/recipe-content-blocks"
+  ],
+  "dependency-constraint": "exact",
+  "vendors": [
+    "cwp",
+    "silverstripe"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ],
+  "upgrade-only": [
+    "dnadesign/silverstripe-elemental-subsites",
+    "dnadesign/silverstripe-elemental-userforms",
+    "undefinedoffset/sortablegridfield"
+  ]
+}
