@@ -6,23 +6,24 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "cwp/cwp-installer": "2.4.x-dev",
-        "cwp/agency-extensions": "2.2.x-dev",
-        "cwp/watea-theme": "3.0.x-dev",
-        "silverstripe/controllerpolicy": "2.1.x-dev",
-        "silverstripe/crontask": "2.1.x-dev",
-        "silverstripe/gridfieldqueuedexport": "2.2.x-dev",
-        "silverstripe/ldap": "1.1.x-dev",
-        "silverstripe/recipe-content-blocks": "2.4.x-dev",
-        "dnadesign/silverstripe-elemental-userforms": "3.0.x-dev",
-        "silverstripe/textextraction": "3.0.x-dev",
-        "silverstripe/realme": "3.1.x-dev",
-        "silverstripe/ckan-registry": "1.1.x-dev",
-        "silverstripe/mfa": "4.0.x-dev",
-        "silverstripe/totp-authenticator": "4.0.x-dev",
-        "silverstripe/webauthn-authenticator": "4.0.x-dev",
-        "silverstripe/security-extensions": "4.0.x-dev",
-        "silverstripe/login-forms": "4.0.x-dev"
+        "cwp/cwp-installer": "2.x-dev",
+        "cwp/agency-extensions": "2.x-dev",
+        "cwp/watea-theme": "3.x-dev",
+        "silverstripe/controllerpolicy": "2.x-dev",
+        "silverstripe/crontask": "2.x-dev",
+        "silverstripe/gridfieldqueuedexport": "2.x-dev",
+        "silverstripe/ldap": "1.x-dev",
+        "silverstripe/recipe-content-blocks": "2.x-dev",
+        "dnadesign/silverstripe-elemental-userforms": "3.x-dev",
+        "silverstripe/textextraction": "3.x-dev",
+        "silverstripe/realme": "3.x-dev",
+        "silverstripe/ckan-registry": "1.x-dev",
+        "silverstripe/mfa": "4.x-dev",
+        "silverstripe/totp-authenticator": "4.x-dev",
+        "silverstripe/webauthn-authenticator": "4.x-dev",
+        "silverstripe/security-extensions": "4.x-dev",
+        "silverstripe/login-forms": "4.x-dev",
+        "symbiote/silverstripe-multivaluefield": "5.x-dev"
     },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
@@ -35,10 +36,7 @@
         "silverstripe/totp-authenticator": "Add TOTP for the silverstripe/mfa module. Only available in PHP ^7.1."
     },
     "extra": {
-        "project-files": [],
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
+        "project-files": []
     },
     "config": {
         "process-timeout": 600
