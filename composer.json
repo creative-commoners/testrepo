@@ -7,11 +7,11 @@
     "require": {
         "silverstripe/recipe-plugin": "^1",
         "cwp/cwp-installer": "2.5.x-dev",
-        "cwp/agency-extensions": "2.2.x-dev",
+        "cwp/agency-extensions": "2.3.x-dev",
         "cwp/watea-theme": "3.0.x-dev",
         "silverstripe/controllerpolicy": "2.1.x-dev",
         "silverstripe/crontask": "2.1.x-dev",
-        "silverstripe/gridfieldqueuedexport": "2.2.x-dev",
+        "silverstripe/gridfieldqueuedexport": "2.3.x-dev",
         "silverstripe/ldap": "1.1.x-dev",
         "silverstripe/recipe-content-blocks": "2.5.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "3.0.x-dev",
