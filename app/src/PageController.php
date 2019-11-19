@@ -1,10 +1,9 @@
 <?php
 
 namespace {
+    use CWP\CWP\PageTypes\BasePageController;
 
-    use SilverStripe\CMS\Controllers\ContentController;
-
-    class PageController extends ContentController
+    class PageController extends BasePageController
     {
         /**
          * An array of actions that can be accessed via a request. Each array element should be an action name, and the
