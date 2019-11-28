@@ -16,46 +16,32 @@ addons:
       - libhunspell-dev
       - hunspell-en-us
 
+php: 7.4
+
 env:
   global:
     - DB=MYSQL
 
 matrix:
   include:
-    - php: 7.1
-      env: PHPUNIT_TEST=Default PDO=1
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-core
-    - php: 7.1
-      env: PHPUNIT_TEST=framework-orm
-    - php: 7.1
-      env: PHPUNIT_TEST=framework-core
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-cms
-    - php: 7.1
-      env: PHPUNIT_TEST=cwp-recipe-core PDO=1
-    - php: 7.1
-      env: PHPUNIT_TEST=cwp-recipe-cms
-    - php: 7.1
-      env: PHPUNIT_TEST=cwp-recipe-search PDO=1
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-authoring-tools
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-blog
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-collaboration
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-content-blocks
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-form-building
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-reporting-tools
-    - php: 7.1
-      env: PHPUNIT_TEST=recipe-services
+    - env: PHPUNIT_TEST=Default PDO=1
+    - env: PHPUNIT_TEST=recipe-core
+    - env: PHPUNIT_TEST=framework-orm
+    - env: PHPUNIT_TEST=framework-core
+    - env: PHPUNIT_TEST=recipe-cms
+    - env: PHPUNIT_TEST=cwp-recipe-core PDO=1
+    - env: PHPUNIT_TEST=cwp-recipe-cms
+    - env: PHPUNIT_TEST=cwp-recipe-search PDO=1
+    - env: PHPUNIT_TEST=recipe-authoring-tools
+    - env: PHPUNIT_TEST=recipe-blog
+    - env: PHPUNIT_TEST=recipe-collaboration
+    - env: PHPUNIT_TEST=recipe-content-blocks
+    - env: PHPUNIT_TEST=recipe-form-building
+    - env: PHPUNIT_TEST=recipe-reporting-tools
+    - env: PHPUNIT_TEST=recipe-services
+    - env: PHPUNIT_TEST=mfa
     - php: 7.1
       env: PHPUNIT_TEST=optional-authenticators
-    - php: 7.1
-      env: PHPUNIT_TEST=mfa
 
 before_script:
   # Configure PHP
