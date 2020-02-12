@@ -5,6 +5,7 @@
     "homepage": "https://www.cwp.govt.nz",
     "license": "BSD-3-Clause",
     "require": {
+        "php": ">=7.1",
         "silverstripe/recipe-plugin": "^1",
         "cwp/cwp-installer": "2.5.x-dev",
         "cwp/agency-extensions": "2.3.x-dev",
