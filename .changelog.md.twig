@@ -2,9 +2,15 @@
 
 ## Overview
 
-This release includes CMS and Framework version X.X.X.
+This release includes [CMS and Framework version X.X.X](#).
 
-- [Framework X.X.X](#)
+{% if version.stability == 'rc' %}
+
+## Release Candidate
+
+This version of CWP is a **release candidate** for an upcoming stable version, and should not be applied to production websites. We encourage developers to test this version in development / testing environments and report any issues they encounter via GitHub.
+
+{% elseif version.stable %}
 
 Upgrading to Recipe {{ version }} is recommended for all CWP sites. This upgrade can be carried out by any development team familiar with SilverStripe. However, if you would like SilverStripe's assistance, you can request support via the [Service Desk](https://www.cwp.govt.nz/service-desk/new-request/).
 
@@ -46,5 +52,7 @@ In order to update an existing site to use the new CWP recipe the following chan
 
 
 ...
+
+{% endif %}
 
 {{ logs }}
