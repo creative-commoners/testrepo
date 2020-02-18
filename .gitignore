@@ -1,0 +1,10 @@
+/silverstripe-cache/
+/.env
+/vendor/
+/themes/simple/
+/resources/
+/public/assets/
+/public/resources/
+/themes/
+.vscode/
+.vagrant/
