@@ -70,9 +70,6 @@
             "php": "7.1"
         }
     },
-    "replace": {
-        "ext-mcrypt": "*"
-    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
