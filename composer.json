@@ -30,7 +30,8 @@
         "silverstripe/frameworktest": "dev-master",
         "silverstripe/graphql-devtools": "1.x-dev",
         "silverstripe/recipe-testing": "^1",
-        "mikey179/vfsstream": "^1.6"
+        "mikey179/vfsstream": "^1.6",
+        "sminnee/phpunit-mock-objects": "^3.4.5"
     },
     "suggest": {
         "silverstripe/mfa": "Add MFA authentication. Only available in PHP ^7.1.",
