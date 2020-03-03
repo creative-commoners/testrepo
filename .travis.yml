@@ -40,8 +40,7 @@ matrix:
     - env: PHPUNIT_TEST=recipe-reporting-tools
     - env: PHPUNIT_TEST=recipe-services
     - env: PHPUNIT_TEST=mfa
-    - php: 7.1
-      env: PHPUNIT_TEST=optional-authenticators
+    - env: PHPUNIT_TEST=optional-authenticators
 
 before_script:
   # Configure PHP
