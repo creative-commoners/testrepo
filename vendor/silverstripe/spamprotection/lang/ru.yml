@@ -1,0 +1,6 @@
+ru:
+  SilverStripe\SpamProtection\EditableSpamProtectionField:
+    PLURALNAME: 'Поля защиты от спама'
+    SINGULARNAME: 'Поле защиты от спама'
+    SPAMFIELDMAPPING: 'Привязка полей для защиты от спама'
+    SPAMFIELDMAPPINGDESCRIPTION: 'Выберите поля формы, которые соответствуют любому индентификатору защиты от спама'

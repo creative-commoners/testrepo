@@ -1,0 +1,15 @@
+---
+Name: packagerelations
+after: '#updatecheckerextensions'
+Only:
+  moduleexists: bringyourownideas/silverstripe-maintenance
+---
+BringYourOwnIdeas\Maintenance\Model\Package:
+  extensions:
+    - BringYourOwnIdeas\SecurityChecker\Extensions\PackageSecurityExtension
+BringYourOwnIdeas\SecurityChecker\Models\SecurityAlert:
+  extensions:
+    - BringYourOwnIdeas\SecurityChecker\Extensions\SecurityAlertExtension
+BringYourOwnIdeas\Maintenance\Reports\SiteSummary:
+  extensions:
+    - BringYourOwnIdeas\SecurityChecker\Extensions\SiteSummaryExtension

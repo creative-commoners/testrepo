@@ -1,0 +1,173 @@
+sk:
+  EditableUploadField:
+    SELECTUPLOADFOLDER: 'Priečinok na nahrávanie súborov'
+  SilverStripe\UserForms\Extension\UserFormFieldEditorExtension:
+    ADD_FIELD: 'Pridať políčko'
+    ADD_FIELD_GROUP: 'Pridať obaľovaciu skupinu'
+    ADD_PAGE_BREAK: 'Pridať ďalšiu stranu'
+    FORMFIELDS: Formulár
+  SilverStripe\UserForms\Extension\UserFormValidator:
+    CONDITIONAL_REQUIRED: 'Vyžadované pole ''{name}'' nemôže byť umiestnené do podmienenej stránky'
+    NO_PAGE: 'Pole ''{name}'' nájdené pred akoukoľvek stránkou'
+    UNEXPECTED_BREAK: 'Neočakávaný zlom strany ''{name}'' vnútri obaľovacej skupiny ''{group}'''
+    UNEXPECTED_GROUP_END: '''{name}'' nájdený bez odpovedajúcho začiatku'
+    WRONG_GROUP_END: '''{name}'' nájdený vrámci zle uzatvorenej obaľovacej skupiny ''{group}'''
+  SilverStripe\UserForms\Form\UserFormsGridFieldFilterHeader:
+    FILTERSUBMISSIONS: 'Filtrovať ...'
+    FROM: Od
+    TILL: Do
+    WHEREVALUEIS: 'kde hodnota je ...'
+  SilverStripe\UserForms\Model\EditableCustomRule:
+    PLURALNAME: 'Vlastné pravidlá'
+    SINGULARNAME: 'Vlastne pravidlo'
+  SilverStripe\UserForms\Model\EditableFormField:
+    CHECKEDBYDEFAULT: 'Zaškrtnuté v predvolenom režime?'
+    CUSTOMERROR: 'Vlastná chybová správa'
+    CUSTOMOPTIONS: Voľby/možnosti
+    CUSTOMRULES: 'Vlastné pravidlá'
+    DEFAULT: 'Predvolená hodnota'
+    DEFAULTTOTODAY: 'Zobraziť v predvolenom režime na dnešný dátum?'
+    DISPLAY_RULES_DISABLED: 'Pravidlá zobrazenia nie sú povolené pre povinné/vyžadované polia. Prosím odškrtnite "Je pole povinné/vyžadované?" na záložke "Validácia".'
+    EXTRACLASS_MULTIPLE: 'Jednotlivé CSS triedy oddeľte jednou medzerou'
+    EXTRACLASS_SELECT: 'Vyberte si zo zoznamu povolených štýlov'
+    EXTRACLASS_TITLE: 'Extra úprava/vzhľad'
+    EXTRACLASS_Title: 'Extra CSS triedy'
+    FIELDISREQUIRED: '{name} je vyžadované'
+    GROUP: Skupina
+    'NO': ' Nie'
+    PLURALNAME: 'Formulárové polia'
+    REQUIRED: 'Je pole povinné/vyžadované?'
+    REQUIRED_DESCRIPTION: 'Všimnite si prosím, že podmienené polia nemôžu byť vyžadované.'
+    RIGHTTITLE: 'Popis vpravo'
+    SINGULARNAME: 'Formulárové pole'
+    TITLE: Názov
+    TYPE: Typ
+    VALIDATION: Validácia
+    'YES': Áno
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckbox:
+    PLURALNAME: 'Zaškrtávacie polia (checkbox)'
+    SINGULARNAME: 'Zaškrtávacie pole (checkbox)'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckboxGroupField:
+    PLURALNAME: 'Skupiny zaškrtávacích polí'
+    SINGULARNAME: 'Skupina zaškrtávacích polí'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCountryDropdownField:
+    PLURALNAME: 'Rozbaľovacie polia (výber krajiny)'
+    SINGULARNAME: 'Rozbaľovacie pole (výber krajiny)'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDateField:
+    PLURALNAME: 'Dátumové polia'
+    SINGULARNAME: 'Dátumové pole'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDropdown:
+    PLURALNAME: 'Rozbaľovacie polia'
+    SINGULARNAME: 'Rozbaľovacie pole'
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'E-mailové polia'
+    SINGULARNAME: 'E-mailové pole'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFieldGroup:
+    PLURALNAME: 'Skupiny polí'
+    SINGULARNAME: 'Skupina polí'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFieldGroupEnd:
+    FIELD_GROUP_END: 'Koniec {group}'
+    FIELD_GROUP_START: 'Skupina {group}'
+    PLURALNAME: 'Konce skupiny polí'
+    SINGULARNAME: 'Koniec skupiny polí'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFileField:
+    PLURALNAME: 'Polia pre nahratie súboru'
+    SINGULARNAME: 'Pole pre nahratie súboru'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormHeading:
+    LEVEL: 'Úroveň nadpisu'
+    PLURALNAME: Nadpisy
+    SINGULARNAME: Nadpis
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormStep:
+    PLURALNAME: 'Zlomy strán'
+    SINGULARNAME: 'Zlom strany'
+    STEP_TITLE: 'Strana {page}'
+    TITLE_FIRST: 'Prvá strana'
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    CONTENT: HTML
+    HIDEFROMREPORT: 'Skryť z reportu?'
+    HIDELABEL: 'Skryť ''Názov'' na FrontEnd-e?'
+    PLURALNAME: 'HTML bloky'
+    SINGULARNAME: 'HTML blok'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMemberListField:
+    PLURALNAME: 'Polia zoznamu členov'
+    SINGULARNAME: 'Pole zoznamu členov'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    DEFAULT: 'Vybrané v predvolenom režime?'
+    OPTIONSTAB: Možnosti
+    PLURALNAME: 'Polia s viacerými možnosťami'
+    SINGULARNAME: 'Pole s viacerými možnosťami'
+    TITLE: Názov
+    VALUE: Hodnota
+  SilverStripe\UserForms\Model\EditableFormField\EditableNumericField:
+    PLURALNAME: 'Numerické/číselné polia'
+    RANGE: 'Povolený rozsah'
+    RANGE_TO: do
+    SINGULARNAME: 'Numerické/číselné pole'
+  SilverStripe\UserForms\Model\EditableFormField\EditableOption:
+    PLURALNAME: Možnosti
+    SINGULARNAME: Možnosť
+  SilverStripe\UserForms\Model\EditableFormField\EditableRadioField:
+    PLURALNAME: 'Prepínacie polia (radio)'
+    SINGULARNAME: 'Prepínacie pole (radio)'
+  SilverStripe\UserForms\Model\EditableFormField\EditableTextField:
+    NUMBERROWS: 'Počet riadkov'
+    NUMBERROWS_DESCRIPTION: 'Políčka s viac ako jedným riadkom sú generované ako textarea.'
+    PLURALNAME: 'Textové polia'
+    RANGE_TO: do
+    SINGULARNAME: 'Textové pole'
+    TEXTLENGTH: 'Povolená dĺžka textu'
+  SilverStripe\UserForms\Model\EditableFormField\Validator:
+    REQUIRED_ERROR: 'Formulárové polia nemôžu byť vyžadované, ak majú podmienené pravidlá zobrazenia.'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+    CUSTOMRULESTAB: 'Vlastné pravidlá'
+    EMAILCONTENTTAB: 'Obsah e-mailu'
+    EMAILDETAILSTAB: 'Detaily e-mailu'
+    PLURALNAME: 'Užívateľom definovaný formulár - príjemcovia e-mailu'
+    SINGULARNAME: 'Užívateľom definovaný formulár - príjemca e-mailu'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipientCondition:
+    PLURALNAME: 'Užívateľom definovaný formulár - podmienky príjemcu e-mailu'
+    SINGULARNAME: 'Užívateľom definovaný formulár - podmienka príjemcu e-mailu'
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'Stiahnuť súbor'
+    PLURALNAME: 'Pole s odoslanými súbormi'
+    SINGULARNAME: 'Pole s odoslaným súborom'
+  SilverStripe\UserForms\Model\Submission\SubmittedForm:
+    PLURALNAME: 'Odoslané formuláre'
+    SINGULARNAME: 'Odoslaný formulár'
+  SilverStripe\UserForms\Model\Submission\SubmittedFormField:
+    PLURALNAME: 'Odoslané formulárové polia'
+    SINGULARNAME: 'Odoslané formulárove pole'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    CLEARBUTTON: Vyčistiť
+    DESCRIPTION: 'Umožňuje vytvoriť užívateľom definovaný formulár.'
+    EMAILADDRESS: E-mail
+    EMAILBODY: Správa
+    EMAILBODYHTML: Správa
+    EMAILFROM: Od
+    EMAILSUBJECT: Predmet
+    EMAILTEMPLATE: 'E-mailová šablóna'
+    EmailFromContent: 'Políčko "E-mail odosielateľa" umožňuje nastaviť adresu, od koho príde e-mail. Na väčšine serverov musí mať táto adresa nastavenú rovnakú doménu ako je doména stránky. Napr. na stránke mojastranka.sk musí byť táto adresa nieco@mojastranka.sk. Avšak ako "Odpoveď na" môžete zadať ľubovoľnú e-mailovú adresu, na ktorú príde odpoveď.'
+    FROMADDRESS: 'E-mail odosielateľa'
+    FileUploadWarning: 'Súbory nahraté pomocou tohto políčka môžu byť verejné prístupné, pokiaľ je známa presná URL adresa.'
+    HIDEFORMDATA: 'Skryť dáta z e-mailu?'
+    ORSELECTAFIELDTOUSEASFROM: '... alebo vyberte poľe, ktoré sa použije na odpoveď'
+    ORSELECTAFIELDTOUSEASTO: '... alebo vyberte poľe, ktoré sa použije ako E-mail príjemcu'
+    PLURALNAME: 'Jednoduché formuláre'
+    PREVIEW_EMAIL: 'Náhľad e-mailu'
+    PREVIEW_EMAIL_DESCRIPTION: 'Poznámka: Neuložené zmeny sa v náhľade nezobrazujú.'
+    PREVIEW_EMAIL_UNAVAILABLE: 'Akonáhle uložite príjemcu, budete si môcť pozrieť ako bude vyzerať tento e-mail.'
+    REPLYADDRESS: 'Odpoveď na'
+    REPLYADDRESS_DESCRIPTION: 'E-mailová adresa, na ktorú príde odpoveď od príjemcu.'
+    RulesDescription: 'E-maily budú zasielane príjemcovi len vtedy, ak sú splnené vlastné pravidlá. Ak pravidlá nie sú definované, príjemca bude dostávať e-maily pri každom podanom formulári.'
+    SELECTAFIELDTOSETSUBJECT: '... alebo vyber poľe, ktoré sa použije ako predmet'
+    SENDEMAILTO: 'E-mail príjemcu'
+    SENDEMAILTO_DESCRIPTION: 'Môžete zadať viac e-mailových adries, pričom jednotlivé adresy oddeľujte čiarkou.'
+    SENDIF: 'Podmienka poslania'
+    SENDIFAND: 'Všetky podmienky sú splnené'
+    SENDIFOR: 'Akékoľvek podmienky sú splnené'
+    SENDPLAIN: 'Poslať e-mail ako obyčajný text? (HTML značky budú odstránené)'
+    SINGULARNAME: 'Jednoduchý formulár'
+    SUBMITBUTTON: Odoslať
+    TYPEREPLY: 'Napíšte adresu'
+    TYPESUBJECT: 'Napíšte predmet'
+    TYPETO: 'Napíšte adresu'

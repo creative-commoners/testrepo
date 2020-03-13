@@ -1,0 +1,22 @@
+---
+Name: cwpconfig
+After: 'cwp-core/*'
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+   - CWP\CWP\Extensions\CustomSiteConfig
+
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - CWP\CWP\Extensions\CwpSiteTreeExtension
+
+SilverStripe\Taxonomy\TaxonomyTerm:
+  extensions:
+   - CWP\CWP\Extensions\TaxonomyTermExtension
+
+SilverStripe\Security\Member:
+  title_format:
+    columns:
+      - FirstName
+      - Surname
+    sep: ' '

@@ -1,0 +1,6 @@
+---
+Name: cwpsearchextensions
+---
+CWP\CWP\PageTypes\BasePageController:
+  extensions:
+    - CWP\Search\Extensions\SearchControllerExtension

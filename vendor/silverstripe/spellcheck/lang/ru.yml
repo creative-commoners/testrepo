@@ -1,0 +1,9 @@
+ru:
+  SilverStripe\SpellCheck\Handling\SpellController:
+    InvalidLocale: 'Не поддерживаемый язык'
+    InvalidRequest: 'Неверный запрос'
+    MissingData: 'Не могу получить отправленные данные'
+    MissingProviders: 'Модуль проверки орфографии не установлен'
+    SecurityDenied: 'Нет доступа'
+    SecurityMissing: 'Время вашего сеанса истекло. Обновите страницу для продолжения.'
+    UnsupportedMethod: 'Метод ''{method}'' неподдерживается'

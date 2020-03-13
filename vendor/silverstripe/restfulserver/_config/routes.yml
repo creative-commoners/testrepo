@@ -1,0 +1,6 @@
+---
+Name: restfulserverroutes
+---
+SilverStripe\Control\Director:
+  rules:
+   'api/v1': 'SilverStripe\RestfulServer\RestfulServer'

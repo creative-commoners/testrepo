@@ -1,0 +1,14 @@
+{
+  "github-slug": "silverstripe/recipe-blog",
+  "child-stability-inherit": false,
+  "dependency-constraint": "exact",
+  "vendors": [
+    "silverstripe"
+  ],
+  "upgrade-only": [
+    "silverstripe/recipe-cms"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ]
+}

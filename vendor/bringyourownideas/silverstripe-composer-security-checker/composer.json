@@ -1,0 +1,51 @@
+{
+    "name": "bringyourownideas/silverstripe-composer-security-checker",
+    "description": "Provides information if your SilverStripe application uses dependencies with known vulnerabilities.",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "environment",
+        "composer",
+        "updates",
+        "vulnerabilities",
+        "security"
+    ],
+    "authors": [
+        {
+            "name": "Peter Thaleikis",
+            "homepage": "https://thaleikis.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "silverstripe/framework": "^4",
+        "sensiolabs/security-checker": "^5",
+        "symbiote/silverstripe-queuedjobs": "^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "replace": {
+        "spekulatius/silverstripe-composer-security-checker": "self.version"
+    },
+    "suggest": {
+        "bringyourownideas/silverstripe-maintenance": "Display advisory information via Site Summary Report",
+        "roave/security-advisories": "Raises a conflict on attempt to install a vulnerable module"
+    },
+    "support": {
+        "issues": "https://github.com/bringyourownideas/silverstripe-composer-security-checker/issues"
+    },
+    "homepage": "https://github.com/bringyourownideas/silverstripe-composer-security-checker"
+}

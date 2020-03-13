@@ -1,0 +1,3 @@
+fr:
+  SilverStripe\IFrame\IFramePage:
+    PLURALNAME: 'Base Pages'

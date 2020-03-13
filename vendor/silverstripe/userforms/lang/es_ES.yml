@@ -1,0 +1,103 @@
+es_ES:
+  EditableUploadField:
+    SELECTUPLOADFOLDER: 'Seleccionar carpeta de carga'
+  SilverStripe\UserForms\Form\UserFormsGridFieldFilterHeader:
+    FILTERSUBMISSIONS: 'Filtrar envíos.'
+    WHEREVALUEIS: 'donde el valor es'
+  SilverStripe\UserForms\Model\EditableCustomRule:
+    PLURALNAME: 'Reglas personalizadas editables'
+    SINGULARNAME: 'Regla personalizada editable'
+  SilverStripe\UserForms\Model\EditableFormField:
+    CHECKEDBYDEFAULT: '¿Marcado por defecto?'
+    CUSTOMERROR: 'Mensaje de error personalizado'
+    CUSTOMOPTIONS: Opciones
+    CUSTOMRULES: 'Reglas especiales'
+    DEFAULTTOTODAY: '¿Por defecto a hoy?'
+    FIELDISREQUIRED: '{name} es requerido'
+    GROUP: Grupo
+    'NO': 'No'
+    PLURALNAME: 'Campos de formulario editables'
+    REQUIRED: 'Este campo es necesario para este formulario y no puede ser borrado'
+    SINGULARNAME: 'Campo de formulario editable'
+    VALIDATION: Validación
+    'YES': Sí
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckbox:
+    PLURALNAME: 'Casillas de verificación'
+    SINGULARNAME: 'Campo de casillas de verificación'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckboxGroupField:
+    PLURALNAME: 'Grupos de casillas de verificación'
+    SINGULARNAME: 'Grupo de casillas de verificación'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCountryDropdownField:
+    PLURALNAME: 'Selectores de país'
+    SINGULARNAME: 'Selector de país'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDateField:
+    PLURALNAME: 'Campos de fecha'
+    SINGULARNAME: 'Campo de fecha'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDropdown:
+    PLURALNAME: 'Listas desplegables'
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'Correos electrónicos'
+    SINGULARNAME: 'Campo de correo electrónico'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFieldGroup:
+    PLURALNAME: 'Grupos de campos editables'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFieldGroupEnd:
+    FIELD_GROUP_START: 'Grupo {group}'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFileField:
+    PLURALNAME: 'Campos subir archivo'
+    SINGULARNAME: 'Campo subir archivo'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormHeading:
+    LEVEL: 'Selecionar el nivel del encabezado'
+    PLURALNAME: Encabezados
+    SINGULARNAME: Encabezado
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    HIDEFROMREPORT: '¿Ocultar de los informes?'
+    PLURALNAME: 'Bloques HTML'
+    SINGULARNAME: 'Bloque HTML'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMemberListField:
+    PLURALNAME: 'Listado de miembros'
+    SINGULARNAME: 'Listado de miembro'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    PLURALNAME: 'Campos de opción múltiple'
+    SINGULARNAME: 'Campo de opción múltiple'
+  SilverStripe\UserForms\Model\EditableFormField\EditableNumericField:
+    PLURALNAME: 'Campos numéricos'
+    SINGULARNAME: 'Campo numérico'
+  SilverStripe\UserForms\Model\EditableFormField\EditableOption:
+    PLURALNAME: 'Opciones editables'
+    SINGULARNAME: 'Opciones editables'
+  SilverStripe\UserForms\Model\EditableFormField\EditableTextField:
+    NUMBERROWS: 'Cantidad de filas'
+    PLURALNAME: 'Campos de texto'
+    SINGULARNAME: 'Campo de texto'
+    TEXTLENGTH: 'Longitud del texto'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+    PLURALNAME: 'Destinatarios definidos por el usuario'
+    SINGULARNAME: 'Destinatario definido por el usuario'
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'Descargar archivo'
+    PLURALNAME: 'Archivos enviados'
+    SINGULARNAME: 'Archivo enviado'
+  SilverStripe\UserForms\Model\Submission\SubmittedForm:
+    PLURALNAME: 'Formularios enviados'
+    SINGULARNAME: 'Formulario enviado'
+  SilverStripe\UserForms\Model\Submission\SubmittedFormField:
+    PLURALNAME: 'Campos enviados en formulario'
+    SINGULARNAME: 'Campo enviado en formulario'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    DESCRIPTION: 'Agrega un formulario personalizable.'
+    EMAILADDRESS: Email
+    EMAILBODY: Cuerpo
+    EMAILFROM: De
+    EMAILSUBJECT: 'Asunto del correo'
+    EmailFromContent: 'La dirección desde permite establecer de quien viene el email. En la mayoría de los servidores esto se necesitará establecer a una dirección de email del mismo nombre de dominio que su sitio. Por ejemplo, en susitio.com la dirección desde puede ser algo como loquesea@susitio.com. Sin embargo, Ud puede establecer cualquier dirección de email que desee como dirección del remitente.'
+    FROMADDRESS: 'Enviar este mail desde'
+    HIDEFORMDATA: 'Esconder los datos enviados en el mail'
+    ORSELECTAFIELDTOUSEASFROM: '.. o seleccione un campo del formulario para utilizar como dirección del remitente'
+    ORSELECTAFIELDTOUSEASTO: '.. o seleccione un campo que se utiliza como la dirección'
+    PLURALNAME: 'Páginas base'
+    REPLYADDRESS: 'Email para responder a'
+    SELECTAFIELDTOSETSUBJECT: '... o seleccionar un campo para usarlo como el asunto'
+    SENDEMAILTO: 'Enviar mail a'
+    SENDPLAIN: 'Enviar el correo como texto plano'
+    SINGULARNAME: 'Formulario definido por el usuario'
+    SUBMITBUTTON: Enviar

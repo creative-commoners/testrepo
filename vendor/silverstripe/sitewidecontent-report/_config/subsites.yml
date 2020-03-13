@@ -1,0 +1,11 @@
+---
+Name: sitewidecontentsubsites
+Only:
+  moduleexists: silverstripe/subsites
+---
+SilverStripe\SiteWideContentReport\SitewideContentReport:
+  extensions:
+    - SilverStripe\SiteWideContentReport\Model\SitewideContentSubsites
+SilverStripe\SiteWideContentReport\Form\GridFieldBasicContentReport:
+  extensions:
+    - SilverStripe\SiteWideContentReport\Model\SitewideContentSubsites

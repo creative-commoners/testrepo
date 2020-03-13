@@ -1,0 +1,83 @@
+fa_IR:
+  CommentInterface:
+    COMMENT_MESSAGE_REQUIRED: 'لطفاً دیدگاه خود را وارد نمایید'
+    COMMENT_MESSAGE_URL: 'لطفاً نشانی اینترنتی معتبر وارد نمایید'
+    EMAILADDRESS_MESSAGE_EMAIL: 'لطفاً نشانی ایمیل معتبر وارد نمایید'
+    EMAILADDRESS_MESSAGE_REQUIRED: 'لطفاً نشانی ایمیل خود را وارد نمایید'
+    POST: ارسال
+    PREVIEW: پیش‌نمایش
+    PREVIEWLABEL: پیش‌نمایش
+    YOURNAME: 'نام شما'
+    YOURNAME_MESSAGE_REQUIRED: 'لطفاً نام خود را وارد نمایید'
+  Comments:
+    COMMENTSREQUIRELOGIN: 'درج دیدگاه نیازمند ورود شما به سایت است'
+  CommentsAdmin:
+    Comments: 'تایید شده'
+    NewComments: تازه
+    SpamComments: هرزنوشت
+  CommentsInterface_pendingcomment_ss:
+    AWAITINGMODERATION: 'دیدگاه شما ارسال شده و هم‌اکنون در انتظار بررسی است.'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: 'تایید کن'
+    ISNTSPAM: 'هرزنوشت نیست'
+    ISSPAM: هرزنوشته
+    REMCOM: 'رد کردن'
+    REPLYTO: 'ارسال پاسخ به'
+  CommentsInterface_ss:
+    AWAITINGMODERATION: 'دیدگاه شما ارسال شده و هم‌اکنون در انتظار بررسی است.'
+    COMMENTLOGINERROR: 'تا زمانی‌که وارد سایت نشده‌اید نمی‌توانید دیدگاهی درج نمایید'
+    COMMENTPERMISSIONERROR: 'و اینکه شما دارای سطح دسترسی مناسب هستید'
+    COMMENTPOSTLOGIN: 'از اینجا وارد سایت شوید'
+    COMMENTS: دیدگاه‌ها
+    COMMENTSDISABLED: 'ارسال دیدگاه مسدود است'
+    DELETEALLCOMMENTS: 'حذف تمامی دیدگاه‌ها در این صفحه'
+    LOGINTOPOSTCOMMENT: 'برای ارسال دیدگاه وارد شوید'
+    NEXT: بعدی
+    NOCOMMENTSYET: 'هنوز هیچکس در این صفحه دیدگاهی ننگاشته است.'
+    POSTCOM: 'ارسال دیدگاه'
+    PREV: پیشین
+    RSSFEEDALLCOMMENTS: 'خوراک آر‌اس‌اس تمامی دیدگاه‌ها'
+    RSSFEEDCOMMENTS: 'خوراک آر‌اس‌اس دیدگاه‌های این صفحه'
+  SilverStripe\Comments\Admin\CommentAdmin:
+    ADMIN_PERMISSION: 'دسترسی به بخش ''دیدگاه‌ها'''
+    ApprovedComments: 'تایید شده'
+    Comments: 'تایید شده'
+    MENUTITLE: دیدگاه‌ها
+    NewComments: تازه
+    SpamComments: هرزنوشت
+  SilverStripe\Comments\Admin\CommentsGridFieldAction:
+    APPROVE: تایید
+    COMMENTAPPROVED: 'دیدگاه تایید شد.'
+    COMMENTMARKEDSPAM: 'دیدگاه به عنوان هرزنوشت علامت‌گذاری شد.'
+    SPAM: هرزنوشت
+  SilverStripe\Comments\Admin\CommentsGridFieldConfig:
+    APPROVE: تایید
+    SPAM: هرزنوشت
+  SilverStripe\Comments\Controllers\CommentingController:
+    COMMENTS: دیدگاه‌ها
+    EMAILADDRESS: 'ایمیل شما (منتشر نخواهد شد)'
+    PERMISSIONFAILURE: 'شما نمی‌توانید در این صفحه دیدگاهی درج نمایید. لطفاً اطمینان حاصل نمایید که وارد سایت شده‌اید و از سطح دسترسی دسترسی مناسب برخوردار هستید.'
+    RSSTITLE: 'خوراک آراس‌اس دیدگاه‌ها'
+    WEBSITEURL: 'نشانی وب‌سایت شما'
+  SilverStripe\Comments\Extensions\CommentsExtension:
+    COMMENTOPTIONS: دیدگاه‌ها
+    MODERATIONREQUIRED_NONE: 'نیاز به مدیریت ندارد'
+    MODERATIONREQUIRED_NONMEMBERSONLY: 'تنها مدیریت کاربران غیر عضو'
+    MODERATIONREQUIRED_REQUIRED: 'مدیریت تمامی دیدگاه‌ها'
+  SilverStripe\Comments\Model\Comment:
+    ALLOWCOMMENTS: 'اجازه نشر دیدگاه'
+    COMMENT: دیدگاه
+    COMMENTBY: 'دیدگاه توسط %s'
+    CREATED: 'تاریخ ارسال'
+    EMAIL: ایمیل
+    ISSPAM: هرزنوشت؟
+    MODERATED: 'مدیریت شده؟'
+    NAME: 'نام نگارنده'
+    'ON': در
+    OPTIONS: گزینه‌ها
+    OPTION_DESCRIPTION: 'دیدگاه‌های مدیریت نشده و هرزنوشت‌ها تا زمان تایید به نمایش در نخواهند آمد'
+    PARENTTITLE: والد
+    PLURALNAME: دیدگاه‌ها
+    ParentComment_Title: 'این دیدگاه پاسخی است به زیر'
+    SINGULARNAME: دیدگاه
+    URL: 'نشانی اینترنتی'

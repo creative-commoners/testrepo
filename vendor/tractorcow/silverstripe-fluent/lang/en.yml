@@ -1,0 +1,52 @@
+en:
+  TractorCow\Fluent\Control\LocaleAdmin:
+    MENUTITLE: Locales
+  TractorCow\Fluent\Extension\FluentBadgeExtension:
+    BadgeDefault: 'Default locale'
+    BadgeInvisible: 'Localised in {locale}'
+    BadgeLocalised: '{type} is not visible in this locale'
+  TractorCow\Fluent\Extension\FluentExtension:
+    FLUENT_ICON_TOOLTIP: 'Translatable field'
+  TractorCow\Fluent\Extension\FluentFilteredExtension:
+    FILTERED_LOCALES: 'Display in the following locales'
+    LOCALEFILTEREDHELP: 'This page is not visible in this locale'
+    TAB_LOCALES: Locales
+  TractorCow\Fluent\Extension\FluentSiteTreeExtension:
+    LOCALECOPYANDPUBLISH: 'Copy & publish'
+    LOCALECOPYTODRAFT: 'Copy to draft'
+    LOCALESTATUSFLUENTDRAFT: 'A draft has been created for this locale, however, published content may still be inherited from another. To publish this content for this locale, use the "Save & publish" action provided.'
+    LOCALESTATUSFLUENTINHERITED: 'Content for this page may be inherited from another locale. If you wish you make an independent copy of this page, please use one of the "Copy" actions provided.'
+    LOCALESTATUSFLUENTINVISIBLE: 'This page will not be visible in this locale until it has been published.'
+  TractorCow\Fluent\Model\Domain:
+    DEFAULT: 'Default locale'
+    DEFAULT_NONE: (none)
+    DOMAIN_HOSTNAME: 'Domain Hostname'
+    DOMAIN_LOCALES: Locales
+    PLURALNAME: Domains
+    PLURALS:
+      one: 'A Domain'
+      other: '{count} Domains'
+    SINGULARNAME: Domain
+    UnsavedNotice: 'You can add locales once you''ve saved the domain.'
+  TractorCow\Fluent\Model\FallbackLocale:
+    LOCALE: Locale
+    PLURALNAME: 'Fallback Locales'
+    PLURALS:
+      one: 'A Fallback Locale'
+      other: '{count} Fallback Locales'
+    SINGULARNAME: 'Fallback Locale'
+  TractorCow\Fluent\Model\Locale:
+    DEFAULT_NONE: (none)
+    DOMAIN: Domain
+    FALLBACKS: 'Fallback Locales'
+    IS_DEFAULT: 'This is the global default locale'
+    IS_DEFAULT_DESCRIPTION: 'Note: Per-domain specific locale can be assigned on the Locales tab and will override this value for specific domains.'
+    LOCALE: Locale
+    LOCALE_TITLE: Title
+    LOCALE_URL: 'URL Segment'
+    PLURALNAME: Locales
+    PLURALS:
+      one: 'A Locale'
+      other: '{count} Locales'
+    SINGULARNAME: Locale
+    UnsavedNotice: 'You can add fallbacks once you''ve saved the locale.'

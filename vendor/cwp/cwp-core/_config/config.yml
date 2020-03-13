@@ -1,0 +1,33 @@
+---
+Name: cwpcoreconfig
+---
+CWP\Core\Config\CwpInitialisationFilter:
+  egress_proxy_default_enabled: true
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'cwp/cwp-core:css/custom.css'
+  session_keepalive_ping: false
+
+SilverStripe\Control\Session:
+  timeout: 1440
+
+SilverStripe\Forms\PasswordField:
+  autocomplete: false
+
+SilverStripe\Security\Member:
+  lock_out_after_incorrect_logins: 5
+  lock_out_delay_mins: 15
+  notify_password_change: true
+
+SilverStripe\Security\Security:
+  login_recording: false
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Director:
+    properties:
+      Middlewares:
+        CwpInitialisationMiddleware: '%$CWP\Core\Control\InitialisationMiddleware'
+
+GDBackend:
+  default_quality: 90

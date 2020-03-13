@@ -1,0 +1,13 @@
+lt:
+  Subsite:
+    COPYSTRUCTURE: 'Kopijuoti struktūrą iš:'
+    NOTEMPLATE: 'Nėra šablono'
+  Subsites:
+    DefaultSiteFieldLabel: 'Pagrindinė svetainė'
+    DomainFieldLabel: Domenas
+    IsPublicFieldLabel: 'Leisti pasiekti visiems'
+    LanguageFieldLabel: Kalba
+    MainSiteTitle: 'Pagrindinis puslapis'
+    PrimaryDomainFieldLabel: 'Pagrindinis domenas'
+    RedirectURLFieldLabel: 'Nukreipimo nuoroda'
+    ThemeFieldLabel: Tema

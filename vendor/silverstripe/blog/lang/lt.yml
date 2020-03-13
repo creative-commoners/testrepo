@@ -1,0 +1,11 @@
+lt:
+  SilverStripe\Blog\Model\Blog:
+    Comments: Komentarai
+    PLURALNAME: 'Baziniai puslapiai'
+  SilverStripe\Blog\Model\BlogCategory:
+    Title: Pavadinimas
+  SilverStripe\Blog\Model\BlogPost:
+    DESCRIPTION: 'Standartinio turinio puslapis'
+    PLURALNAME: 'Baziniai puslapiai'
+  SilverStripe\Blog\Model\BlogTag:
+    Title: Pavadinimas

@@ -1,0 +1,3 @@
+es:
+  SilverStripe\IFrame\IFramePage:
+    PLURALNAME: 'Página base'

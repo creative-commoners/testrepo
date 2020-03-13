@@ -1,0 +1,5 @@
+de:
+  SilverStripe\Akismet\AkismetField:
+    NOTIFICATION: 'Ich verstehe und gebe meine Zustimmung, dass diese Inhalte an einen Dritten für die automatisierte Spam-Erkennung eingereicht werden'
+    NOTIFICATIONREQUIRED: 'Sie müssen ihre Zustimmung geben, dass dieser Inhalt zur Spam-Erkennung eingereicht wird'
+    SPAM: 'Ihre Eingabe wurde abgelehnt, da sie als Spam behandelt wurde.'

@@ -1,0 +1,64 @@
+fi:
+  CWP\CWP\Extensions\CustomSiteConfig:
+    FbField: 'Facebook UID tai käyttäjänimi'
+    FbFieldDesc: 'Facebook-linkki (osan "http://facebook.com/" jälkeinen osa, esim. http://facebook.com/<strong>käyttäjänimi</strong> tai http://facebook.com/<strong>pages/108510539573</strong>)'
+    GaField: 'Google Analytics -tili'
+    GaFieldDesc: 'Tilinumero käytettäväksi läpi sivuston (formaatissa <strong>UA-XXXXX-X</strong>)'
+    SocialMediaTab: 'Sosiaalinen media'
+    TwitterField: Twitter-käyttäjänimi
+    TwitterFieldDesc: 'Twitter-käyttäjänimi (esim, http://twitter.com/<strong>käyttäjänimi</strong>)'
+  CWP\CWP\Model\Quicklink:
+    ExternalLinkLabel: 'Ulkoinen linkki'
+    InternalLinkLabel: 'Sisäinen linkki'
+    NameLabel: Nimi
+    PLURALNAME: Pikalinkit
+    ParentRelationLabel: Isäntä
+    SINGULARNAME: Pikalinkki
+    SortOrderLabel: Järjestys
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Lisää uusi'
+    ButtonTextRequired: 'Painiketeksti pitää syöttää'
+    FeatureButtonText: 'Nappulan teksti'
+    FeatureCategoryDropdown: Kategoriaikoni
+    FeatureContentFieldLabel: Sisältö
+    FeatureLink: 'Sivu, johon linkitetään'
+    LearnMoreLink: 'Sivu jolle painike linkitetään:'
+    PLURALNAME: Kotisivut
+    SINGULARNAME: Kotisivu
+    Title: Otsikko
+  CWP\CWP\PageTypes\BasePage:
+    ColumnPageType: Sivutyyppi
+    ColumnTitle: Otsikko
+    PLURALNAME: Pohjasivut
+    RelatedPages: 'Liittyvät sivut'
+    SINGULARNAME: Pohjasivu
+    TagsTabTitle: Avainsanat
+    Terms: Termit
+    TermsDescription: 'Klikkaa etsiäksesi muita termejä'
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    AbstractTextFieldLabel: Tiivistelmä
+    DateLabel: Päivämäärä
+  CWP\CWP\PageTypes\EventPage:
+    PLURALNAME: Tapahtumasivut
+    SINGULARNAME: Tapahtumasivu
+  CWP\CWP\PageTypes\FooterHolder:
+    SINGULARNAME: 'Alaindeksin koonti'
+  CWP\CWP\PageTypes\NewsHolder:
+    PLURALNAME: 'Uutisten koontisivu'
+    SINGULARNAME: 'Uutisten koontisivu'
+  CWP\CWP\PageTypes\NewsPage:
+    PLURALNAME: Uutissivut
+    SINGULARNAME: Uutissivu
+  CWP\CWP\PageTypes\SitemapPage:
+    DESCRIPTION: 'Listaa sivuston kaikki sivut'
+    PLURALNAME: Sivukarttasivut
+    SINGULARNAME: Sivukarttasivu
+  CWP\CWP\Report\CwpStatsReport:
+    Count: Lukumäärä
+    Description: 'Tämä raportti sisältää tilastotietoa sivustosta. "Julkaistujen sivujen määrää" voidaan verrata osion kokoon.'
+    FileCount: 'Tiedostojen määrä'
+    Name: Nimi
+    PagesForMainSite: '- pääsivustolla'
+    PagesForSubsite: '- alasivustolla ''{SubsiteTitle}'''
+    Title: Yhteenvetotilasto
+    TotalPageCount: 'Julkaistujen sivujen määrä, kaikki käännetyt ja alasivut huomioiden'

@@ -1,0 +1,7 @@
+---
+Name: commentroutes
+After: framework/routes#coreroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    comments: SilverStripe\Comments\Controllers\CommentingController

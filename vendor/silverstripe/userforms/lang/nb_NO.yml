@@ -1,0 +1,91 @@
+nb_NO:
+  SilverStripe\UserForms\Form\UserFormsGridFieldFilterHeader:
+    FILTERSUBMISSIONS: 'Filtrer innsendte...'
+    WHEREVALUEIS: 'hvor verdi er...'
+  SilverStripe\UserForms\Model\EditableFormField:
+    CHECKEDBYDEFAULT: 'Valgt som standard?'
+    CUSTOMERROR: 'Tilpasset error melding'
+    CUSTOMRULES: 'Tilpasset regler'
+    DEFAULTTOTODAY: 'Standard for i dag?'
+    FIELDISREQUIRED: '{name} er påkrevd'
+    GROUP: Gruppe
+    PLURALNAME: 'Redigerbare skjemafelt'
+    REQUIRED: 'Er dette feltet påkrevd?'
+    RIGHTTITLE: 'Høyre tittel'
+    SINGULARNAME: 'Redigerbar skjemafelt'
+    VALIDATION: Validering
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckbox:
+    PLURALNAME: Avkrysningsbokser
+    SINGULARNAME: 'Avkrysningsboks felt'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckboxGroupField:
+    PLURALNAME: 'Avkrysningsboks grupper'
+    SINGULARNAME: 'Avkrysningsboks gruppe'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCountryDropdownField:
+    PLURALNAME: 'Land nedfellsmenyer'
+    SINGULARNAME: 'Land nedfellsmeny'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDateField:
+    PLURALNAME: Datofelter
+    SINGULARNAME: Datofelt
+  SilverStripe\UserForms\Model\EditableFormField\EditableDropdown:
+    PLURALNAME: Nedfellsmeny
+    SINGULARNAME: 'Nedfellsmeny felt'
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'Epost felt'
+    SINGULARNAME: 'Epost felt'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFileField:
+    PLURALNAME: Filopplastingsfelter
+    SINGULARNAME: Filopplastingsfelt
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormHeading:
+    LEVEL: 'Velg overskrift nivå'
+    PLURALNAME: Overskrifter
+    SINGULARNAME: Overskrift
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    HIDEFROMREPORT: 'Skjul fra rapporter?'
+    PLURALNAME: 'HTML blokker'
+    SINGULARNAME: 'HTML blokk'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMemberListField:
+    PLURALNAME: 'Medlemliste felt'
+    SINGULARNAME: 'Medlemliste felt'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    PLURALNAME: 'Redigerbare flervalgfelt'
+    SINGULARNAME: 'Redigerbare flervalgfelt'
+  SilverStripe\UserForms\Model\EditableFormField\EditableOption:
+    PLURALNAME: 'Redigerbart alternativer'
+    SINGULARNAME: 'Redigerbart alternativ'
+  SilverStripe\UserForms\Model\EditableFormField\EditableRadioField:
+    PLURALNAME: Radiofelt
+    SINGULARNAME: Radiofelt
+  SilverStripe\UserForms\Model\EditableFormField\EditableTextField:
+    NUMBERROWS: 'Antall rader'
+    PLURALNAME: Tekstfelt
+    SINGULARNAME: Tekstfelt
+    TEXTLENGTH: 'Tekst lengde'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+    PLURALNAME: 'Bruker definert e-post mottakere'
+    SINGULARNAME: 'Bruker definert e-post mottaker'
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'Last ned fil'
+    PLURALNAME: 'Sendte fil felter'
+    SINGULARNAME: 'Sendte fil felt'
+  SilverStripe\UserForms\Model\Submission\SubmittedForm:
+    PLURALNAME: 'Sendte skjema'
+    SINGULARNAME: 'Sendte skjema'
+  SilverStripe\UserForms\Model\Submission\SubmittedFormField:
+    PLURALNAME: 'Sendt skjema felter'
+    SINGULARNAME: 'Sendt skjema felt'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    DESCRIPTION: 'Legg til konfigurerbart skjema'
+    EMAILADDRESS: Epost
+    EMAILBODY: Body
+    EMAILFROM: Fra
+    EMAILSUBJECT: 'Epost emne'
+    EmailFromContent: 'Skjemaadressen tillater deg å vis hvem melding kommer fra. På de fleste servere må denne e-post adressen være den samme som doment for din side. For eksempel om du har domene din-side.no, må e-post adressen være noen@din-side.no.'
+    FROMADDRESS: 'Sendt e-post fra'
+    HIDEFORMDATA: 'Skjul skjemadata fra e-post'
+    ORSELECTAFIELDTOUSEASFROM: '...eller velg et felt til å bruke som "svar til"-adresse'
+    ORSELECTAFIELDTOUSEASTO: '...eller velg et felt til å bruke som adresse'
+    REPLYADDRESS: 'E-post som "reply to"'
+    SENDEMAILTO: 'Send e-post til'
+    SENDPLAIN: 'Send e-post som tekst? (HTML vil bli strippet)'
+    SINGULARNAME: 'Bruker definert skjema'
+    SUBMITBUTTON: Send

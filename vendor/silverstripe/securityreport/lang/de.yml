@@ -1,0 +1,7 @@
+de:
+  SilverStripe\SecurityReport\MemberReportExtension:
+    NOGROUPS: 'Nicht in einer Sicherheitsgruppe'
+    NOPERMISSIONS: 'Keine Berechtigungen'
+    UNKNOWN: Unbekannt
+  SilverStripe\SecurityReport\UserSecurityReport:
+    REPORTTITLE: 'Benutzer, Gruppen und Berechtigungen'

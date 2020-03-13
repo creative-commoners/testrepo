@@ -1,0 +1,17 @@
+hr:
+  DomainNameField:
+    INVALID_DOMAIN: 'Netočan naziv domene'
+  Subsite:
+    COPYSTRUCTURE: 'Kopiraj strukturu od:'
+    NOTEMPLATE: 'Nema predloška'
+  Subsites:
+    DefaultSiteFieldLabel: 'Zadani sajt'
+    DomainFieldLabel: Domena
+    IsPublicFieldLabel: 'Omogućni javni pristup'
+    LanguageFieldLabel: Jezik
+    MainSiteTitle: 'Glavni sajt'
+    PageTypeBlacklistFieldLabel: 'Crna lista tipova stranica'
+    PrimaryDomainFieldLabel: 'Glavna domena'
+    RedirectURLFieldLabel: 'Link preusmjeravanja'
+    ThemeFieldLabel: Tema
+    TitleFieldLabel: 'Naziv podsajta'

@@ -1,0 +1,18 @@
+mi:
+  SilverStripe\Registry\RegistryAdmin:
+    MENUTITLE: Rēhita
+  SilverStripe\Registry\RegistryPage:
+    DESCRIPTION: 'Ka whakaatu i te rārangi rahi o ngā raraunga mā te rārangi ka taea te tātari, te rapu, kua whakawhārangitia hoki'
+    DataClassFieldLabel: 'Tauaha Raraunga'
+    ExportAll: 'Kawea ake ngā hua ki CSV'
+    ExportAllTitle: 'Kawea ake ngā hua katoa ki tētahi kōnae ripakaute CSV'
+    NoResults: 'Kāore he hua hei whakaatu'
+    PLURALNAME: 'Ngā Whārangi Taketake'
+    PageLengthFieldLabel: 'Roa whārangi hua'
+    ResultsFor: 'Ngā hua rapu mō'
+    SINGULARNAME: 'Whārangi Rēhita'
+    SelectDropdownDefault: 'Tīpakohia kotahi'
+    ViewHistory: 'Tirohia te hītori o ngā raraunga kua kawea mai'
+    ViewNext: 'Tirohia te whārangi ka whai ake'
+    ViewPageNum: 'Tirohia te tau whārangi'
+    ViewPrev: 'Tirohia te whārangi o mua'

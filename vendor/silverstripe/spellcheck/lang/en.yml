@@ -1,0 +1,9 @@
+en:
+  SilverStripe\SpellCheck\Handling\SpellController:
+    InvalidLocale: 'Not a supported locale'
+    InvalidRequest: 'Invalid request'
+    MissingData: 'Could not get raw post data'
+    MissingProviders: 'No spellcheck module installed'
+    SecurityDenied: 'Permission Denied'
+    SecurityMissing: 'Your session has expired. Please refresh your browser to continue.'
+    UnsupportedMethod: 'Unsupported method ''{method}'''

@@ -1,0 +1,20 @@
+---
+Name: workflowconfig
+---
+SilverStripe\Core\Injector\Injector:
+  Symbiote\AdvancedWorkflow\Extensions\WorkflowApplicable:
+    class: Symbiote\AdvancedWorkflow\Extensions\WorkflowApplicable
+    type: prototype
+
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - Symbiote\AdvancedWorkflow\Extensions\WorkflowApplicable
+SilverStripe\CMS\Controllers\CMSPageEditController:
+  extensions:
+    - Symbiote\AdvancedWorkflow\Extensions\AdvancedWorkflowExtension
+SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest:
+  extensions:
+    - Symbiote\AdvancedWorkflow\Extensions\AdvancedWorkflowExtension
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - symbiote/silverstripe-advancedworkflow:client/dist/styles/advancedworkflow.css

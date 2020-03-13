@@ -1,0 +1,15 @@
+---
+Name: akismet
+After:
+  - requestprocessors
+---
+SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
+  default_spam_protector: SilverStripe\Akismet\AkismetSpamProtector
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Akismet\Service\AkismetService:
+    class: SilverStripe\Akismet\Service\AkismetServiceBackend
+  SilverStripe\Control\Director:
+    properties:
+      Middlewares:
+        AkismetMiddleware: '%$SilverStripe\Akismet\Config\AkismetMiddleware'

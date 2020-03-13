@@ -1,0 +1,10 @@
+mi:
+  SilverStripe\Taxonomy\TaxonomyAdmin:
+    MENUTITLE: 'Ngā Pūnaha Whakarōpū'
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    Category: 'Ngā Kupu Pūnaha Whakarōpū'
+    CreatePermissionLabel: 'Hangaia he kupu pūnaha whakarōpū'
+    DeletePermissionLabel: 'Mukua tētahi kupu pūnaha whakarōpū me ngā kupu tauroto katoa'
+    EditPermissionLabel: 'Whakatikahia he kupu pūnaha whakarōpū'
+    PLURALNAME: 'Ngā Kupu Pūnaha Whakarōpū'
+    SINGULARNAME: 'Kupu Pūnaha Whakarōpū'

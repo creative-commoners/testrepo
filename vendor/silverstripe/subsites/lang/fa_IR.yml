@@ -1,0 +1,12 @@
+fa_IR:
+  DomainNameField:
+    INVALID_DOMAIN: 'نام دامنه نامعتبر'
+  Subsite:
+    NOTEMPLATE: 'بدون قالب'
+  Subsites:
+    DefaultSiteFieldLabel: 'سایت پیش فرض'
+    DomainFieldLabel: دامنه
+    LanguageFieldLabel: زبان
+    PrimaryDomainFieldLabel: 'دامنه اولیه'
+    ThemeFieldLabel: پوسته
+    TitleFieldLabel: 'نام زیر سایت'

@@ -1,0 +1,11 @@
+ru:
+  SilverStripe\Lumberjack\Forms\GridFieldSiteTreeAddNewButton::
+    Add: 'Добавить {name}'
+    AddMultipleOptions: Добавить
+  SilverStripe\Lumberjack\Forms\GridFieldSiteTreeState:
+    Draft: 'Сохранено как черновик {date}'
+    Modified: Изменено
+    Published: 'Опубликовано {date}'
+    StateTitle: Статус
+  SilverStripe\Lumberjack\Model\Lumberjack:
+    TabTitle: Под-страницы

@@ -1,0 +1,17 @@
+eo:
+  CWP\Search\CwpSearchPage:
+    PLURALNAME: 'Serĉaj paĝoj'
+    PLURALS:
+      one: 'Unu Cwp-serĉa paĝo'
+      other: '{count} serĉaj paĝoj'
+    SINGULARNAME: 'Cwp-serĉa paĝo'
+  CWP\Search\Extensions\CwpSearchBoostExtension:
+    PAGEINFO: 'Paĝa informo kaj SEO'
+    SearchBoost: 'Plialtigotaj  ŝlosilvortoj'
+    SearchBoostDescription: 'Enigu la ŝlosilvortojn disigitaj per komo ( , ) por kiu plialtigi la rangon de ĉi tiu paĝo en la serĉaj rezultoj en ĉi tiu retejo.'
+    SearchBoostNote: '(Aplikiĝas nur al la serĉaj rezultoj en ĉi tiu retejo, ekzemple ne en Google-serĉo)'
+  CWP\Search\Extensions\SynonymValidator:
+    InvalidValue: 'Sinonimoj ne povas enhavi vortojn disigitajn per spacetoj'
+  CWP\Search\Extensions\SynonymsSiteConfig:
+    SearchSynonyms: 'Serĉi sinonimojn'
+    SearchSynonyms_Description: 'Enigu tiom da komodisigitaj sinonimoj kiel bezonate, kie ĉiu linio prezentas grupon de sinonimoj.<br /> Necesos ke vi rulu je <a rel="external" target="_blank" href="dev/tasks/Solr_Configure">Solr_Configure</a> se vi ŝanĝos ion'

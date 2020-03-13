@@ -1,0 +1,159 @@
+en:
+  CWP\CWP\Extensions\CustomSiteConfig:
+    FbField: 'Facebook UID or username'
+    FbFieldDesc: 'Facebook link (everything after the "http://facebook.com/", eg http://facebook.com/<strong>username</strong> or http://facebook.com/<strong>pages/108510539573</strong>)'
+    GaField: 'Google Analytics account'
+    GaFieldDesc: 'Account number to be used all across the site (in the format <strong>UA-XXXXX-X</strong>)'
+    SocialMediaTab: 'Social Media'
+    TwitterField: 'Twitter username'
+    TwitterFieldDesc: 'Twitter username (eg, http://twitter.com/<strong>username</strong>)'
+  CWP\CWP\Extensions\CwpCommentingExtension:
+    EMAIL_TITLE: Email
+    WEBSITE_TITLE: 'Your website (optional)'
+    WILL_NOT_BE_PUBLISHED: 'Will not be published.'
+  CWP\CWP\Extensions\CwpSiteSummaryExtension:
+    FilterSupported: 'CWP recipe modules'
+    FilterUnsupported: 'Non CWP modules'
+  CWP\CWP\Extensions\CwpSiteTreeExtension:
+    SHOW_PAGE_UTILITIES: 'Show page utilities?'
+    SHOW_PAGE_UTILITIES_HELP: 'You can disable page utilities (print, share, etc) for this page'
+  CWP\CWP\Extensions\CwpSiteTreeFileExtension:
+    BACKLINK_LIST_DESCRIPTION: 'This list shows all pages where the file has been added through a WYSIWYG editor.'
+    EDIT: Edit
+  CWP\CWP\Model\Quicklink:
+    ExternalLinkLabel: 'External Link'
+    InternalLinkLabel: 'Internal Link'
+    NameLabel: Name
+    Note: 'Note: If you specify an External Link, the Internal Link will be ignored.'
+    Note2: 'Use this to specify a link to a page either on this site (Internal Link) or another site (External Link).'
+    PLURALNAME: Quicklinks
+    PLURALS:
+      one: 'A Quicklink'
+      other: '{count} Quicklinks'
+    ParentRelationLabel: Parent
+    SINGULARNAME: Quicklink
+    SortOrderLabel: 'Sort Order'
+  CWP\CWP\Model\RelatedPageLink:
+    PLURALNAME: 'Related Page Links'
+    PLURALS:
+      one: 'A Related Page Link'
+      other: '{count} Related Page Links'
+    SINGULARNAME: 'Related Page Link'
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Add new'
+    ButtonTextRequired: 'Button text must be filled in'
+    FeatureButtonText: 'Button text'
+    FeatureCategoryDropdown: 'Category icon'
+    FeatureContentFieldLabel: Content
+    FeatureLink: 'Page to link to'
+    FeatureOne: 'Feature One'
+    FeatureTwo: 'Feature Two'
+    LearnMoreLink: 'Page to link the "Learn More" button to:'
+    PLURALNAME: 'Home Pages'
+    PLURALS:
+      one: 'A Home Page'
+      other: '{count} Home Pages'
+    SINGULARNAME: 'Home Page'
+    Title: Title
+  CWP\CWP\PageTypes\BasePage:
+    ColumnPageType: 'Page Type'
+    ColumnTitle: Title
+    PLURALNAME: 'Base Pages'
+    PLURALS:
+      one: 'A Base Page'
+      other: '{count} Base Pages'
+    RelatedPages: 'Related pages'
+    SINGULARNAME: 'Base Page'
+    TagsTabTitle: Tags
+    Terms: Terms
+    TermsDescription: 'Click to search for additional terms'
+  CWP\CWP\PageTypes\DateUpdatePage:
+    AuthorFieldLabel: Author
+    EndTimeFieldLabel: 'End Time'
+    FeaturedImageFieldLabel: 'Featured Image'
+    LocationFieldLabel: Location
+    StartTimeFieldLabel: 'Start Time'
+  CWP\CWP\PageTypes\DatedUpdateHolder:
+    DATE_EXAMPLE: '(example: 30/12/2017)'
+    FILTER_BETWEEN: between
+    FILTER_IN: in
+    FILTER_ON: 'on'
+    FILTER_WITHIN: within
+    FROM_DATE: 'From date'
+    PLURALNAME: 'Dated Update Holders'
+    PLURALS:
+      one: 'A Dated Update Holder'
+      other: '{count} Dated Update Holders'
+    SINGULARNAME: 'Dated Update Holder'
+    TO_DATE: 'To date'
+  CWP\CWP\PageTypes\DatedUpdateHolderController:
+    Clear: Clear
+    DateRangeFilterMessage: 'Filtered by a single date.'
+    Filter: Filter
+    FilterAppliedMessage: 'Filter has been applied with the dates reversed.'
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    AbstractDesc: 'The abstract is used as a summary on the listing pages. It is limited to 160 characters.'
+    AbstractTextFieldLabel: Abstract
+    DateLabel: Date
+    PLURALNAME: 'Dated Update Pages'
+    PLURALS:
+      one: 'A Dated Update Page'
+      other: '{count} Dated Update Pages'
+    SINGULARNAME: 'Dated Update Page'
+  CWP\CWP\PageTypes\EventHolder:
+    DESCRIPTION: 'Container page for Event Pages, provides event filtering and pagination'
+    PLURALNAME: 'Event Holders'
+    PLURALS:
+      one: 'An Event Holder'
+      other: '{count} Event Holders'
+    SINGULARNAME: 'Event Holder'
+  CWP\CWP\PageTypes\EventHolderController:
+    Events: Events
+    Upcoming: 'Upcoming events'
+  CWP\CWP\PageTypes\EventPage:
+    DESCRIPTION: 'Describes an event occurring on a specific date.'
+    PLURALNAME: 'Event Pages'
+    PLURALS:
+      one: 'An Event Page'
+      other: '{count} Event Pages'
+    SINGULARNAME: 'Event Page'
+  CWP\CWP\PageTypes\FooterHolder:
+    DESCRIPTION: 'Holder page that displays all child pages as links in the footer'
+    PLURALNAME: 'Footer Holders'
+    PLURALS:
+      one: 'A Footer Holder'
+      other: '{count} Footer Holders'
+    SINGULARNAME: 'Footer Holder'
+  CWP\CWP\PageTypes\NewsHolder:
+    DESCRIPTION: 'Container page for News Pages, provides news filtering and pagination'
+    PLURALNAME: 'News Holders'
+    PLURALS:
+      one: 'A News Holder'
+      other: '{count} News Holders'
+    SINGULARNAME: 'News Holder'
+  CWP\CWP\PageTypes\NewsPage:
+    DESCRIPTION: 'Describes an item of news'
+    PLURALNAME: 'News Pages'
+    PLURALS:
+      one: 'A News Page'
+      other: '{count} News Pages'
+    SINGULARNAME: 'News Page'
+  CWP\CWP\PageTypes\SitemapPage:
+    DESCRIPTION: 'Lists all pages on the site'
+    PLURALNAME: 'Sitemap Pages'
+    PLURALS:
+      one: 'A Sitemap Page'
+      other: '{count} Sitemap Pages'
+    SINGULARNAME: 'Sitemap Page'
+  CWP\CWP\Report\CwpStatsReport:
+    Count: Count
+    Description: 'This report provides various statistics for this site. The "total live page count" is the number that can be compared against the instance size specifications.'
+    FileCount: 'File count'
+    Name: Name
+    PagesForMainSite: '- in the main site'
+    PagesForSubsite: '- in the subsite ''{SubsiteTitle}'''
+    Title: 'Summary statistics'
+    TotalPageCount: 'Total live page count, across all translations and subsites'
+  SilverStripe\CMS\Model\SiteTreeFileExtension:
+    BACKLINKCOUNT: 'Used on:'
+    PAGES: page(s)

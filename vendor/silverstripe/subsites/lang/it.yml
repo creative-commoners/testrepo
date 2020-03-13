@@ -1,0 +1,17 @@
+it:
+  DomainNameField:
+    INVALID_DOMAIN: 'Nome a dominio non valido'
+  Subsite:
+    COPYSTRUCTURE: 'Copia struttura da:'
+    NOTEMPLATE: 'Nessuno schema'
+  Subsites:
+    DefaultSiteFieldLabel: 'Sito di default'
+    DomainFieldLabel: Dominio
+    IsPublicFieldLabel: 'Permetti accesso pubblico'
+    LanguageFieldLabel: Lingua
+    MainSiteTitle: 'Sito principale'
+    PageTypeBlacklistFieldLabel: 'Blacklist dei tipi di pagina'
+    PrimaryDomainFieldLabel: 'Dominio primario'
+    RedirectURLFieldLabel: 'URL di reindirizzamento'
+    ThemeFieldLabel: Tema
+    TitleFieldLabel: 'Nome sottosito'

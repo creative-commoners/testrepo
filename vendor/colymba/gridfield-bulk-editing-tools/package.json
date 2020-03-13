@@ -1,0 +1,50 @@
+{
+  "name": "colymba-gridfield-bulk-editing-tools",
+  "version": "3.0.0",
+  "description": "Bulk upload and record editing for SilverStripe CMS",
+  "engines": {
+    "node": ">=6.x"
+  },
+  "scripts": {
+    "build": "yarn && yarn lint && NODE_ENV=production webpack -p --bail --progress",
+    "dev": "NODE_ENV=development webpack --progress",
+    "watch": "NODE_ENV=development webpack --watch --progress",
+    "css": "WEBPACK_CHILD=css npm run build",
+    "tx": "tx push --source && tx pull --all && node transifex.js",
+    "lint": "eslint client/src && sass-lint client/src",
+    "lint-js": "eslint client/src",
+    "lint-js-fix": "eslint client/src --fix",
+    "lint-sass": "sass-lint client/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tractorcow/silverstripe-fluent.git"
+  },
+  "keywords": [
+    "bulk",
+    "manager",
+    "upload",
+    "silverstripe"
+  ],
+  "author": "Thierry Francois",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/colymba/GridFieldBulkEditingTools/issues"
+  },
+  "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
+  "dependencies": {
+    "babel-polyfill": "6.7.4",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "@silverstripe/eslint-config": "^0.0.2",
+    "@silverstripe/webpack-config": "^0.7",
+    "expose-loader": "^0.7.4",
+    "sass-loader": "^6.0.7"
+  },
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}

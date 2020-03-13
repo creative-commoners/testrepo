@@ -1,0 +1,13 @@
+---
+Name: cwptextextraction
+After: '#textextractionconfig'
+Only:
+  moduleexists: silverstripe/textextraction
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\TextExtraction\Cache\FileTextCache:
+    class: SilverStripe\TextExtraction\Cache\FileTextCache\Cache
+
+SilverStripe\Assets\File:
+  extensions:
+    - SilverStripe\TextExtraction\Extension\FileTextExtractable

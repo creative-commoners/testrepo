@@ -1,0 +1,50 @@
+fr:
+  CommentInterface:
+    COMMENT_MESSAGE_REQUIRED: 'Saisissez votre commentaire'
+    COMMENT_MESSAGE_URL: 'Saisissez une URl valide'
+    EMAILADDRESS_MESSAGE_EMAIL: 'Saisissez une adresse mail valide'
+    EMAILADDRESS_MESSAGE_REQUIRED: 'Saisissez votre adresse e-mail'
+    POST: Publier
+    PREVIEW: Aperçu
+    PREVIEWLABEL: Aperçu
+    YOURNAME: 'Votre Nom'
+    YOURNAME_MESSAGE_REQUIRED: 'Saisissez votre nom'
+  CommentsInterface_pendingcomment_ss:
+    AWAITINGMODERATION: 'Votre commentaire a été soumis à modération.'
+  CommentsInterface_ss:
+    AWAITINGMODERATION: 'Votre commentaire a été soumis à modération.'
+    COMMENTLOGINERROR: 'Vous ne pouvez pas poster de commentaires sans être connecté'
+    COMMENTPERMISSIONERROR: 'et d''avoir le bon niveau de d''autorisation'
+    COMMENTPOSTLOGIN: 'Se connecter'
+    COMMENTS: Commentaires
+    COMMENTSDISABLED: 'La publication de commentaires est désactivée'
+    LOGINTOPOSTCOMMENT: 'Connectez vous pour poster un commentaire'
+    NEXT: suivant
+    NOCOMMENTSYET: 'Il n''y a pas encore de commentaire.'
+    POSTCOM: 'Publiez votre commentaire'
+    PREV: précédent
+    RSSFEEDALLCOMMENTS: 'Flux RSS de tous les commentaires'
+    RSSFEEDCOMMENTS: 'Flux RSS de commentaires de cette page'
+  SilverStripe\Comments\Admin\CommentAdmin:
+    MENUTITLE: Commentaires
+  SilverStripe\Comments\Controllers\CommentingController:
+    COMMENTS: Commentaires
+    EMAILADDRESS: 'Votre adresse e-mail (ne sera pas publiée)'
+    PERMISSIONFAILURE: 'Vous n''avez pas l''autorisation de commenter cette page. Assurez vous d''être connecté et d''avoir le bon niveau de d''autorisation.'
+    RSSTITLE: 'Flux RSS de Commentaires'
+    WEBSITEURL: 'URl de votre site web'
+  SilverStripe\Comments\Extensions\CommentsExtension:
+    COMMENTOPTIONS: Commentaires
+  SilverStripe\Comments\Model\Comment:
+    ALLOWCOMMENTS: 'Autoriser Commentaires'
+    COMMENT: Commentaire
+    COMMENTBY: 'Commentaire par %s'
+    CREATED: 'Date de publication'
+    EMAIL: Email
+    ISSPAM: 'Spam?'
+    MODERATED: 'Modéré?'
+    NAME: 'Nom de l''Auteur'
+    PARENTTITLE: Parent
+    PLURALNAME: Commentaires
+    SINGULARNAME: Commentaire
+    URL: URL

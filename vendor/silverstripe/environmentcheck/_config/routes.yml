@@ -1,0 +1,25 @@
+---
+Name: environmentcheckroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'health/check': 'Silverstripe\EnvironmentCheck\Controllers\DevHealthController'
+    'dev/check/$Suite': 'Silverstripe\EnvironmentCheck\Controllers\DevCheckController'
+
+SilverStripe\Dev\DevelopmentAdmin:
+  registered_controllers:
+    check:
+      controller: Silverstripe\EnvironmentCheck\Controllers\DevCheckController
+      links:
+        check: 'Run registered environment checks and display their status'
+
+---
+Name: environmentcheckroutes-dev_urls-confirmation-exceptions
+After:
+  - 'dev_urls-confirmation-middleware'
+---
+SilverStripe\Core\Injector\Injector:
+  DevUrlsConfirmationMiddleware:
+    properties:
+      Bypasses:
+        - '%$SilverStripe\Control\Middleware\ConfirmationMiddleware\UrlPathStartsWith("dev/check")'

@@ -1,0 +1,16 @@
+.site-summary__security-alerts {
+  margin: 0;
+}
+
+.package-summary__security-alerts ul {
+  margin-bottom: 0;
+}
+
+.security-alerts__list {
+  margin-top: 8px;
+  display: none;
+}
+
+.security-alerts__toggler {
+  cursor: pointer;
+}

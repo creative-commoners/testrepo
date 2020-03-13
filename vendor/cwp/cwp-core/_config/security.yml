@@ -1,0 +1,86 @@
+---
+Name: cwppasswordstrength
+After: '#corepasswords'
+---
+# In the case someone uses `new PasswordValidator` instead of Injector, provide some safe defaults through config.
+# Test names will not be set however, as it is not configurable.
+SilverStripe\Security\PasswordValidator:
+  min_length: 10
+  min_test_score: 3
+  historic_count: 6
+# Set strength tests and requirements in line with NZISM
+# Injector is used by default for Member password validation
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Security\PasswordValidator:
+    properties:
+      MinLength: 10
+      MinTestScore: 3
+      HistoricCount: 6
+      TestNames:
+        - lowercase
+        - uppercase
+        - digits
+        - punctuation
+
+---
+Name: cwpsecurity
+After: '#canonicalurls'
+---
+# Configure SSL redirection for sensitive areas
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Middleware\CanonicalURLMiddleware:
+    properties:
+      ForceSSL: true
+      ForceSSLPatterns:
+        - '/^Security/'
+        - '/^api/'
+      # Enable middleware for test environments as well as live
+      EnabledEnvs:
+        - live
+        - test
+
+  SilverStripe\Security\BasicAuthMiddleware:
+    class: 'CWP\Core\Control\CwpBasicAuthMiddleware'
+    properties:
+      # Inject customisable IP whitelist
+      WhitelistedIps: '`CWP_IP_BYPASS_BASICAUTH`'
+
+---
+Name: cwpsecuritydev
+After: '#cwpsecurity'
+Only:
+  environment: dev
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Middleware\CanonicalURLMiddleware:
+    properties:
+      ForceSSL: false
+
+---
+Name: cwpsecuritytest
+After: '#cwpsecurity'
+Only:
+  environment: test
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Security\BasicAuthMiddleware:
+    properties:
+      # Enforce basic authentication in UAT environments for all routes except for the "change password" form
+      URLPatterns:
+        '#^Security/lostpassword#i': false
+        '#^Security/changepassword#i': false
+        '#.*#': ACCESS_UAT_SERVER
+  SilverStripe\Control\Middleware\CanonicalURLMiddleware:
+    properties:
+      # Enforce HTTPS everywhere since basic authentication is on everywhere
+      ForceSSLPatterns: null
+
+---
+Name: cwpsslredirectdomain
+Only:
+  EnvVarSet: CWP_SECURE_DOMAIN
+---
+# Define the domain to redirect sensitive URL patterns to SSL for
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Middleware\CanonicalURLMiddleware:
+    ForceSSLDomain: '`CWP_SECURE_DOMAIN`'

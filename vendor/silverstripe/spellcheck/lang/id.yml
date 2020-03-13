@@ -1,0 +1,3 @@
+id:
+  SilverStripe\SpellCheck\Handling\SpellController:
+    InvalidRequest: 'Permintaan tidak valid'

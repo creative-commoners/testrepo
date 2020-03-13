@@ -1,0 +1,8 @@
+---
+Name: maintenancecache
+---
+SilverStripe\Core\Injector\Injector:
+  Psr\SimpleCache\CacheInterface.silverstripeMaintenance:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: silverstripeMaintenance

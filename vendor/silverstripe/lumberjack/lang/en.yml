@@ -1,0 +1,11 @@
+en:
+  SilverStripe\Lumberjack\Forms\GridFieldSiteTreeAddNewButton:
+    Add: 'Add new {name}'
+    AddMultipleOptions: 'Add new'
+  SilverStripe\Lumberjack\Forms\GridFieldSiteTreeState:
+    Draft: 'Saved as Draft on {date}'
+    Modified: Modified
+    Published: 'Published on {date}'
+    StateTitle: State
+  SilverStripe\Lumberjack\Model\Lumberjack:
+    TabTitle: 'Child Pages'

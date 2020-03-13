@@ -1,0 +1,38 @@
+{
+    "name": "cwp/cwp",
+    "description": "CWP features module. We strongly recommend using it for all new sites. Future features will be delivered here.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "cwp"
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "cwp/cwp-core": "^2",
+        "silverstripe/cms": "^4",
+        "silverstripe/taxonomy": "^2",
+        "symbiote/silverstripe-gridfieldextensions": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "suggest": {
+        "silverstripe/crontask": "Allows CWP cleanup tasks to be scheduled"
+    },
+    "extra": {
+        "expose": [
+            "css",
+            "javascript",
+            "images"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "CWP\\CWP\\": "src/",
+            "CWP\\CWP\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

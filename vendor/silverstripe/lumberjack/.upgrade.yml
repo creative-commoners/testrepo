@@ -1,0 +1,6 @@
+mappings:
+  Lumberjack: SilverStripe\Lumberjack\Model\Lumberjack
+  GridFieldConfig_Lumberjack: SilverStripe\Lumberjack\Forms\GridFieldConfig_Lumberjack
+  GridFieldSiteTreeAddNewButton: SilverStripe\Lumberjack\Forms\GridFieldSiteTreeAddNewButton
+  GridFieldSiteTreeEditButton: SilverStripe\Lumberjack\Forms\GridFieldSiteTreeEditButton
+  GridFieldSiteTreeState: SilverStripe\Lumberjack\Forms\GridFieldSiteTreeState

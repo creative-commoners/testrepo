@@ -1,0 +1,14 @@
+---
+Name: comment-notifications-pages
+Only:
+  classexists: SilverStripe\CMS\Model\SiteTree
+---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - SilverStripe\CommentNotifications\Extensions\CommentNotifiable
+---
+Name: comment-notifications
+---
+SilverStripe\Comments\Controllers\CommentingController:
+  extensions:
+    - SilverStripe\CommentNotifications\Extensions\CommentNotifier

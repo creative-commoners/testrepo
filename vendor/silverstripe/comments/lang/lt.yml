@@ -1,0 +1,73 @@
+lt:
+  CommentInterface:
+    COMMENT_MESSAGE_REQUIRED: 'Prašome parašyti savo komentarą'
+    COMMENT_MESSAGE_URL: 'Prašome įvesti teisingą URL adresą'
+    EMAILADDRESS_MESSAGE_EMAIL: 'Prašome įvesti teisingą el. pašto adresą'
+    EMAILADDRESS_MESSAGE_REQUIRED: 'Prašome įvesti el. pašto adresą'
+    POST: Skelbti
+    PREVIEW: Peržiūra
+    PREVIEWLABEL: Peržiūra
+    YOURNAME: 'Jūsų vardas'
+    YOURNAME_MESSAGE_REQUIRED: 'Prašome įvesti savo vardą'
+  Comments:
+    COMMENTSREQUIRELOGIN: 'Būtina prisijungti komentavimui'
+  CommentsAdmin:
+    Comments: Patvirtinti
+    NewComments: Nauji
+    SpamComments: Šlamštas
+  CommentsInterface_pendingcomment_ss:
+    AWAITINGMODERATION: 'Jūsų komentaras išsiųstas ir laukia patvirtinimo.'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: patvirtinti
+    ISNTSPAM: 'ne šlamštas'
+    ISSPAM: šlamštas
+    REMCOM: ištrinti
+  CommentsInterface_ss:
+    AWAITINGMODERATION: 'Jūsų komentaras išsiųstas ir laukia patvirtinimo.'
+    COMMENTLOGINERROR: 'Negalite rašyti komentarų, jeigu nesate prisijungę'
+    COMMENTPERMISSIONERROR: 'ir neturėdami atitinkamo teisių lygio'
+    COMMENTPOSTLOGIN: 'Prisijungti čia'
+    COMMENTS: Komentarai
+    COMMENTSDISABLED: 'Komentarų rašymas išjungtas'
+    DELETEALLCOMMENTS: 'Ištrinti visus komentarus šiame puslapyje'
+    LOGINTOPOSTCOMMENT: 'Prisijunkite, norėdami parašyti komentarą'
+    NEXT: sekantys
+    NOCOMMENTSYET: 'Šio puslapio dar niekas nepakomentavo.'
+    POSTCOM: 'Parašykite komentarą'
+    PREV: ankstesni
+    RSSFEEDALLCOMMENTS: 'Visų komentarų RSS'
+    RSSFEEDCOMMENTS: 'Šio puslapio komentarų RSS'
+  SilverStripe\Comments\Admin\CommentAdmin:
+    ADMIN_PERMISSION: 'Patekti į ''Komentarų'' dalį'
+    ApprovedComments: Patvirtinti
+    Comments: Patvirtinti
+    MENUTITLE: Komentarai
+    NewComments: Nauji
+    SpamComments: Šlamštas
+  SilverStripe\Comments\Controllers\CommentingController:
+    COMMENTS: Komentarai
+    EMAILADDRESS: 'Jūsų el.pašto adresas (nebus skelbiamas)'
+    PERMISSIONFAILURE: 'Jūs negalite skelbti komentarų šiame puslapyje. Įsitikinkite, kad esate prisijungęs ir turite atitinkamą teisių lygį.'
+    RSSTITLE: 'Komentarų RSS srautas'
+    WEBSITEURL: 'Jūsų svetainės nuoroda'
+  SilverStripe\Comments\Extensions\CommentsExtension:
+    COMMENTOPTIONS: Komentarai
+    MODERATIONREQUIRED_NONE: 'Nereikalauja patvirtinimo'
+    MODERATIONREQUIRED_NONMEMBERSONLY: 'Tvirtinti tik neregistruotų vartotojų'
+    MODERATIONREQUIRED_REQUIRED: 'Tvirtinti visus komentarus'
+  SilverStripe\Comments\Model\Comment:
+    ALLOWCOMMENTS: 'Leisti komentarus'
+    COMMENT: Komentaras
+    COMMENTBY: 'Komentarą parašė ''%s'''
+    CREATED: 'Paskelbimo data'
+    EMAIL: 'E. paštas'
+    ISSPAM: 'Šlamštas?'
+    MODERATED: 'Patvirtintas?'
+    NAME: 'Autoriaus Vardas'
+    'ON': į
+    OPTION_DESCRIPTION: 'Nepatvirtinti komentarai nebus rodomi, kol jie atskirai nebus patvirtinti'
+    PARENTTITLE: Priklauso
+    PLURALNAME: Komentarai
+    ParentComment_Title: 'Šis komentaras yra atsakymas į žemiau esantį'
+    SINGULARNAME: Komentaras
+    URL: 'URL adresas'

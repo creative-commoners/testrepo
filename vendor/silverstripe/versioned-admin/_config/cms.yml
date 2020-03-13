@@ -1,0 +1,18 @@
+---
+Name: versionedadmincmsconfig
+Only:
+  moduleexists: silverstripe/cms
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\CMS\Controllers\CMSPageHistoryController:
+    class: SilverStripe\VersionedAdmin\Controllers\CMSPageHistoryViewerController
+
+SilverStripe\CMS\Controllers\CMSMain:
+  extensions:
+    - SilverStripe\VersionedAdmin\Extensions\CMSMainExtension
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'silverstripe/versioned-admin:client/dist/js/bundle.js'
+  extra_requirements_css:
+    - 'silverstripe/versioned-admin:client/dist/styles/bundle.css'

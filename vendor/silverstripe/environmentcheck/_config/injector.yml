@@ -1,0 +1,39 @@
+---
+Name: environmentcheckinjector
+---
+SilverStripe\Core\Injector\Injector:
+  CacheHeadersCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\CacheHeadersCheck
+  DatabaseCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\DatabaseCheck
+  EnvTypeCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\EnvTypeCheck
+  ExternalURLCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\ExternalURLCheck
+  FileAccessibilityAndValidationCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\FileAccessibilityAndValidationCheck
+  FileAgeCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\FileAgeCheck
+  FileWriteableCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\FileWriteableCheck
+  HasClassCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\HasClassCheck
+  HasFunctionCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\HasFunctionCheck
+  SMTPConnectCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\SMTPConnectCheck
+  SolrIndexCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\SolrIndexCheck
+  URLCheck:
+    class: SilverStripe\EnvironmentCheck\Checks\URLCheck
+  EnvCheckClient:
+    factory: 'SilverStripe\EnvironmentCheck\Services\ClientFactory'
+    constructor:
+      timeout: 10.0
+
+SilverStripe\EnvironmentCheck\Checks\SessionCheck:
+    dependencies:
+      client: '%$EnvCheckClient'
+SilverStripe\EnvironmentCheck\Checks\CacheHeadersCheck:
+    dependencies:
+      client: '%$EnvCheckClient'

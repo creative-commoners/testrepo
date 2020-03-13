@@ -1,0 +1,15 @@
+{
+  "github-slug": "silverstripe/recipe-reporting-tools",
+  "child-stability-inherit": false,
+  "dependency-constraint": "exact",
+  "vendors": [
+    "silverstripe",
+    "bringyourownideas"
+  ],
+  "upgrade-only": [
+    "silverstripe/recipe-cms"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ]
+}

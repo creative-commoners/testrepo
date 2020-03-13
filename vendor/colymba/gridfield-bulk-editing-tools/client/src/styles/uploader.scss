@@ -1,0 +1,11 @@
+.bulkUploader
+{
+	.uploadfield__droptext
+	{
+		&::before
+		{
+			text-transform: none;
+			content: "b";
+		}
+	}
+}

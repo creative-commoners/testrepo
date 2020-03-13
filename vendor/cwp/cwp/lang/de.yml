@@ -1,0 +1,37 @@
+de:
+  CWP\CWP\Extensions\CustomSiteConfig:
+    FbField: 'Facebook-Benutzerkennung oder Benutzername'
+    GaField: Google-Analytics-Konto
+    SocialMediaTab: 'Soziale Medien'
+    TwitterField: Twitter-Benutzername
+    TwitterFieldDesc: 'Twitter-Benutzername (z.B. http://twitter.com/<strong>Benutzername</strong>)'
+  CWP\CWP\Model\Quicklink:
+    ExternalLinkLabel: 'Externer Link'
+    InternalLinkLabel: 'Interner Link'
+    NameLabel: Name
+    PLURALNAME: Schnelllinks
+    ParentRelationLabel: Übergeordnet
+    SINGULARNAME: Schnelllink
+    SortOrderLabel: Sortierreihenfolge
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Neue hinzufügen'
+    FeatureButtonText: Schaltflächentext
+    FeatureCategoryDropdown: Kategoriesymbol
+    FeatureContentFieldLabel: Inhalt
+    Title: Titel
+  CWP\CWP\PageTypes\BasePage:
+    ColumnPageType: Seitentyp
+    ColumnTitle: Titel
+    PLURALNAME: 'Basis Seiten'
+    RelatedPages: 'Abhängige Seiten'
+    TagsTabTitle: Schlagwörter
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    DateLabel: Datum
+  CWP\CWP\PageTypes\EventPage:
+    PLURALNAME: Ereignisseiten
+    SINGULARNAME: Ereignisseite
+  CWP\CWP\Report\CwpStatsReport:
+    FileCount: Dateianzahl
+    Name: Name
+    PagesForMainSite: '- auf der Hauptseite'
+    PagesForSubsite: '- auf der Unterseite ''{SubsiteTitle}'''

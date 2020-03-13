@@ -1,0 +1,17 @@
+fa_IR:
+  CWP\CWP\Model\Quicklink:
+    ParentRelationLabel: والد
+    SortOrderLabel: 'ترتیب مرتب‌سازی'
+  CWP\CWP\PageTypes\BaseHomePage:
+    DESCRIPTION: 'صفحه محتوای عمومی'
+    FeatureContentFieldLabel: محتوا
+    Title: عنوان
+  CWP\CWP\PageTypes\BasePage:
+    ColumnTitle: عنوان
+    DESCRIPTION: 'صفحه محتوای عمومی'
+    PLURALNAME: 'صفحه اصلی'
+  CWP\CWP\PageTypes\DatedUpdateHolder:
+    DESCRIPTION: 'صفحه محتوای عمومی'
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    DESCRIPTION: 'صفحه محتوای عمومی'
+    DateLabel: تاریخ

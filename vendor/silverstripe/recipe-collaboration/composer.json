@@ -1,0 +1,28 @@
+{
+    "name": "silverstripe/recipe-collaboration",
+    "type": "silverstripe-recipe",
+    "description": "Add extra functionality to enhance CMS user collaboration",
+    "homepage": "https://www.silverstripe.org",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-plugin": "^1",
+        "silverstripe/recipe-cms": "4.5.1@stable",
+        "silverstripe/contentreview": "4.1.1@stable",
+        "silverstripe/sharedraftcontent": "2.3.4@stable",
+        "symbiote/silverstripe-advancedworkflow": "5.2.2@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "suggest": {
+        "silverstripe/versionfeed": "Provides an RSS feed for global site changes"
+    },
+    "extra": {
+        "project-files": []
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

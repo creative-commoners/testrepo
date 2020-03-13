@@ -1,0 +1,86 @@
+en:
+  DomainNameField:
+    INVALID_DOMAIN: 'Invalid domain name'
+  SilverStripe\CMS\Model\VirtualPage:
+    EDITCONTENT: 'Click here to edit the content'
+  SilverStripe\Subsites\Admin\SubsiteAdmin:
+    MENUTITLE: Subsites
+  SilverStripe\Subsites\Controller\SubsiteXHRController:
+    MENUTITLE: SilverStripe\Subsites\Controller\SubsiteXHRController
+  SilverStripe\Subsites\Extensions\FolderFormFactoryExtension:
+    AllSitesDropdownOpt: 'All sites'
+    SUBSITENOTICE: 'Folders and files created in the main site are accessible by all subsites.'
+    SubsiteFieldLabel: Subsite
+  SilverStripe\Subsites\Extensions\GroupSubsites:
+    ACCESSALL: 'All subsites'
+    ACCESSONLY: 'Only these subsites'
+    ACCESSRADIOTITLE: 'Give this group access to'
+    GlobalGroup: 'global group'
+    MANAGE_SUBSITES: 'Manage subsites for groups'
+    MANAGE_SUBSITES_HELP: 'Ability to limit the permissions for a group to one or more subsites.'
+    SECURITYTABTITLE: Subsites
+  SilverStripe\Subsites\Extensions\LeftAndMainSubsites:
+    SITECONTENTLEFT: 'Site Content'
+    Saved: 'Saved, please update related pages.'
+  SilverStripe\Subsites\Extensions\SiteTreeSubsites:
+    CopyAction: Copy
+    CopyToSubsite: 'Copy page to subsite'
+    CopyToSubsiteWithChildren: 'Include children pages?'
+    SubsiteOperations: 'Subsite Operations'
+  SilverStripe\Subsites\Model\Subsite:
+    ConfigurationTab: Configuration
+    CopyMessage: 'Created a copy of {title}'
+    CustomExtraMeta: 'Custom Meta Tags'
+    CustomMetaDescription: Description
+    CustomMetaKeywords: Keywords
+    CustomMetaTitle: Title
+    PLURALNAME: Subsites
+    PLURALS:
+      one: 'A Subsite'
+      other: '{count} Subsites'
+    PageTypeBlacklistField: 'Disallow page types?'
+    SINGULARNAME: Subsite
+    SiteConfigSubtitle: 'Your tagline here'
+    SiteConfigTitle: 'Your Site Name'
+    ThemeFieldEmptyString: '-'
+    ValidateTitle: 'Please add a "Title"'
+  SilverStripe\Subsites\Model\SubsiteDomain:
+    DOMAIN: Domain
+    DOMAIN_DESCRIPTION: 'Hostname of this subsite (exclude protocol). Allows wildcards (*).'
+    ISPRIMARY_DESCRIPTION: 'Mark this as the default domain for this subsite'
+    IS_PRIMARY: 'Is Primary Domain?'
+    PLURALNAME: 'Subsite Domains'
+    PLURALS:
+      one: 'A Subsite Domain'
+      other: '{count} Subsite Domains'
+    PROTOCOL_AUTOMATIC: Automatic
+    PROTOCOL_DESCRIPTION: 'When generating links to this subsite, use the selected protocol. <br />Selecting ''Automatic'' means subsite links will default to the current protocol.'
+    PROTOCOL_HTTP: 'http://'
+    PROTOCOL_HTTPS: 'https://'
+    Protocol: Protocol
+    SINGULARNAME: 'Subsite Domain'
+  SilverStripe\Subsites\Pages\SubsitesVirtualPage:
+    DESCRIPTION: 'Displays the content of a page on another subsite'
+    OverrideNote: 'Overrides inherited value from the source'
+    PLURALNAME: 'Subsites Virtual Pages'
+    PLURALS:
+      one: 'A Subsites Virtual Page'
+      other: '{count} Subsites Virtual Pages'
+    SINGULARNAME: 'Subsites Virtual Page'
+    SubsiteField: Subsite
+  SilverStripe\Subsites\Reports\SubsiteReportWrapper:
+    ReportDropdown: Sites
+  Subsite:
+    COPYSTRUCTURE: 'Copy structure from:'
+    NOTEMPLATE: 'No template'
+  Subsites:
+    DefaultSiteFieldLabel: 'Default site'
+    DomainFieldLabel: Domain
+    IsPublicFieldLabel: 'Enable public access'
+    LanguageFieldLabel: Language
+    MainSiteTitle: 'Main site'
+    PageTypeBlacklistFieldLabel: 'Page Type Blacklist'
+    PrimaryDomainFieldLabel: 'Primary Domain'
+    RedirectURLFieldLabel: 'Redirect URL'
+    ThemeFieldLabel: Theme
+    TitleFieldLabel: 'Subsite Name'

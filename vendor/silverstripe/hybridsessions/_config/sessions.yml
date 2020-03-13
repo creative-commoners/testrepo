@@ -1,0 +1,14 @@
+---
+Name: sessionstores
+After: requestprocessors
+---
+SilverStripe\HybridSessions\HybridSession:
+  dependencies:
+    handlers:
+      - '%$\SilverStripe\HybridSessions\Store\CookieStore'
+      - '%$\SilverStripe\HybridSessions\Store\DatabaseStore'
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Middleware\SessionMiddleware:
+    class: SilverStripe\HybridSessions\Control\HybridSessionMiddleware
+  SilverStripe\HybridSessions\Crypto\CryptoHandler:
+    class: SilverStripe\HybridSessions\Crypto\OpenSSLCrypto

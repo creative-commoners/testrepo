@@ -1,0 +1,9 @@
+eo:
+  SilverStripe\SpellCheck\Handling\SpellController:
+    InvalidLocale: 'Nesubtenata lokaĵaro'
+    InvalidRequest: 'Nevalida peto'
+    MissingData: 'Ne povis akiri krudajn afiŝajn datumojn'
+    MissingProviders: 'Modulo por literumada kontrolo ne instalita'
+    SecurityDenied: 'Rifuzis permeson'
+    SecurityMissing: 'Via seanco finiĝis. Bonvolu refreŝigi vian foliumilon por daŭrigi.'
+    UnsupportedMethod: 'Nesubtenata metodo {metodo}'

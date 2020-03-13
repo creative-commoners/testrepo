@@ -1,0 +1,17 @@
+---
+Name: blogcommentsconfig
+Only:
+  moduleexists: comments
+---
+SilverStripe\Comments\Model\Comment:
+  extensions:
+    - SilverStripe\Blog\Model\BlogCommentExtension
+
+---
+Name: blogcommentnotifications
+Only:
+  moduleexists: 'comment-notifications'
+---
+SilverStripe\Blog\Model\BlogPost:
+  extensions:
+    - SilverStripe\Blog\Model\BlogPostNotifications

@@ -1,0 +1,7 @@
+ru:
+  SilverStripe\SecurityReport\MemberReportExtension:
+    NOGROUPS: 'Не состоит в группе безопасности'
+    NOPERMISSIONS: 'Нет разрешений'
+    UNKNOWN: Неизвестно
+  SilverStripe\SecurityReport\UserSecurityReport:
+    REPORTTITLE: 'Пользователи, группы и разрешения'

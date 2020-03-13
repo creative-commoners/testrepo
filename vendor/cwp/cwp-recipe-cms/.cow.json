@@ -1,0 +1,18 @@
+{
+  "github-slug": "silverstripe/cwp-recipe-cms",
+  "child-stability-inherit": [
+    "cwp/cwp-recipe-core",
+    "cwp/cwp"
+  ],
+  "dependency-constraint": "exact",
+  "vendors": [
+    "cwp",
+    "silverstripe"
+  ],
+  "upgrade-only": [
+    "silverstripe/recipe-cms"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ]
+}

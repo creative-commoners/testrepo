@@ -1,0 +1,7 @@
+sk_SK:
+  SilverStripe\SecurityReport\MemberReportExtension:
+    NOGROUPS: 'Nenachádza sa v žiadnej skupine'
+    NOPERMISSIONS: 'Žiadne právomoci'
+    UNKNOWN: Neznáme
+  SilverStripe\SecurityReport\UserSecurityReport:
+    REPORTTITLE: 'Používatelia, skupiny a oprávnenia'

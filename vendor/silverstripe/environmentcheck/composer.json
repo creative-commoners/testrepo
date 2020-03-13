@@ -1,0 +1,39 @@
+{
+    "name": "silverstripe/environmentcheck",
+    "description": "Provides an API for building environment tests",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "testing", "environment", "check"],
+    "authors": [
+        {
+            "name": "Will Rossiter",
+            "email": "will@fullscreen.io"
+        },
+        {
+            "name": "Sam Minnee",
+            "email": "sam@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.0",
+        "silverstripe/versioned": "^1.0",
+        "guzzlehttp/guzzle": "^6.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\EnvironmentCheck\\": "src/",
+            "SilverStripe\\EnvironmentCheck\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

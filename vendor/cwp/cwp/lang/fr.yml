@@ -1,0 +1,8 @@
+fr:
+  CWP\CWP\PageTypes\BaseHomePage:
+    Title: Titre
+  CWP\CWP\PageTypes\BasePage:
+    ColumnTitle: Titre
+    TagsTabTitle: Tags
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    AuthorFieldLabel: Auteur

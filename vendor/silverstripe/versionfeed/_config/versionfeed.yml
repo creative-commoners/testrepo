@@ -1,0 +1,25 @@
+---
+Name: versionedfeedconfig
+---
+SilverStripe\Core\Injector\Injector:
+  RateLimitFilter: SilverStripe\VersionFeed\Filters\RateLimitFilter
+  ContentFilter:
+    class: SilverStripe\VersionFeed\Filters\CachedContentFilter
+    constructor:
+      - %$RateLimitFilter
+  Psr\SimpleCache\CacheInterface.VersionFeedController:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: 'VersionFeedController'
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - SilverStripe\VersionFeed\VersionFeed
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - SilverStripe\VersionFeed\VersionFeedSiteConfig
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - SilverStripe\VersionFeed\VersionFeedController
+SilverStripe\VersionFeed\VersionFeedController:
+  dependencies:
+    ContentFilter: %$ContentFilter

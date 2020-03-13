@@ -1,0 +1,45 @@
+// Make the trigger look like an anchor
+.package-summary__module-info-trigger {
+  padding: 0;
+}
+
+// Remove the background from the default popover header
+.package-summary__details-header {
+  display: flex;
+  padding-bottom: 0;
+  padding-top: $spacer;
+  background: 0;
+  border: 0;
+
+  a {
+    text-decoration: none;
+    color: $body-color;
+  }
+}
+
+.package-summary__details-header-text {
+  flex-grow: 1;
+}
+
+.package-summary__security-alerts {
+  margin-top: $spacer;
+  margin-bottom: $spacer * .5;
+
+  h4 {
+    margin-bottom: $spacer * .5;
+  }
+
+  // Undoing the default styles that come for .popover-body a from admin module
+  a {
+    background: none;
+    color: inherit;
+    padding: 0;
+    text-decoration: underline;
+
+    &:hover {
+      background: none;
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+}

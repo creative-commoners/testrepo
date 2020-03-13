@@ -1,0 +1,12 @@
+en:
+  SilverStripe\VersionedAdmin\ArchiveAdmin:
+    COLUMN_ARCHIVEDBY: 'Archived By'
+    COLUMN_DATEARCHIVED: 'Date Archived'
+    COLUMN_ORIGIN: Origin
+    COLUMN_TITLE: Title
+    COLUMN_TYPE: Type
+    SELECT_EMPTY: Select…
+    SELECT_TYPE: 'Select a content type'
+    TAB_OTHERS: Others
+  SilverStripe\VersionedAdmin\Controllers\HistoryViewerController:
+    ErrorItemViewPermissionDenied: 'You don''t have the necessary permissions to view {ObjectTitle}'

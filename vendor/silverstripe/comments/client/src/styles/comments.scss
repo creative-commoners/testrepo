@@ -1,0 +1,208 @@
+.comments-holder-container {
+	clear: both;
+
+	.field {
+		clear: left;
+	}
+
+	.num,
+	.author {
+		font-size: 1.3em;
+	}
+
+	.num {
+		color: #999;
+		margin-right: 5px;
+	}
+
+	.num-total {
+		line-height: 40px;
+		margin-bottom: 0;
+	}
+
+    #moderated {
+        border: solid #999 1px;
+        padding: 20px;
+        font-style: italic;
+    }
+
+	.comments-list {
+		margin: 0;
+	}
+
+	.comment-count {
+		margin: 15px 0;
+	}
+
+	// The comment form
+	.commenting-area {
+		margin-top: 50px;
+
+		label.left{
+			font-weight: normal;
+		}
+	}
+
+	.commenting-rss-feed {
+		margin-top: 4em;
+		text-align: right;
+
+		.action-links {
+			margin: 20px 0 10px;
+
+			li {
+				display: inline;
+				list-style-type: none;
+				margin-left: 20px;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&.comment-reply-action {
+					float: right;
+				}
+			}
+
+			a {
+				background-image: none;
+
+				&::first-letter {
+					text-transform: capitalize;
+				}
+			}
+		}
+	}
+
+	.no-comments-yet {
+		display: inline-block;
+		margin-top: 10px;
+	}
+}
+
+// A published comment
+.comment {
+	clear:both;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 20px 0 20px 0;
+	position: relative;
+
+	&.author-comment {
+		&:after {
+			content: 'Author';
+			float: right;
+			position: absolute;
+			top: 1.5em;
+			right: 0.5em;
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+		> .comment-text {
+			border: 1px solid blue;
+		}
+
+	}
+
+	&.spam {
+		.comment-text {
+			border: 1px dashed orange;
+		}
+	}
+
+    img.gravatar {
+        float: left;
+        margin: 20px;
+        width: 90px;
+        height: 90px;
+        border: none;
+    }
+
+	.comment-text {
+		background-color: #fff;
+		border: 1px solid #ddd;
+		box-shadow: none;
+		margin: 0;
+		padding: 0 20px 0 20px;
+        min-height: 130px;
+		white-space: pre;
+		white-space: pre-wrap;
+		white-space: pre-line;
+		word-wrap: break-word;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+    .comment-text.hasGravatar {
+        // leave enough space on the left for the default gravatar size
+        padding: 0 20px 0 130px;
+
+        // Ensure there is enough vertical space for the Gravatar
+        min-height: 130px;
+    }
+
+	.date {
+		font-size: 16px;
+
+		&:before {
+			content: '\0000a0\0000a0\0000a0\0000a0';
+		}
+	}
+
+	&.unmoderated {
+		> .comment-text {
+			border: 1px solid yellow;
+		}
+	}
+
+	.info {
+		margin-bottom: 10px;
+	}
+
+	&.spam .comment {
+		border: 1px dashed orange;
+		border-radius: 4px;
+		padding: 2.5em 1em 1em;
+	}
+
+	.comment-replies-container {
+		clear: both;
+		padding-left: 10px;
+		margin: 80px 0 0 0;
+		border-left: 1px dashed #999;
+
+		.comment-reply-form-holder {
+			padding: 0 10px; // Prevent clipping issues on slideUp/Down
+		}
+		.comment-replies-holder {
+			padding: 0 0 0 10px;
+		}
+	}
+}
+
+.comments-list.root-level {
+	margin-left: 0;
+}
+
+.comment-reply-link {
+	float: right;
+}
+
+.comment-moderation-options {
+	float: left;
+}
+
+.comment-action-links {
+	margin: 20px 0 10px;
+
+	a:not(:last-child) {
+		margin-right: 12px;
+	}
+}
+
+.commenting-rss-feed ul {
+	list-style: none;
+}

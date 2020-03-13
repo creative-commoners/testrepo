@@ -1,0 +1,43 @@
+.site-alert {
+  margin-top: -$panel-padding-y / 2;
+  margin-bottom: $panel-padding-y;
+}
+
+.site-summary {
+  h3 {
+    margin: 8px 0 4px;
+  }
+  td {
+    vertical-align: middle;
+  }
+}
+
+.package-summary__anchor {
+  color: inherit;
+  text-decoration: inherit;
+  display: block;
+
+  &:hover,
+  &:active {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
+
+.package-summary__description {
+  display: block;
+}
+
+.gridfield-dropdown-filter button {
+  display: none;
+}
+
+.site-summary__more-info {
+  color: inherit;
+  margin: $input-padding-y;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}

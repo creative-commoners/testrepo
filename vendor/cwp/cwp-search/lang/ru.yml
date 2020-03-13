@@ -1,0 +1,8 @@
+ru:
+  CWP\Search\Extensions\CwpSearchBoostExtension:
+    PAGEINFO: 'Информация о странице и SEO'
+    SearchBoostDescription: 'Введите ключевые слова через запятую ( , ). Это необходимо для улучшения позиций этой страницы в результатах поиска по сайту.'
+    SearchBoostNote: '(Применяется исключительно для поиска внутри сайта, не Google и пр.)'
+  CWP\Search\Extensions\SynonymsSiteConfig:
+    SearchSynonyms: 'Поиск синонимов'
+    SearchSynonyms_Description: 'Вводите синонимы через запятую, каждая группа синонимов с новой строки.<br /> Для применения изменений запустите <a rel="external" target="_blank" href="dev/tasks/Solr_Configure">Solr_Configure</a>'

@@ -1,0 +1,11 @@
+sk:
+  SilverStripe\Blog\Model\Blog:
+    FILTERDESCRIPTION_PAGE: 'Strana {page}'
+    PLURALNAME: 'Základné stránky'
+  SilverStripe\Blog\Model\BlogCategory:
+    Title: Názov
+  SilverStripe\Blog\Model\BlogPost:
+    DESCRIPTION: 'Obyčajná jednoduchá stránka s vlastným obsahom.'
+    PLURALNAME: 'Základné stránky'
+  SilverStripe\Blog\Model\BlogTag:
+    Title: Názov

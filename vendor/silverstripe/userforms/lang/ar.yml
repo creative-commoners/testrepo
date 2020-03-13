@@ -1,0 +1,91 @@
+ar:
+  SilverStripe\UserForms\Form\UserFormsGridFieldFilterHeader:
+    FILTERSUBMISSIONS: 'تصفية التقديمات..'
+    WHEREVALUEIS: 'حيث القيمة هي..'
+  SilverStripe\UserForms\Model\EditableFormField:
+    CHECKEDBYDEFAULT: 'افتراضيا مُعَلّم'
+    CUSTOMERROR: 'نص خطأ مخصص'
+    CUSTOMRULES: 'القواعد المخصصة'
+    DEFAULTTOTODAY: 'الفرضي لهذا اليوم؟'
+    FIELDISREQUIRED: '{name} ضروري'
+    GROUP: مجموعة
+    PLURALNAME: 'حقول استمارة قابلة للتحرير'
+    REQUIRED: 'هل هذا الحقل ضروري؟'
+    RIGHTTITLE: 'عنوان اليمين'
+    SINGULARNAME: 'حقل استمارة قابل للتحرير'
+    VALIDATION: المصادقة
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckbox:
+    PLURALNAME: 'مربعات لوضع إشارة'
+    SINGULARNAME: 'حقل ذات مربع لوضع إشارة'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckboxGroupField:
+    PLURALNAME: 'مجموعات ذات مربعات لوضع إشارة'
+    SINGULARNAME: 'مجموعة مربعات لوضع إشارة'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCountryDropdownField:
+    PLURALNAME: 'القائمة المنسدلة للروابط البلاد'
+    SINGULARNAME: 'القائمة المنسدلة للروابط البلاد'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDateField:
+    PLURALNAME: 'حقول التاريخ'
+    SINGULARNAME: 'حقل التاريخ'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDropdown:
+    PLURALNAME: 'القائمات المنسدلة للروابط'
+    SINGULARNAME: 'حقل القائمة المنسدلة'
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'حقول البريد الإلكتروني'
+    SINGULARNAME: 'خانة البريد الإلكتروني'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFileField:
+    PLURALNAME: 'حقول تحميل الملف'
+    SINGULARNAME: 'حقل تحميل الملف'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormHeading:
+    LEVEL: 'حدد مستوى العنوان'
+    PLURALNAME: عناوين
+    SINGULARNAME: عنوان
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    HIDEFROMREPORT: 'إخقاء تقارير النموذج؟'
+    PLURALNAME: 'بلوكات HTML'
+    SINGULARNAME: 'بلوك HTML'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMemberListField:
+    PLURALNAME: 'حقول قائمة الأعضاء'
+    SINGULARNAME: 'حقل قائمة الأعضاء'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    PLURALNAME: 'حقول الخيارات المتعددة القابلة للتعديل'
+    SINGULARNAME: 'حقل الخيارات المتعددة القابل للتعديل'
+  SilverStripe\UserForms\Model\EditableFormField\EditableOption:
+    PLURALNAME: 'الخيارات القابلة للتحرير'
+    SINGULARNAME: 'خيار قابل للتحرير'
+  SilverStripe\UserForms\Model\EditableFormField\EditableRadioField:
+    PLURALNAME: 'حقول حلقية radio'
+    SINGULARNAME: 'حقل حلقي Radio'
+  SilverStripe\UserForms\Model\EditableFormField\EditableTextField:
+    NUMBERROWS: 'عدد الصفوف'
+    PLURALNAME: 'حقول نصية'
+    SINGULARNAME: 'حقل نصي'
+    TEXTLENGTH: 'طول النص'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+    PLURALNAME: 'نموذج مستلمي البريد الإلكتروني يحدده المستخدم'
+    SINGULARNAME: 'نموذج مستلم البريد الإلكتروني يحدده المستخدم'
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'تحميل الملف'
+    PLURALNAME: 'حقول الملف التي قدمت'
+    SINGULARNAME: 'حقل الملف الذي قدّم'
+  SilverStripe\UserForms\Model\Submission\SubmittedForm:
+    PLURALNAME: 'الاستمارات التي قدّمت'
+    SINGULARNAME: 'الاستمارة التي قدّمت'
+  SilverStripe\UserForms\Model\Submission\SubmittedFormField:
+    PLURALNAME: 'حقول الاستمارة التي تمّ تقديمها'
+    SINGULARNAME: 'حقل الاستمارة الذي تمّ تقديمه'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    DESCRIPTION: 'يضيف استمارة مخصصة.'
+    EMAILADDRESS: 'البريد الإلكتروني'
+    EMAILBODY: هيئة
+    EMAILFROM: من
+    EMAILSUBJECT: 'موضوع البريد الإلكتروني'
+    EmailFromContent: 'عنوان خانة المرسل يسمح لك بتعيين من الذي يأتي منه البريد الالكتروني. في معظم الخوادم هذا سوف يحتاج إلى أن يعين إلى عنوان بريد إلكتروني على نفس اسم مجال موقع الويب الخاص بك. على سبيل المثال على yoursite.com عنوان خانة المرسل قد يحتاج إلى أن يكون something@yoursite.com. يمكنك مع ذلك، تعيين أي عنوان بريد إلكتروني ترغب كعنوان للرد.'
+    FROMADDRESS: 'ارسل بريد إلكتروني من'
+    HIDEFORMDATA: 'إخفاء بيانات النموذج من البريد الإلكتروني؟'
+    ORSELECTAFIELDTOUSEASFROM: '.. أو تحديد حقل لاستخدامه كعنوان للرد'
+    ORSELECTAFIELDTOUSEASTO: '.. أو تحديد حقل لاستخدامه على أنه عنوان المرسل إليه'
+    REPLYADDRESS: 'بريد إلكتروني للرد علي'
+    SENDEMAILTO: 'ارسل بريد إلكتروني إلى'
+    SENDPLAIN: 'إرسال البريد الإلكتروني كنص عادي؟ (سيتم تجريد كود الHTML)'
+    SINGULARNAME: 'نموذج يحدده المستخدم'
+    SUBMITBUTTON: تقديم

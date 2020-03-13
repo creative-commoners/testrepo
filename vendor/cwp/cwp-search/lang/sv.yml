@@ -1,0 +1,14 @@
+sv:
+  CWP\Search\CwpSearchPage:
+    PLURALNAME: 'Sök igenom sidor'
+    SINGULARNAME: Cwp-söksida
+  CWP\Search\Extensions\CwpSearchBoostExtension:
+    PAGEINFO: 'Sid inof och SEO'
+    SearchBoost: 'Lyft sökord'
+    SearchBoostDescription: 'Ange nyckelord åtskilda av kommatecken (,) för att öka rankningen av den här sidan inom sökresultaten på denna sida.'
+    SearchBoostNote: '(Gäller endast sökresultaten på den här webbplatsen, t.ex. inte på Google-sökning)'
+  CWP\Search\Extensions\SynonymValidator:
+    InvalidValue: 'Synonymer kan inte innehålla ord åtskilda av mellanslag'
+  CWP\Search\Extensions\SynonymsSiteConfig:
+    SearchSynonyms: 'Sök synonymer'
+    SearchSynonyms_Description: 'Ange så många kommaavskiljda synonymer som du vill, var och en linje representerar en grupp synonymer <br />. Du måste köra <a rel="external" target="_blank" href="dev/tasks/Solr_Configure">Solr_Configure</a> om du gör några ändringar'

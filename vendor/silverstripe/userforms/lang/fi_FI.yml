@@ -1,0 +1,28 @@
+fi_FI:
+  EditableUploadField:
+    SELECTUPLOADFOLDER: 'Valitse siirtokansio'
+  SilverStripe\CMS\Model\SiteTree:
+    TABMAIN: Päätaso
+  SilverStripe\UserForms:
+    ADDEMAILRECIPIENT: 'Lisää sähköpostin vastaanottaja'
+    CLEARBUTTON: Tyhjennä
+    CONFIGURATION: Asetukset
+    RECIPIENTS: Vastaanottajat
+    SUBMISSIONS: Lähetykset
+    SUBMITBUTTON: Lähetä
+  SilverStripe\UserForms\Extension\UserFormFieldEditorExtension:
+    ADD_FIELD: 'Lisää kenttä'
+    ADD_FIELD_GROUP: 'Lisää kenttäryhmä'
+    ADD_PAGE_BREAK: 'Lisää sivunvaihto'
+    FORMFIELDS: Lomakekentät
+  SilverStripe\UserForms\Model\EditableFormField:
+    REQUIRED_DESCRIPTION: 'Huomioi, että ehdolliset kentät eivät voi olla pakollisia'
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'Lataa tiedosto'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    PREVIEW_EMAIL: 'Esikatsele sähköposti'
+    SINGULARNAME: 'Käyttäjän lomake'
+    SUBMITBUTTON: Lähetä
+    TYPEREPLY: 'Lisää vastausosoite'
+    TYPESUBJECT: 'Lisää otsikko'
+    TYPETO: 'Lisää vastaanottaja'

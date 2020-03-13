@@ -1,0 +1,7 @@
+mappings:
+  SpellProvider: SilverStripe\SpellCheck\Data\SpellProvider
+  SpellController: SilverStripe\SpellCheck\Handling\SpellController
+  SpellException: SilverStripe\SpellCheck\Handling\SpellException
+  HunSpellProvider: SilverStripe\SpellCheck\Providers\HunSpellProvider
+  HunSpellProviderTest: SilverStripe\SpellCheck\Tests\HunSpellProviderTest
+  SpellControllerTest: SilverStripe\SpellCheck\Tests\SpellControllerTest

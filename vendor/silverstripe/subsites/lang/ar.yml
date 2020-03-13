@@ -1,0 +1,15 @@
+ar:
+  Subsite:
+    COPYSTRUCTURE: 'نسخ الهيكل من:'
+    NOTEMPLATE: 'بدون قالب'
+  Subsites:
+    DefaultSiteFieldLabel: 'الموقع الافتراضي'
+    DomainFieldLabel: النطاق
+    IsPublicFieldLabel: 'تفعيل نفاذ العامّة'
+    LanguageFieldLabel: اللغة
+    MainSiteTitle: 'الموقع الرئيسي'
+    PageTypeBlacklistFieldLabel: 'نوع الصفحة قائمة سوداء'
+    PrimaryDomainFieldLabel: 'النطاق الأساسي'
+    RedirectURLFieldLabel: 'إعادة توجيه عنوان موقع الويب'
+    ThemeFieldLabel: المحور
+    TitleFieldLabel: 'اسم الموقع الفرعي'

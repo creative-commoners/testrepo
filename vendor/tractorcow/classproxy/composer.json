@@ -1,0 +1,24 @@
+{
+    "name": "tractorcow/classproxy",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian@silverstripe.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TractorCow\\ClassProxy\\": "src/",
+            "TractorCow\\ClassProxy\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpspec/prophecy": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

@@ -1,0 +1,100 @@
+pl_PL:
+  EditableUploadField:
+    SELECTUPLOADFOLDER: 'Wybierz folder dla przesyłanych plików'
+  SilverStripe\UserForms\Form\UserFormsGridFieldFilterHeader:
+    FILTERSUBMISSIONS: 'Zgłoszenia filtrów ..'
+    WHEREVALUEIS: 'których wartość jest ..'
+  SilverStripe\UserForms\Model\EditableFormField:
+    CHECKEDBYDEFAULT: 'Zaznaczenie domyślne?'
+    CUSTOMERROR: 'Własny komunikat o błędzie'
+    CUSTOMRULES: 'Custom Rules'
+    DEFAULTTOTODAY: 'Domyślnie to dzisiaj?'
+    GROUP: Grupa
+    'NO': Nie
+    PLURALNAME: 'Edytowalne pole formularza'
+    REQUIRED: 'To pole jest wymagane w tym formularzu i nie może zostać usunięte'
+    RIGHTTITLE: 'Right Title'
+    SINGULARNAME: 'Edytowalne pole formularza'
+    VALIDATION: Validation
+    'YES': Tak
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckbox:
+    PLURALNAME: Checkboxes
+    SINGULARNAME: 'Checkbox Field'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCheckboxGroupField:
+    PLURALNAME: 'Checkbox Groups'
+    SINGULARNAME: 'Checkbox Group'
+  SilverStripe\UserForms\Model\EditableFormField\EditableCountryDropdownField:
+    PLURALNAME: 'Country Dropdowns'
+    SINGULARNAME: 'Country Dropdown'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDateField:
+    PLURALNAME: 'Pola daty'
+    SINGULARNAME: 'Pole daty'
+  SilverStripe\UserForms\Model\EditableFormField\EditableDropdown:
+    PLURALNAME: Dropdowns
+    SINGULARNAME: 'Dropdown Field'
+  SilverStripe\UserForms\Model\EditableFormField\EditableEmailField:
+    PLURALNAME: 'Email Fields'
+    SINGULARNAME: 'Email Field'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFileField:
+    PLURALNAME: 'Pola przesyłania plików'
+    SINGULARNAME: 'Pole przesyłania pliku'
+  SilverStripe\UserForms\Model\EditableFormField\EditableFormHeading:
+    LEVEL: 'Wybierzpoziom nagłówka'
+    PLURALNAME: Nagłówki
+    SINGULARNAME: Nagłówek
+  SilverStripe\UserForms\Model\EditableFormField\EditableLiteralField:
+    HIDEFROMREPORT: 'Hide from reports?'
+    PLURALNAME: 'HTML Blocks'
+    SINGULARNAME: 'HTML Block'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMemberListField:
+    PLURALNAME: 'Member List Fields'
+    SINGULARNAME: 'Member List Field'
+  SilverStripe\UserForms\Model\EditableFormField\EditableMultipleOptionField:
+    PLURALNAME: 'Editable Multiple Option Fields'
+    SINGULARNAME: 'Editable Multiple Option Field'
+  SilverStripe\UserForms\Model\EditableFormField\EditableNumericField:
+    PLURALNAME: 'Pola numeryczne'
+    SINGULARNAME: 'Pole numeryczne'
+  SilverStripe\UserForms\Model\EditableFormField\EditableOption:
+    PLURALNAME: 'Edytowalne opcje'
+    SINGULARNAME: 'Edytowalna opcja'
+  SilverStripe\UserForms\Model\EditableFormField\EditableRadioField:
+    PLURALNAME: 'Pola wyboru'
+    SINGULARNAME: 'Pole wyboru'
+  SilverStripe\UserForms\Model\EditableFormField\EditableTextField:
+    NUMBERROWS: 'Liczba wierszy'
+    PLURALNAME: 'Pola tekstowe'
+    SINGULARNAME: 'Pole tekstowe'
+    TEXTLENGTH: 'Długość tekstu'
+  SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+    PLURALNAME: 'User Defined Form Email Recipients'
+    SINGULARNAME: 'User Defined Form Email Recipient'
+  SilverStripe\UserForms\Model\Submission\SubmittedFileField:
+    DOWNLOADFILE: 'Download File'
+    PLURALNAME: 'Submitted File Fields'
+    SINGULARNAME: 'Submitted File Field'
+  SilverStripe\UserForms\Model\Submission\SubmittedForm:
+    PLURALNAME: 'Submitted Forms'
+    SINGULARNAME: 'Submitted Form'
+  SilverStripe\UserForms\Model\Submission\SubmittedFormField:
+    PLURALNAME: 'Submitted Form Fields'
+    SINGULARNAME: 'Submitted Form Field'
+  SilverStripe\UserForms\Model\UserDefinedForm:
+    CLEARBUTTON: Czyść
+    DESCRIPTION: 'Dodaj własny formularz'
+    EMAILADDRESS: Email
+    EMAILBODY: Body
+    EMAILFROM: From
+    EMAILSUBJECT: 'Email Subject'
+    EmailFromContent: 'The from address allows you to set who the email comes from. On most servers this will need to be set to an email address on the same domain name as your site. For example on yoursite.com the from address may need to be something@yoursite.com. You can however, set any email address you wish as the reply to address.'
+    FROMADDRESS: 'Send Email From'
+    HIDEFORMDATA: 'Hide Form Data from Email'
+    ORSELECTAFIELDTOUSEASFROM: '.. or select a field to use as reply to address'
+    ORSELECTAFIELDTOUSEASTO: '.. or select a field to use as the to address'
+    PLURALNAME: 'Strony bazowe'
+    REPLYADDRESS: 'Email z odpowiedzią do'
+    SELECTAFIELDTOSETSUBJECT: '... lub wybierz pole, które zawiera tytuł'
+    SENDEMAILTO: 'Send Email To'
+    SENDPLAIN: 'Send Email as Plain Text (HTML will be stripped)'
+    SINGULARNAME: 'User Defined Form'
+    SUBMITBUTTON: Submit

@@ -1,0 +1,8 @@
+fi:
+  CWP\Search\Extensions\CwpSearchBoostExtension:
+    PAGEINFO: 'Sivun tiedot ja hakukoneoptimointi'
+    SearchBoost: 'Painota avainsanoja'
+    SearchBoostDescription: 'Syötä pilkulla ( , ) erotettuna avainsanat joilla haluat nostaa tämän sivun sijoitusta sivuston sisäisen haun tuloksissa.'
+    SearchBoostNote: '(Vaikuttaa vain sivuston sisäiseen hakuun, ei esim. Googlen hakutuloksiin)'
+  CWP\Search\Extensions\SynonymsSiteConfig:
+    SearchSynonyms: 'Haun synonyymit'

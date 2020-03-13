@@ -1,0 +1,18 @@
+it:
+  CWP\CWP\Model\Quicklink:
+    ParentRelationLabel: Parente
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Aggiungi nuova'
+    FeatureContentFieldLabel: Contenuto
+    PLURALNAME: 'Pagine Principali'
+    Title: Titolo
+  CWP\CWP\PageTypes\BasePage:
+    ColumnTitle: Titolo
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    AuthorFieldLabel: Autore
+  CWP\CWP\PageTypes\FooterHolder:
+    PLURALNAME: 'Footer Holder'
+  CWP\CWP\PageTypes\NewsHolder:
+    SINGULARNAME: 'Holder Notizie'
+  CWP\CWP\PageTypes\SitemapPage:
+    DESCRIPTION: 'Lista tutte le pagine sul sito'

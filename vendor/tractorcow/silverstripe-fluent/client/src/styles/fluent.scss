@@ -1,0 +1,111 @@
+// See includePaths in webpack-config module
+@import "variables";
+
+// $fluent-color-base: #008a00;
+$fluent-color-base: rgb(0, 138, 0);
+
+// $fluent-color-invisible: #566b8d
+$fluent-color-invisible: rgb(86, 107, 141);
+
+// $fluent-color-invisible-text
+$fluent-color-invisible-text: $text-muted;
+
+// $fluent-color-localised: #660ff2
+$fluent-color-localised: rgb(102, 15, 242);
+
+// Fix cms-menu collapsed for dropdown
+.cms-menu.collapsed {
+  .cms-menu-list {
+    float: left;
+  }
+
+  .cms-fluent-selector .text {
+    display: none;
+  }
+
+  .cms-fluent-selector-locales {
+    width: 100%;
+
+    .full-title {
+      display: none;
+    }
+
+    .short-title {
+      display: block;
+    }
+  }
+}
+
+.cms-tree.jstree .status-fluentinvisible a {
+  color: $fluent-color-invisible-text;
+}
+
+// Style of selector dropdown
+.cms-fluent-selector {
+  display: block;
+  height: auto;
+  line-height: $line-height-sm;
+  overflow: visible;
+  padding: 5px;
+  position: relative;
+
+  &:before {
+    color: white;
+    position: absolute;
+    top: 50%;
+    line-height: 0;
+    right: 24px;
+    width: 0;
+    pointer-events: none;
+
+    .cms-panel-layout.collapsed & {
+      right: 36px;
+    }
+  }
+
+  .cms-fluent-selector-locales {
+    background-color: #368b39;
+    background-image: url("../images/menu-icon-24-white.png");
+    background-position: 6px center;;
+    background-repeat: none;
+    background-size: 12px;
+    border-radius: 5px;
+    border: 0 none;
+    color: white;
+    padding: 5px 21px 5px 24px;
+    width: 100%;
+
+    .cms-panel-layout.collapsed & {
+      // hide text on main dropdown when collapsed, show icon only
+      color: transparent;
+      padding: 2px;
+      > option {
+        color: white;
+      }
+    }
+  }
+}
+
+// Styles for the custom badges that are pushed into the CMS breadcrumbs
+.fluent-badge {
+  color: $white;
+  margin-left: 5px;
+
+  &--default {
+    background-color: $fluent-color-base;
+  }
+
+  &--invisible {
+    background-color: $fluent-color-invisible;
+  }
+
+  &--localised {
+    background-color: $fluent-color-localised;
+  }
+}
+.fluent__localised-field .font-icon-translatable {
+  color: $fluent-color-localised;
+  top: 2px;
+  position: relative;
+  margin-right: 3px;
+}

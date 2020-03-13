@@ -1,0 +1,18 @@
+ar:
+  SilverStripe\Registry\RegistryAdmin:
+    MENUTITLE: التسجيل
+  SilverStripe\Registry\RegistryPage:
+    DESCRIPTION: 'يقوم بعرض سلسلة كبيرة من البيانات فى قائمة قائمة قابلة للتصنيف, البحث و ترقيم الصفحات'
+    DataClassFieldLabel: 'تصنيف البيانات'
+    ExportAll: 'تصدير النتائج لملف إس سى فى'
+    ExportAllTitle: 'تصدير جميع النتائج لجدول البيانات فى ملف سى إس فى'
+    NoResults: 'لا توجد نتائج للعرض'
+    PLURALNAME: 'الصفحات الرئيسية'
+    PageLengthFieldLabel: 'طول صفحة النتائج'
+    ResultsFor: 'البحث عن نتائج ل'
+    SINGULARNAME: 'صفحة التسجيل'
+    SelectDropdownDefault: 'اختر واحد(ة)'
+    ViewHistory: 'عرض سجل البيانات المستوردة'
+    ViewNext: 'عرض الصفحة التالية'
+    ViewPageNum: 'عرض رقم الصفحة'
+    ViewPrev: 'عرض الصفحة السابقة'

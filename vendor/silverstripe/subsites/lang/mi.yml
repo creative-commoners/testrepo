@@ -1,0 +1,15 @@
+mi:
+  Subsite:
+    COPYSTRUCTURE: 'Tāurutia te hanganga mai i:'
+    NOTEMPLATE: 'Kāore he tātauira'
+  Subsites:
+    DefaultSiteFieldLabel: 'Pae taunoa'
+    DomainFieldLabel: Rohe
+    IsPublicFieldLabel: 'Whakahohe urunga tūmatatanui'
+    LanguageFieldLabel: Reo
+    MainSiteTitle: 'Pae matua'
+    PageTypeBlacklistFieldLabel: 'Rārangirāhui Momo Whārangi'
+    PrimaryDomainFieldLabel: 'Rohe Matua'
+    RedirectURLFieldLabel: 'Tukua anō te URL'
+    ThemeFieldLabel: Kaupapa
+    TitleFieldLabel: 'Ingoa Pae Iti'

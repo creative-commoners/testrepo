@@ -1,0 +1,10 @@
+el:
+  SilverStripe\Taxonomy\TaxonomyAdmin:
+    MENUTITLE: Ταξινομίσεις
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    Category: 'Όροι ταξινόμησης'
+    CreatePermissionLabel: 'Δημιουργία όρου ταξινόμησης'
+    DeletePermissionLabel: 'Διαγραφή όρου και ενσωματωμένων όρων'
+    EditPermissionLabel: 'Επεξεργασία όρου'
+    PLURALNAME: 'Όροι Ταξινόμησης'
+    SINGULARNAME: 'Όρος Ταξινόμησης'

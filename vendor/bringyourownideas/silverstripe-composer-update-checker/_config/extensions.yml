@@ -1,0 +1,12 @@
+---
+Name: updatecheckerextensions
+---
+BringYourOwnIdeas\Maintenance\Model\Package:
+  extensions:
+    - BringYourOwnIdeas\UpdateChecker\Extensions\ComposerUpdateExtension
+BringYourOwnIdeas\Maintenance\Util\ComposerLoader:
+  extensions:
+    - BringYourOwnIdeas\UpdateChecker\Extensions\ComposerLoaderExtension
+BringYourOwnIdeas\Maintenance\Tasks\UpdatePackageInfoTask:
+  extensions:
+    - BringYourOwnIdeas\UpdateChecker\Extensions\CheckComposerUpdatesExtension

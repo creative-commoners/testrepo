@@ -1,0 +1,58 @@
+mi:
+  CWP\CWP\Extensions\CustomSiteConfig:
+    FbField: 'UID Facebook, ingoakawhakamahi rānei'
+    FbFieldDesc: 'Hono Facebook (te katoa kei muri i te "http://facebook.com/", hei tauira, http://facebook.com/<strong>username</strong>, http://facebook.com/<strong>pages/108510539573</strong> rānei)'
+    GaField: 'Pūkete Tātaritanga Google'
+    GaFieldDesc: 'Tau pūkete kia whakamahia puta noa i te pae  (i te hōputu <strong>UA-XXXXX-X</strong>)'
+    TwitterField: 'Ingoakaiwhakamahi Twitter'
+    TwitterFieldDesc: 'Ingoakaiwhakamahi Twitter (hei tauira, http://twitter.com/<strong>username</strong>)'
+  CWP\CWP\Model\Quicklink:
+    ExternalLinkLabel: 'Hono ā-Waho'
+    InternalLinkLabel: 'Hono ā-Roto'
+    NameLabel: Ingoa
+    PLURALNAME: 'Ngā Honotere'
+    ParentRelationLabel: Matua
+    SINGULARNAME: Honotere
+    SortOrderLabel: 'Raupapa Kōmaka'
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Tāpiri Hou'
+    FeatureButtonText: 'Kuputuhi pātene'
+    FeatureCategoryDropdown: 'Ata kāwai'
+    FeatureContentFieldLabel: 'Ngā ihirangi'
+    FeatureLink: 'Whārangi hono ki'
+    LearnMoreLink: 'Whārangi hono i te pātene "Ako Anō" ki:'
+    Title: Taitara
+  CWP\CWP\PageTypes\BasePage:
+    PLURALNAME: 'Ngā Whārangi Taketake'
+    RelatedPages: 'Ngā whārangi pāhono'
+    SINGULARNAME: 'Whārangi Taketake'
+    Terms: 'Ngā Ture'
+  CWP\CWP\PageTypes\DatedUpdateHolder:
+    PLURALNAME: 'Ngā Whārangi Taketake'
+    SINGULARNAME: 'Pūpupuri Whakahōu Whai Rā'
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    AbstractDesc: 'Ka whakamahia te tangohanga hei whakarāpopotonga i ngā whārangi whakarārangi. Ka whakatikia ki te 160 pūāhua.'
+    AbstractTextFieldLabel: Tangohanga
+    DateLabel: Rā
+    SINGULARNAME: 'Whārangi Whakahōu Whai Rā'
+  CWP\CWP\PageTypes\EventHolder:
+    DESCRIPTION: 'Whārangi ipu mō ngā Whārangi Takahanga, ka whakarato tātaringa takahanga me te whakawhārangitanga'
+    PLURALNAME: 'Ngā Whārangi Taketake'
+    SINGULARNAME: 'Pūpupuri Takahanga'
+  CWP\CWP\PageTypes\EventPage:
+    DESCRIPTION: 'Ka whakaahua i tētahi takahanga i tētahi rā tauwhāiti.'
+    SINGULARNAME: 'Whārangi Takahanga'
+  CWP\CWP\PageTypes\FooterHolder:
+    DESCRIPTION: 'Whārangi pupuri ka whakaatu i ngā whārangi tamariki katoa hei hononga i te hiku'
+    PLURALNAME: 'Ngā Whārangi Taketake'
+    SINGULARNAME: 'Pūpupuri Hiku'
+  CWP\CWP\PageTypes\NewsHolder:
+    DESCRIPTION: 'Whārangi ipu mō ngā Whārangi Rongokōrero, ka whakarato tātaringa rongokōrero me te whakawhārangitanga'
+    PLURALNAME: 'Ngā Whārangi Taketake'
+    SINGULARNAME: 'Pūpupuri Rongokōrero'
+  CWP\CWP\PageTypes\NewsPage:
+    DESCRIPTION: 'Ka whakaatu i tētahi tuemi rongokōrero'
+    SINGULARNAME: 'Whārangi Rongokōrero'
+  CWP\CWP\PageTypes\SitemapPage:
+    DESCRIPTION: 'Ka whakarārangi i ngā whārangi katoa i te pae'
+    SINGULARNAME: 'Whārangi Maherepae'

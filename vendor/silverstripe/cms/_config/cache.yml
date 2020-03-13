@@ -1,0 +1,18 @@
+---
+Name: cmscache
+After:
+  - '#corecache'
+---
+SilverStripe\Core\Injector\Injector:
+  Psr\SimpleCache\CacheInterface.CMSMain_SiteTreeHints:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: "CMSMain_SiteTreeHints"
+  Psr\SimpleCache\CacheInterface.SiteTree_CreatableChildren:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: "SiteTree_CreatableChildren"
+  Psr\SimpleCache\CacheInterface.SiteTree_PageIcons:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: "SiteTree_PageIcons"

@@ -1,0 +1,34 @@
+{
+    "name": "silverstripe/hybridsessions",
+    "description": "Cookie/DB session support for SilverStripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "session",
+        "cwp"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Hamish Friedlander",
+            "email": "hamish@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.0",
+        "silverstripe/versioned": "^1"
+    },
+    "extra": [],
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\HybridSessions\\": "src/",
+            "SilverStripe\\HybridSessions\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

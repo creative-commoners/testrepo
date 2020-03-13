@@ -1,0 +1,16 @@
+{
+  "github-slug": "silverstripe/cwp-recipe-search",
+  "child-stability-inherit": true,
+  "dependency-constraint": "exact",
+  "vendors": [
+    "cwp",
+    "silverstripe",
+    "symbiote"
+  ],
+  "upgrade-only": [
+    "symbiote/silverstripe-queuedjobs"
+  ],
+  "exclude": [
+    "silverstripe/recipe-plugin"
+  ]
+}

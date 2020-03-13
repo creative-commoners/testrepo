@@ -1,0 +1,48 @@
+ro:
+  CommentInterface:
+    COMMENT_MESSAGE_REQUIRED: 'Vă rugăm să introduceți un comentariu'
+    COMMENT_MESSAGE_URL: 'Vă rugăm să introduceți un URL valid'
+    EMAILADDRESS_MESSAGE_EMAIL: 'Vă rugăm să introduceți uo adresă de e-mail validă'
+    EMAILADDRESS_MESSAGE_REQUIRED: 'Vă rugăm să vă introduceți adresa de e-mail'
+    POST: Publică
+    PREVIEW: 'Vizualizare înaintea publicării'
+    PREVIEWLABEL: 'Vizualizare înaintea publicării'
+    YOURNAME: 'Numele dvs.'
+    YOURNAME_MESSAGE_REQUIRED: 'Vă rugăm să vă introduceți numele'
+  CommentsInterface_pendingcomment_ss:
+    AWAITINGMODERATION: 'Comentariul dvs. a fost trimis și așteaptă să fie moderat.'
+  CommentsInterface_ss:
+    AWAITINGMODERATION: 'Comentariul dvs. a fost trimis și așteaptă să fie moderat.'
+    COMMENTLOGINERROR: 'Publicarea de comentarii necesită autentificare pe site'
+    COMMENTPERMISSIONERROR: 'și că aveți nivelul de permisiune corespunzător'
+    COMMENTPOSTLOGIN: Autentificare
+    COMMENTS: Comentarii
+    COMMENTSDISABLED: 'Postarea de comentarii a fost dezactivată'
+    LOGINTOPOSTCOMMENT: 'Autentificaţi-vă pentru a publica un comentariu'
+    NEXT: următorul
+    NOCOMMENTSYET: 'Nimeni nu a comentat încă pe aceasta pagină.'
+    POSTCOM: 'Publicaţi-vă comentariul'
+    PREV: anteriorul
+    RSSFEEDALLCOMMENTS: 'RSS pentru toate comentariile'
+    RSSFEEDCOMMENTS: 'RSS pentru comentariile de pe această pagină'
+  SilverStripe\Comments\Admin\CommentAdmin:
+    MENUTITLE: Commentarii
+  SilverStripe\Comments\Controllers\CommentingController:
+    COMMENTS: Commentarii
+    EMAILADDRESS: 'Adresa dvs. de e-mail (nu va fi publicată)'
+    PERMISSIONFAILURE: 'Nu puteţi publica comentarii pe această pagină. Vă rugăm să vă asiguaţi că sunteți autentificat și că aveşi nivelul de permisiune corespunzător.'
+    RSSTITLE: 'RSS feed pentru comentarii'
+    WEBSITEURL: 'URL Site web'
+  SilverStripe\Comments\Model\Comment:
+    ALLOWCOMMENTS: 'Acceptare comentarii'
+    COMMENT: Comentariu
+    COMMENTBY: 'Comentat de %s'
+    CREATED: 'Data publicării'
+    EMAIL: E-mail
+    ISSPAM: 'Spam?'
+    MODERATED: 'Moderare?'
+    NAME: 'Nume autor'
+    PARENTTITLE: Părinte
+    PLURALNAME: Comentarii
+    SINGULARNAME: Comentariu
+    URL: URL

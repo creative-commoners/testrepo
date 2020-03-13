@@ -1,0 +1,48 @@
+id:
+  CommentInterface:
+    COMMENT_MESSAGE_REQUIRED: 'Ketikkan komentar Anda'
+    COMMENT_MESSAGE_URL: 'Isikan URL yang valid'
+    EMAILADDRESS_MESSAGE_EMAIL: 'Isikan alamat email yang valid'
+    EMAILADDRESS_MESSAGE_REQUIRED: 'Isikan alamat email Anda'
+    POST: Kirim
+    PREVIEW: Pratinjau
+    PREVIEWLABEL: Pratinjau
+    YOURNAME: 'Nama Anda'
+    YOURNAME_MESSAGE_REQUIRED: 'Isikan nama Anda'
+  CommentsInterface_pendingcomment_ss:
+    AWAITINGMODERATION: 'Komentar Anda sudah terkirim dan menunggu moderasi.'
+  CommentsInterface_ss:
+    AWAITINGMODERATION: 'Komentar Anda sudah terkirim dan menunggu moderasi.'
+    COMMENTLOGINERROR: 'Anda tidak dapat mengomentari jika belum login'
+    COMMENTPERMISSIONERROR: 'dan memiliki hak akses yang sesuai'
+    COMMENTPOSTLOGIN: 'Login di Sini'
+    COMMENTS: Komentar
+    COMMENTSDISABLED: 'Komentar sedang dinonaktifkan'
+    LOGINTOPOSTCOMMENT: 'Login untuk berkomentar'
+    NEXT: selanjutnya
+    NOCOMMENTSYET: 'Belum ada yang berkomentar.'
+    POSTCOM: 'Kirim komentar Anda'
+    PREV: sebelumnya
+    RSSFEEDALLCOMMENTS: 'Sindikasi RSS untuk semua komentar'
+    RSSFEEDCOMMENTS: 'Sindikasi RSS untuk komentar di laman ini'
+  SilverStripe\Comments\Admin\CommentAdmin:
+    MENUTITLE: Komentar
+  SilverStripe\Comments\Controllers\CommentingController:
+    COMMENTS: Komentar
+    EMAILADDRESS: 'Alamat email Anda (tidak akan diterbitkan)'
+    PERMISSIONFAILURE: 'Anda tidak dapat mengomentari laman ini. Mohon pastikan Anda sudah login dan mendapatkan hak akses yang sesuai.'
+    RSSTITLE: 'Sindikasi RSS Komentar'
+    WEBSITEURL: 'URL situs Anda'
+  SilverStripe\Comments\Model\Comment:
+    ALLOWCOMMENTS: 'Bolehkan Komentar'
+    COMMENT: Komentar
+    COMMENTBY: 'Komentar oleh %s'
+    CREATED: 'Tanggal kirim'
+    EMAIL: Email
+    ISSPAM: 'Spam?'
+    MODERATED: 'Moderasi?'
+    NAME: 'Nama Penulis'
+    PARENTTITLE: Induk
+    PLURALNAME: Komentar
+    SINGULARNAME: Komentar
+    URL: URL

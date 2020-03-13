@@ -1,0 +1,28 @@
+---
+Name: proxydb-mysql
+After: '#databaseconnectors'
+---
+SilverStripe\Core\Injector\Injector:
+  MySQLDatabase:
+    factory: TractorCow\SilverStripeProxyDB\ProxyDBFactory
+  MySQLPDODatabase:
+    factory: TractorCow\SilverStripeProxyDB\ProxyDBFactory
+---
+Name: proxydb-postgresql
+After: '#postgresqlconnectors'
+---
+SilverStripe\Core\Injector\Injector:
+  PostgrePDODatabase:
+    factory: TractorCow\SilverStripeProxyDB\ProxyDBFactory
+  PostgreSQLDatabase:
+    factory: TractorCow\SilverStripeProxyDB\ProxyDBFactory
+
+---
+Name: proxydb-sqlite
+After: '#sqlite3connectors'
+---
+SilverStripe\Core\Injector\Injector:
+  SQLite3PDODatabase:
+    factory: TractorCow\SilverStripeProxyDB\ProxyDBFactory
+  SQLite3Database:
+    factory: TractorCow\SilverStripeProxyDB\ProxyDBFactory

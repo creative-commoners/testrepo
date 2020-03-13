@@ -1,0 +1,11 @@
+mappings:
+  SynonymsSiteConfig: CWP\Search\Extensions\SynonymsSiteConfig
+  SynonymValidator: CWP\Search\Extensions\SynonymValidator
+  CwpSearchEngine: CWP\Search\CwpSearchEngine
+  CwpSearchResult: CWP\Search\CwpSearchResult
+  CwpSearchPage: CWP\Search\CwpSearchPage
+  CwpSearchPage_Controller: CWP\Search\CwpSearchPageController
+  SynonymValidatorTest: CWP\Search\Tests\Extensions\SynonymValidatorTest
+  CwpSearchIndex: CWP\Search\Solr\CwpSearchIndex
+  SolrSearchIndex: CWP\Search\Solr\CwpSolrIndex
+  CwpSolr: CWP\Search\Solr\\CwpSolr

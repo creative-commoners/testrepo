@@ -1,0 +1,9 @@
+pl:
+  SilverStripe\Registry\RegistryPage:
+    ExportAll: 'Eksportuj do CSV'
+    NoResults: 'Brak rezultatów do pokazania'
+    PLURALNAME: 'Podstawowe strony'
+    ResultsFor: 'Wyniki wyszukiwania dla'
+    SelectDropdownDefault: 'Wybierz jeden'
+    ViewNext: 'Zobacz następną stronę'
+    ViewPrev: 'Zobacz poprzednią stronę'

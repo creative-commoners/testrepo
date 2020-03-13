@@ -1,0 +1,13 @@
+de:
+  SilverStripe\Registry\RegistryPage:
+    DataClassFieldLabel: Datenklasse
+    ExportAll: 'Ergebnisse als CSV exportieren'
+    ExportAllTitle: 'Alle Ergebnisse als CSV-Tabelle exportieren'
+    NoResults: 'Keine anzuzeigenden Ergebnisse'
+    PLURALNAME: Grundseiten
+    PageLengthFieldLabel: Ergebnisseitenlänge
+    ResultsFor: 'Suchergebnisse für'
+    SelectDropdownDefault: 'Eines auswählen'
+    ViewNext: 'Nächste Seite anzeigen'
+    ViewPageNum: 'Seitennummer anzeigen'
+    ViewPrev: 'Vorherige Seite anzeigen'

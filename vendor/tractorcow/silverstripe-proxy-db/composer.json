@@ -1,0 +1,28 @@
+{
+    "name": "tractorcow/silverstripe-proxy-db",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "db",
+        "proxy"
+    ],
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4@dev",
+        "silverstripe/vendor-plugin": "^1.0",
+        "tractorcow/classproxy": "^0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TractorCow\\SilverStripeProxyDB\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

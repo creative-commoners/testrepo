@@ -1,0 +1,21 @@
+en:
+  CWP\Search\CwpSearchPage:
+    PLURALNAME: 'Search pages'
+    PLURALS:
+      one: 'A Cwp Search Page'
+      other: '{count} Search pages'
+    SINGULARNAME: 'Cwp Search Page'
+  CWP\Search\Extensions\CwpSearchBoostExtension:
+    PAGEINFO: 'Page info and SEO'
+    SearchBoost: 'Boost Keywords'
+    SearchBoostDescription: 'Enter keywords separated by comma ( , ) for which to boost the ranking of this page within the search results on this site.'
+    SearchBoostNote: '(Only applies to the search results on this site e.g. not on Google search)'
+  CWP\Search\Extensions\SearchControllerExtension:
+    EmptySearch: 'Search field empty, please enter your search query.'
+    MetaTitle: 'Search {keywords}'
+    NoResult: 'Sorry, your search query did not return any results.'
+  CWP\Search\Extensions\SynonymValidator:
+    InvalidValue: 'Synonyms cannot contain words separated by spaces'
+  CWP\Search\Extensions\SynonymsSiteConfig:
+    SearchSynonyms: 'Search Synonyms'
+    SearchSynonyms_Description: 'Enter as many comma separated synonyms as you wish, where each line represents a group of synonyms.<br /> You will need to run <a rel="external" target="_blank" href="dev/tasks/Solr_Configure">Solr_Configure</a> if you make any changes'

@@ -1,0 +1,3 @@
+cs:
+  SilverStripe\IFrame\IFramePage:
+    PLURALNAME: 'Základní stránky'

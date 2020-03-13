@@ -1,0 +1,28 @@
+---
+name: auditor
+---
+SilverStripe\Core\Injector\Injector:
+  AuditLogger:
+    class: AuditLogger
+    factory: SilverStripe\Auditor\AuditFactory
+  SilverStripe\ORM\ManyManyList:
+    class: SilverStripe\Auditor\AuditHookManyManyList
+  SilverStripe\Security\Member_GroupSet:
+    class: SilverStripe\Auditor\AuditHookMemberGroupSet
+
+SilverStripe\Control\Controller:
+  extensions:
+    - SilverStripe\Auditor\AuditHook
+
+SilverStripe\Security\Member:
+  extensions:
+    - SilverStripe\Auditor\AuditHook
+
+---
+Name: auditorcms
+Only:
+  moduleexists: silverstripe/cms
+---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - SilverStripe\Auditor\AuditHook

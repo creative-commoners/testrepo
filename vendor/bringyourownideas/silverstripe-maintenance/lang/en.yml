@@ -1,0 +1,29 @@
+en:
+  BringYourOwnIdeas\Maintenance\Forms\GridFieldDropdownFilter:
+    AllResults: 'All results'
+  BringYourOwnIdeas\Maintenance\Forms\GridFieldRefreshButton:
+    MESSAGE: 'Updating this list may take 2-3 minutes. You can continue to use the CMS while we run the update.'
+    REFRESH: 'Check for updates'
+    UPDATE: Updating...
+  BringYourOwnIdeas\Maintenance\Jobs\CheckForUpdatesJob:
+    TITLE: 'Check for updates to installed modules'
+  BringYourOwnIdeas\Maintenance\Model\Package:
+    ADDONS_LINK_TITLE: 'View {package} on addons.silverstripe.org'
+    PLURALNAME: Packages
+    PLURALS:
+      one: 'A Package'
+      other: '{count} Packages'
+    SINGULARNAME: Package
+  BringYourOwnIdeas\Maintenance\Reports\SiteSummary:
+    FilterSupported: 'Supported modules'
+    FilterUnsupported: 'Unsupported modules'
+    LAST_UPDATED: 'Last updated {updated}'
+    LINK_TO_ADDONS: 'Explore Addons'
+    MORE_INFORMATION: 'More information'
+    ShowAllModules: 'Show all modules'
+    TITLE: 'Installed modules'
+    VERSION: Version
+    VersionUnknown: Unknown
+  BringYourOwnIdeas\Maintenance\Tasks\UpdatePackageInfoTask:
+    DESCRIPTION: 'Repopulates installation summary, listing installed modules and information associated with each.'
+    TITLE: 'Refresh installed package info'

@@ -1,0 +1,56 @@
+ru:
+  SilverStripe\Blog\Forms\GridField\GridFieldAddByDBField:
+    Add: 'Добавить {name}'
+    AddFail: 'Не удалось сохранить {class} в базе данных.'
+    PermissionFail: 'У вас нет прав для создания элемента {class}.'
+  SilverStripe\Blog\Forms\GridField\GridFieldBlogPostState:
+    Draft: 'Черновик сохранен {date}'
+    Published: 'Опубликовано {date}'
+    Timer: 'Опубликовать {date}'
+  SilverStripe\Blog\Model\Blog:
+    Archive: Архив
+    By: 'автор:'
+    CONTRIBUTOR: Автор
+    Categories: Категории
+    Category: Категория
+    Comments: Комментарии
+    DESCRIPTION: 'Добавляет к сайту блог.'
+    EDITOR: Редактор
+    FILTERDESCRIPTION_AUTHOR: 'Автор: {author}'
+    FILTERDESCRIPTION_CATEGORY: 'В категории: {category}'
+    FILTERDESCRIPTION_DATE: 'Дата: {date}'
+    FILTERDESCRIPTION_PAGE: 'Страница {page}'
+    FILTERDESCRIPTION_TAG: 'С метками {tag}'
+    LumberjackTitle: 'Записи в блоге'
+    NoPosts: 'В блоге нет записей'
+    PERMISSIONS_CATEGORY: 'Права доступа к содержимому блога'
+    PERMISSION_MANAGE_USERS_DESCRIPTION: 'Управление пользователями для индивидуальных блогов'
+    PLURALNAME: 'Базовые страницы'
+    Posted: Отправлено
+    PostedIn: Отправлено
+    PostsPerPage: 'Записей на странице'
+    ReadMoreAbout: 'Узнать больше о ''{title}''...'
+    SINGULARNAME: Блог
+    Tag: Метка
+    Tagged: Метки
+    Tags: Метки
+    WRITER: Автор
+  SilverStripe\Blog\Model\BlogPost:
+    AUTHOR: Автор
+    AdditionalCredits: 'Дополнительные сведения'
+    Authors: Авторы
+    PLURALNAME: 'Базовые страницы'
+    SINGULARNAME: 'Запись в блоге'
+    Tags: Метки
+  SilverStripe\Blog\Widgets\BlogArchiveWidget:
+    ArchiveType: 'Тип архива'
+    Blog: Блог
+  SilverStripe\Blog\Widgets\BlogCategoriesWidget:
+    Blog: Блог
+    Sort: Сортировать
+  SilverStripe\Blog\Widgets\BlogRecentPostsWidget:
+    Blog: Блог
+    NumberOfPosts: 'Количество записей'
+  SilverStripe\Blog\Widgets\BlogTagsWidget:
+    Blog: Блог
+    Sort: Сортировать

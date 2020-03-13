@@ -1,0 +1,45 @@
+id:
+  CWP\CWP\Extensions\CustomSiteConfig:
+    FbField: 'UID atau nama pengguna Facebook'
+    FbFieldDesc: 'Tautan Facebook (semua bagian tautan setelah "http://facebook.com/", misal http://facebook.com/<strong>nama_pengguna</strong> atau http://facebook.com/<strong>pages/108510539573</strong>)'
+    GaField: 'Akun Google Analytics'
+    GaFieldDesc: 'Angka akun untuk digunakan di seluruh bagian situs (dalam format <strong>UA-XXXXX-X</strong>)'
+    SocialMediaTab: 'Media Sosial'
+    TwitterField: 'Nama Pengguna Twitter '
+  CWP\CWP\Model\Quicklink:
+    NameLabel: Nama
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Tambah baru'
+    FeatureButtonText: 'Tombol teks'
+    FeatureCategoryDropdown: 'Ikon kategori'
+    FeatureContentFieldLabel: Konten
+    FeatureLink: 'Laman yang ditautkan'
+    LearnMoreLink: 'Laman yang ditautkan ke tombol "Learn More":'
+    PLURALNAME: 'Laman Utama'
+    SINGULARNAME: 'Laman Utama'
+    Title: Judul
+  CWP\CWP\PageTypes\BasePage:
+    ColumnPageType: 'Jenis Laman'
+    ColumnTitle: Judul
+    PLURALNAME: 'Laman Dasar'
+    RelatedPages: 'Laman berkaitan'
+    SINGULARNAME: 'Laman Dasar'
+    TagsTabTitle: Penanda
+    Terms: Istilah
+    TermsDescription: 'Klik untuk mencari term tambahan'
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    AbstractTextFieldLabel: Abstrak
+    DateLabel: Tanggal
+  CWP\CWP\PageTypes\SitemapPage:
+    DESCRIPTION: 'Tampilkan semua laman pada situs'
+    PLURALNAME: 'Laman Peta Situs'
+    SINGULARNAME: 'Laman Peta Situs'
+  CWP\CWP\Report\CwpStatsReport:
+    Count: Hitung
+    Description: 'Laporan ini menyediakan berbagai statistik situs. "jumlah hitungan laman live" adalah angka yang bisa dibandingkan dengan spesifikasi ukuran instans.'
+    FileCount: 'Hitung Berkas'
+    Name: Nama
+    PagesForMainSite: '- pada situs utama'
+    PagesForSubsite: '- pada sub-situs ''{SubsiteTitle}'''
+    Title: 'Ringkasan statistik'
+    TotalPageCount: 'Jumlah hitungan laman live, mencakup semua terjemahan dan sub-situs'

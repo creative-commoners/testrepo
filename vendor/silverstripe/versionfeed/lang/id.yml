@@ -1,0 +1,3 @@
+id:
+  SilverStripe\VersionFeed\VersionFeed:
+    TITLECHANGED: 'Judul telah diubah:'

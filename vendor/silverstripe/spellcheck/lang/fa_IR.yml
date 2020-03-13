@@ -1,0 +1,9 @@
+fa_IR:
+  SilverStripe\SpellCheck\Handling\SpellController:
+    InvalidLocale: 'محل پشتیبانی نمی‌شود'
+    InvalidRequest: 'درخواست نامعتبر'
+    MissingData: 'قادر به دریافت داده‌های خام پست نبود'
+    MissingProviders: 'هیچ ماژول بررسی املا نصب نشده است'
+    SecurityDenied: 'دسترسی رد شده'
+    SecurityMissing: 'زمان جلسه شما منقضی شده. لطفاً صفحه را از نو بارگذاری کنید.'
+    UnsupportedMethod: 'روش نامعتبر ''{method}'''

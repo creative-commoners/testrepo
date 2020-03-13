@@ -1,0 +1,4 @@
+en:
+  SilverStripe\MimeValidator\MimeUploadValidator:
+    FAILEDMIMECHECK: 'MIME validation failed: {message}'
+    INVALIDMIME: 'File type does not match extension (.{extension})'

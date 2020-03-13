@@ -1,0 +1,35 @@
+{
+    "name": "silverstripe/spellcheck",
+    "description": "Improves spellcheck support for SilverStripe CMS, including an implementation for HunSpell.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "spellcheck",
+        "hunspell",
+        "cwp"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.0",
+        "silverstripe/versioned": "^1" 
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\SpellCheck\\": "src/",
+            "SilverStripe\\SpellCheck\\Tests\\": "tests/"
+        }
+    },
+    "extra": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

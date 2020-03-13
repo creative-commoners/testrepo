@@ -1,0 +1,50 @@
+es:
+  CWP\CWP\Extensions\CustomSiteConfig:
+    FbField: 'UID de Facebook o nombre de usuario'
+    FbFieldDesc: 'Enlace de Facebook (todo lo que sigue a "http://facebook.com/", por ejemplo, http://facebook.com/<strong>nombre de usuario</strong> o http://facebook.com/<strong>pages/108510539573</strong>)'
+    GaField: 'Cuenta de Google Analytics'
+    GaFieldDesc: 'Número de cuenta a usarse en todo el sitio (en el formato <strong>UA-XXXXX-X</strong>)'
+    SocialMediaTab: 'Medios sociales'
+    TwitterField: 'Nombre de usuario de Twitter'
+    TwitterFieldDesc: 'Nombre de usuario de Twitter (por ejemplo, http://twitter.com/<strong>nombre de usuario</strong>)'
+  CWP\CWP\Model\Quicklink:
+    ExternalLinkLabel: 'Enlace externo'
+    InternalLinkLabel: 'Enlace interno'
+    NameLabel: Nombre
+    ParentRelationLabel: Padre
+    SortOrderLabel: 'Orden de clasificación'
+  CWP\CWP\PageTypes\BaseHomePage:
+    AddNewButton: 'Agregar nuevo'
+    FeatureButtonText: 'Texto del botón'
+    FeatureCategoryDropdown: 'Icono de categoría'
+    FeatureContentFieldLabel: Contenido
+    PLURALNAME: 'Páginas de inicio'
+    SINGULARNAME: 'Página de inicio'
+    Title: Título
+  CWP\CWP\PageTypes\BasePage:
+    ColumnPageType: 'Tipo de página'
+    ColumnTitle: Título
+    PLURALNAME: 'Páginas base'
+    RelatedPages: 'Páginas relacionadas'
+    SINGULARNAME: 'Página base'
+    TagsTabTitle: Etiquetas
+    Terms: Términos
+    TermsDescription: 'Hacer clic para buscar términos adicionales'
+  CWP\CWP\PageTypes\DatedUpdatePage:
+    DateLabel: Fecha
+  CWP\CWP\PageTypes\EventHolder:
+    DESCRIPTION: 'La página contenedora para páginas de eventos, proporciona filtrado de eventos y paginación'
+  CWP\CWP\PageTypes\EventPage:
+    DESCRIPTION: 'Describe un evento que ocurre en una fecha específica.'
+    PLURALNAME: 'Páginas de eventos'
+    SINGULARNAME: 'Página de evento'
+  CWP\CWP\PageTypes\NewsHolder:
+    DESCRIPTION: 'La página contenedora de páginas de noticias, provee filtrado de noticias y paginación'
+  CWP\CWP\PageTypes\NewsPage:
+    DESCRIPTION: 'Describe un item de noticias'
+    PLURALNAME: 'Páginas de noticias'
+    SINGULARNAME: 'Página de noticias'
+  CWP\CWP\PageTypes\SitemapPage:
+    DESCRIPTION: 'Lista todas las páginas del sitio'
+    PLURALNAME: 'Páginas de mapa del sitio'
+    SINGULARNAME: 'Página de mapa del sitio'

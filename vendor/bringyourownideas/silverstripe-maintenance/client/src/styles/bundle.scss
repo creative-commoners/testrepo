@@ -1,0 +1,9 @@
+// Import core variables
+@import "variables";
+
+// Maintenance module styles
+@import "sitesummary";
+
+// Import components
+@import "../components/ModuleDetails/ModuleDetails";
+@import "../components/ModuleDetails/ModuleHealthIndicator";

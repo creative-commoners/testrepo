@@ -1,0 +1,18 @@
+ru:
+  SilverStripe\Registry\RegistryAdmin:
+    MENUTITLE: Регистр
+  SilverStripe\Registry\RegistryPage:
+    DESCRIPTION: 'Показывает большие списки данных в фильтрованных, постраничных списках с возможностью поиска.'
+    DataClassFieldLabel: 'Тип Данных'
+    ExportAll: 'Экспорт в CSV'
+    ExportAllTitle: 'Экспорт в табличный CSV файл'
+    NoResults: 'Нет данных для отображения'
+    PLURALNAME: 'Базовые страницы'
+    PageLengthFieldLabel: 'Кол-во позиций на странице'
+    ResultsFor: 'Результаты поиска по'
+    SINGULARNAME: Регистр
+    SelectDropdownDefault: Выберите
+    ViewHistory: 'История импорта данных'
+    ViewNext: 'Перейти к следующей странице'
+    ViewPageNum: 'Просмотреть страницу №'
+    ViewPrev: 'Перейти к предыдущей странице'

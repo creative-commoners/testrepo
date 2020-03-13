@@ -1,0 +1,3 @@
+sk:
+  SilverStripe\Registry\RegistryPage:
+    PLURALNAME: 'Základné stránky'

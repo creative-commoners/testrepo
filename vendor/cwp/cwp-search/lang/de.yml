@@ -1,0 +1,5 @@
+de:
+  CWP\Search\CwpSearchPage:
+    PLURALNAME: Suchseiten
+  CWP\Search\Extensions\SynonymsSiteConfig:
+    SearchSynonyms: 'Synonyme durchsuchen'
