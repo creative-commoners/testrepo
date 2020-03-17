@@ -1,0 +1,81 @@
+language: php
+
+dist: xenial
+
+services:
+  - mysql
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+addons:
+  apt:
+    packages:
+      - hunspell
+      - libhunspell-dev
+      - hunspell-en-us
+
+env:
+  global:
+    - DB=MYSQL
+
+matrix:
+  include:
+    - php: 7.1
+      env: PHPUNIT_TEST=Default PDO=1
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-core
+    - php: 7.1
+      env: PHPUNIT_TEST=framework-orm
+    - php: 7.1
+      env: PHPUNIT_TEST=framework-core
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-cms
+    - php: 7.1
+      env: PHPUNIT_TEST=cwp-recipe-core PDO=1
+    - php: 7.1
+      env: PHPUNIT_TEST=cwp-recipe-cms
+    - php: 7.1
+      env: PHPUNIT_TEST=cwp-recipe-search PDO=1
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-authoring-tools
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-blog
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-collaboration
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-content-blocks
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-form-building
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-reporting-tools
+    - php: 7.1
+      env: PHPUNIT_TEST=recipe-services
+    - php: 7.1
+      env: PHPUNIT_TEST=optional-authenticators
+    - php: 7.1
+      env: PHPUNIT_TEST=mfa
+
+before_script:
+  # Configure PHP
+  - phpenv rehash
+  - phpenv config-rm xdebug.ini || true
+  - echo 'memory_limit = 2G' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+
+  - composer validate
+  # Install dependencies
+  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
+
+  # Validate cow schema
+  - composer global require silverstripe/cow ^2
+  - $HOME/.composer/vendor/bin/cow schema:validate
+
+script:
+  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST" --exclude-group exclude-from-travis; fi
+
+notifications:
+  slack:
+    on_pull_requests: false
+    rooms:
+      secure: X37wqEdRXnfQ0GQgldToNXDmITIMZXrh/MyJ1OOqZ/tArFeDs/UeM/IilHM9bgmkA+fX4UxL4h3ZUWesE44ySg8PB/MEDAjSBtKp3RoT9usTLsVondFQs1DPMJhxvHeRa93Ev6kypFrZAjxPIYqgwT2Vt6voCC9OgbPx2zaXvUalYt78Vhmmboj4WIn1sZ9YmCUP6PGYgPBKzErqFms+y9zhaYImC9tGHC5Z+t3bmwdmMf+cwwivLgHwua6r1emwp7ON/Hpuocb70k8xCpRG+kAonws1uWdb9bxqobUoTzqdQr0Y793j5y28aOYpdoXJWQieogXVMyJl9Wwxg0RWPw/PwE/5xbO+1jLNUgKmymZ/rNl3peQhhzHE2vxnGOQdUcIE308BeJ5eRh3a9ZpmhImKcuwgVQp9oUE8m2YuKVcAKyD11nNDd19Ku11UjF0RAaFCv+Z1IPjEzMXa8SSDjBJUhX6ctfmXhC2oqr/ia4RgJXOmThWaeQDqRdYi6Eeiqz3FMZsKRGZZqhjoIznCWR6z7GomlP4yP0PVvO2NahnCsU6iyMej4EBvOVX0rhHppI1CE1cBbC7L80CIJAGf5o3s/2A6alnYPq+rLk3bBrDOFn7SqFEFoinsnOjg6n0v2KFZ79EKd4h1YDrQ5Oj9BHCOj3yn0oZZBCDUIvwJTrY=
