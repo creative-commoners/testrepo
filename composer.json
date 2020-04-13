@@ -9,7 +9,8 @@
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/admin": "dev-pulls/1.5/file-manager-icons as 1.5.1",
         "silverstripe/assets": "dev-pulls/1.5/can-view-anonymous as 1.5.1",
-        "silverstripe/asset-admin": "dev-pulls/1.5/file-manager-icons as 1.5.1"
+        "silverstripe/asset-admin": "dev-pulls/1.5/file-manager-icons as 1.5.1",
+        "silverstripe/recipe-form-building": "1.5.1"
     },
     "repositories": [
         {
