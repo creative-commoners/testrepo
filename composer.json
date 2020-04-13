@@ -17,7 +17,7 @@
         "silverstripe/recipe-content-blocks": "2.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "3.x-dev",
         "silverstripe/textextraction": "3.x-dev",
-        "silverstripe/realme": "3.x-dev",
+        "silverstripe/realme": "4.x-dev",
         "silverstripe/ckan-registry": "1.x-dev",
         "silverstripe/mfa": "4.x-dev",
         "silverstripe/totp-authenticator": "4.x-dev",
