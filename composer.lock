@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b652a68b8150e35ce69bfcabb2bfe1c5",
+    "content-hash": "6c0eeac3330d5612f55e826b1f4f82c6",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1174,12 +1174,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "60d3fe70efb908439b27258aac1f1e2cc6453746"
+                "reference": "8341eba22c9ae680a01e15fc34825f7c9602ecfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/60d3fe70efb908439b27258aac1f1e2cc6453746",
-                "reference": "60d3fe70efb908439b27258aac1f1e2cc6453746",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/8341eba22c9ae680a01e15fc34825f7c9602ecfe",
+                "reference": "8341eba22c9ae680a01e15fc34825f7c9602ecfe",
                 "shasum": ""
             },
             "require": {
@@ -1234,7 +1234,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1.5/file-manager-icons"
             },
-            "time": "2020-04-14T03:12:23+00:00"
+            "time": "2020-04-15T04:01:18+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1579,16 +1579,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "4.5.2",
+            "version": "dev-pulls/4.5/userform-upload-cms-indicator",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "5fd16cd7e1b2484b050f66068ab70891a2f6c1db"
+                "url": "https://github.com/creative-commoners/silverstripe-framework.git",
+                "reference": "494e23c3dbc683e8c2591dd9eaf8b4ac0976af05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/5fd16cd7e1b2484b050f66068ab70891a2f6c1db",
-                "reference": "5fd16cd7e1b2484b050f66068ab70891a2f6c1db",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-framework/zipball/494e23c3dbc683e8c2591dd9eaf8b4ac0976af05",
+                "reference": "494e23c3dbc683e8c2591dd9eaf8b4ac0976af05",
                 "shasum": ""
             },
             "require": {
@@ -1666,12 +1666,22 @@
                     "src/includes/constants.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "src/",
                 "src/includes/",
                 "thirdparty/"
             ],
+            "scripts": {
+                "lint": [
+                    "phpcs src/ tests/php/ tests/behat/src/"
+                ],
+                "lint-clean": [
+                    "phpcbf src/ tests/php/ tests/behat/src/"
+                ],
+                "php-peg": [
+                    "php thirdparty/php-peg/cli.php src/View/SSTemplateParser.peg > src/View/SSTemplateParser.php"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1691,7 +1701,10 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-02-17T04:47:23+00:00"
+            "support": {
+                "source": "https://github.com/creative-commoners/silverstripe-framework/tree/pulls/4.5/userform-upload-cms-indicator"
+            },
+            "time": "2020-04-15T03:51:23+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -4285,6 +4298,12 @@
             "alias_normalized": "1.5.1.0",
             "version": "dev-pulls/1.5/file-manager-icons",
             "package": "silverstripe/asset-admin"
+        },
+        {
+            "alias": "4.5.2",
+            "alias_normalized": "4.5.2.0",
+            "version": "dev-pulls/4.5/userform-upload-cms-indicator",
+            "package": "silverstripe/framework"
         }
     ],
     "minimum-stability": "dev",
@@ -4292,7 +4311,8 @@
         "silverstripe/recipe-cms": 0,
         "silverstripe/admin": 20,
         "silverstripe/assets": 20,
-        "silverstripe/asset-admin": 20
+        "silverstripe/asset-admin": 20,
+        "silverstripe/framework": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

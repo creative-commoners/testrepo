@@ -10,6 +10,7 @@
         "silverstripe/admin": "dev-pulls/1.5/file-manager-icons as 1.5.1",
         "silverstripe/assets": "dev-pulls/1.5/can-view-anonymous as 1.5.1",
         "silverstripe/asset-admin": "dev-pulls/1.5/file-manager-icons as 1.5.1",
+        "silverstripe/framework": "dev-pulls/4.5/userform-upload-cms-indicator as 4.5.2",
         "silverstripe/recipe-form-building": "1.5.1"
     },
     "repositories": [
@@ -24,6 +25,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:creative-commoners/silverstripe-framework.git"
         }
     ],
     "require-dev": {
