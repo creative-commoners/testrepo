@@ -25,3 +25,4 @@ composer install
 Just make sure that the composer.json is still correct before doing this
 
 a
+b
