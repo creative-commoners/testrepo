@@ -1242,12 +1242,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "8ac42f9053f863b991a7f4c30f046daad1e1a136"
+                "reference": "1c5e9fea80a5c8ee6a6131c10cc8c6af06837a4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/8ac42f9053f863b991a7f4c30f046daad1e1a136",
-                "reference": "8ac42f9053f863b991a7f4c30f046daad1e1a136",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/1c5e9fea80a5c8ee6a6131c10cc8c6af06837a4f",
+                "reference": "1c5e9fea80a5c8ee6a6131c10cc8c6af06837a4f",
                 "shasum": ""
             },
             "require": {
@@ -1290,7 +1290,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1.5/file-manager-icons"
             },
-            "time": "2020-04-23T03:59:34+00:00"
+            "time": "2020-04-23T07:39:38+00:00"
         },
         {
             "name": "silverstripe/assets",
