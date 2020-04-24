@@ -23,13 +23,14 @@
     </testsuite>
 
     <testsuite name="recipe-cms">
-        <directory>vendor/silverstripe/cms/tests/</directory>
         <directory>vendor/silverstripe/admin/tests/php/</directory>
         <directory>vendor/silverstripe/campaign-admin/tests/php/</directory>
         <directory>vendor/silverstripe/asset-admin/tests/php/</directory>
         <directory>vendor/silverstripe/graphql/tests/</directory>
         <directory>vendor/silverstripe/siteconfig/tests/php/</directory>
         <directory>vendor/silverstripe/reports/tests/</directory>
+        <!-- CMS needs to run last because the SearchFormTest enables FulltextSearchable  -->
+        <directory>vendor/silverstripe/cms/tests/</directory>
     </testsuite>
 
     <!-- Optional CWP modules that aren't in recipes -->
