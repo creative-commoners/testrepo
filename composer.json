@@ -5,13 +5,12 @@
     "require": {
         "php": ">=7.1.0",
         "silverstripe/recipe-plugin": "^1.2",
-        "silverstripe/recipe-cms": "4.5.1@stable",
+        "silverstripe/recipe-cms": "4.x-dev",
+        "silverstripe/recipe-form-building": "1.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/admin": "dev-pulls/1.5/file-manager-icons as 1.5.1",
-        "silverstripe/assets": "dev-pulls/1.5/can-view-anonymous as 1.5.1",
-        "silverstripe/asset-admin": "dev-pulls/1.5/file-manager-icons as 1.5.1",
-        "silverstripe/framework": "dev-pulls/4.5/userform-upload-cms-indicator as 4.5.2",
-        "silverstripe/recipe-form-building": "1.5.1"
+        "silverstripe/admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
+        "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
+        "silverstripe/assets": "dev-pulls/1/file-manager-icons as 1.x-dev"
     },
     "repositories": [
         {
@@ -20,15 +19,11 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
-        },
-        {
-            "type": "vcs",
             "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-framework.git"
+            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
         }
     ],
     "require-dev": {

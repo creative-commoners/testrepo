@@ -2,4 +2,5 @@
 /.env
 /vendor/
 /themes/simple/
-/resources/
+resources/
+_resources/
