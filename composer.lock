@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c723174ba475f2691432c8b8b523d23a",
+    "content-hash": "01c0bcc12a23bf27f6b349561d805053",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1175,12 +1175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "d324d379af3b26fbc6a3df7240047abb1843948f"
+                "reference": "11f920fea476b6028055da07f58552644bd3e640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/d324d379af3b26fbc6a3df7240047abb1843948f",
-                "reference": "d324d379af3b26fbc6a3df7240047abb1843948f",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/11f920fea476b6028055da07f58552644bd3e640",
+                "reference": "11f920fea476b6028055da07f58552644bd3e640",
                 "shasum": ""
             },
             "require": {
@@ -1235,7 +1235,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-07T04:39:18+00:00"
+            "time": "2020-05-08T04:15:10+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "9f8c5b18b51debc8663e3dd13ff052424535eb23"
+                "reference": "9cf4fb14f91b2ee16b761e8bc4e09bc50f52a326"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/9f8c5b18b51debc8663e3dd13ff052424535eb23",
-                "reference": "9f8c5b18b51debc8663e3dd13ff052424535eb23",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/9cf4fb14f91b2ee16b761e8bc4e09bc50f52a326",
+                "reference": "9cf4fb14f91b2ee16b761e8bc4e09bc50f52a326",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1291,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-07T04:39:08+00:00"
+            "time": "2020-05-08T05:42:51+00:00"
         },
         {
             "name": "silverstripe/assets",
@@ -1299,12 +1299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-assets.git",
-                "reference": "7304a05d5447cddb33ecda82a794229576bc787a"
+                "reference": "837f0f87da133a7add4332df998c23c887ca6984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/7304a05d5447cddb33ecda82a794229576bc787a",
-                "reference": "7304a05d5447cddb33ecda82a794229576bc787a",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/837f0f87da133a7add4332df998c23c887ca6984",
+                "reference": "837f0f87da133a7add4332df998c23c887ca6984",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-assets/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-07T04:52:51+00:00"
+            "time": "2020-05-08T04:14:03+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -1830,7 +1830,7 @@
         },
         {
             "name": "silverstripe/recipe-form-building",
-            "version": "dev-master",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/recipe-form-building.git",
@@ -1843,10 +1843,10 @@
                 "shasum": ""
             },
             "require": {
-                "silverstripe/recipe-cms": "^4.5@dev",
+                "silverstripe/recipe-cms": "^4",
                 "silverstripe/recipe-plugin": "^1",
-                "silverstripe/segment-field": "2.2.x-dev",
-                "silverstripe/userforms": "5.4.x-dev"
+                "silverstripe/segment-field": "2.x-dev",
+                "silverstripe/userforms": "5.x-dev"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
@@ -1857,10 +1857,7 @@
             },
             "type": "silverstripe-recipe",
             "extra": {
-                "project-files": [],
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
+                "project-files": []
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1868,7 +1865,7 @@
             ],
             "description": "A recipe of modules to help you build forms in SilverStripe",
             "homepage": "https://www.silverstripe.org",
-            "time": "2019-08-15T02:16:44+00:00"
+            "time": "2019-11-13T02:07:20+00:00"
         },
         {
             "name": "silverstripe/recipe-plugin",
@@ -1974,16 +1971,16 @@
         },
         {
             "name": "silverstripe/segment-field",
-            "version": "2.2.x-dev",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-segment-field.git",
-                "reference": "82adc07f053c55385d44abe09cc963e945c89296"
+                "reference": "5afcbcf4f0cb765a7f601e9f25870734672a177c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-segment-field/zipball/82adc07f053c55385d44abe09cc963e945c89296",
-                "reference": "82adc07f053c55385d44abe09cc963e945c89296",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-segment-field/zipball/5afcbcf4f0cb765a7f601e9f25870734672a177c",
+                "reference": "5afcbcf4f0cb765a7f601e9f25870734672a177c",
                 "shasum": ""
             },
             "require": {
@@ -1997,6 +1994,9 @@
             },
             "type": "silverstripe-vendormodule",
             "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
                 "expose": [
                     "client/dist"
                 ]
@@ -2022,7 +2022,7 @@
                 "segment",
                 "silverstripe"
             ],
-            "time": "2020-02-13T03:03:10+00:00"
+            "time": "2020-05-04T23:53:39+00:00"
         },
         {
             "name": "silverstripe/siteconfig",
@@ -2072,19 +2072,20 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "5.4.x-dev",
+            "version": "dev-pulls/5/file-manager-icons",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "3349599a89019c43596bb947bdac2ed0384df52d"
+                "url": "https://github.com/creative-commoners/silverstripe-userforms.git",
+                "reference": "5d36f68188daaa47e4f075980f6268e898242286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/3349599a89019c43596bb947bdac2ed0384df52d",
-                "reference": "3349599a89019c43596bb947bdac2ed0384df52d",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-userforms/zipball/5d36f68188daaa47e4f075980f6268e898242286",
+                "reference": "5d36f68188daaa47e4f075980f6268e898242286",
                 "shasum": ""
             },
             "require": {
+                "php": ">=7.1",
                 "silverstripe/cms": "^4.0",
                 "silverstripe/segment-field": "^2.0",
                 "silverstripe/versioned": "^1.0",
@@ -2113,7 +2114,6 @@
                     "SilverStripe\\UserForms\\Tests\\": "tests/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2144,7 +2144,10 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2020-04-15T00:37:43+00:00"
+            "support": {
+                "source": "https://github.com/creative-commoners/silverstripe-userforms/tree/pulls/5/file-manager-icons"
+            },
+            "time": "2020-05-08T00:45:14+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
@@ -4296,6 +4299,12 @@
             "alias_normalized": "1.9999999.9999999.9999999-dev",
             "version": "dev-pulls/1/file-manager-icons",
             "package": "silverstripe/assets"
+        },
+        {
+            "alias": "5.x-dev",
+            "alias_normalized": "5.9999999.9999999.9999999-dev",
+            "version": "dev-pulls/5/file-manager-icons",
+            "package": "silverstripe/userforms"
         }
     ],
     "minimum-stability": "dev",
@@ -4304,7 +4313,8 @@
         "silverstripe/recipe-form-building": 20,
         "silverstripe/admin": 20,
         "silverstripe/asset-admin": 20,
-        "silverstripe/assets": 20
+        "silverstripe/assets": 20,
+        "silverstripe/userforms": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
