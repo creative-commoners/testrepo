@@ -1175,12 +1175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "11f920fea476b6028055da07f58552644bd3e640"
+                "reference": "ab1df3b1d0836e2b962553252da8a7f0470fc668"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/11f920fea476b6028055da07f58552644bd3e640",
-                "reference": "11f920fea476b6028055da07f58552644bd3e640",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/ab1df3b1d0836e2b962553252da8a7f0470fc668",
+                "reference": "ab1df3b1d0836e2b962553252da8a7f0470fc668",
                 "shasum": ""
             },
             "require": {
@@ -1235,7 +1235,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-08T04:15:10+00:00"
+            "time": "2020-05-10T23:57:26+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "9cf4fb14f91b2ee16b761e8bc4e09bc50f52a326"
+                "reference": "e4bf747b315f07103c93201e1d907e2c1b9e0f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/9cf4fb14f91b2ee16b761e8bc4e09bc50f52a326",
-                "reference": "9cf4fb14f91b2ee16b761e8bc4e09bc50f52a326",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/e4bf747b315f07103c93201e1d907e2c1b9e0f28",
+                "reference": "e4bf747b315f07103c93201e1d907e2c1b9e0f28",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1291,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-08T05:42:51+00:00"
+            "time": "2020-05-11T03:17:51+00:00"
         },
         {
             "name": "silverstripe/assets",
@@ -1299,16 +1299,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-assets.git",
-                "reference": "837f0f87da133a7add4332df998c23c887ca6984"
+                "reference": "13be2c5314b6a581d2dd4958830a5d949c053a0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/837f0f87da133a7add4332df998c23c887ca6984",
-                "reference": "837f0f87da133a7add4332df998c23c887ca6984",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/13be2c5314b6a581d2dd4958830a5d949c053a0d",
+                "reference": "13be2c5314b6a581d2dd4958830a5d949c053a0d",
                 "shasum": ""
             },
             "require": {
                 "intervention/image": "^2.3",
+                "php": ">=7.1",
                 "silverstripe/framework": "^4.5",
                 "silverstripe/vendor-plugin": "^1.0"
             },
@@ -1360,7 +1361,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-assets/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-08T04:14:03+00:00"
+            "time": "2020-05-11T02:31:01+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -1584,12 +1585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "10efe79b9384511ce1d06f76e8ef4d8ac9ebbfc2"
+                "reference": "6fe74fb41bd1f39487d72956e110c146c4992ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/10efe79b9384511ce1d06f76e8ef4d8ac9ebbfc2",
-                "reference": "10efe79b9384511ce1d06f76e8ef4d8ac9ebbfc2",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/6fe74fb41bd1f39487d72956e110c146c4992ca0",
+                "reference": "6fe74fb41bd1f39487d72956e110c146c4992ca0",
                 "shasum": ""
             },
             "require": {
@@ -1693,7 +1694,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-05-06T23:22:32+00:00"
+            "time": "2020-05-10T20:11:11+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -2672,16 +2673,16 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "d6b5c4ac62cd4ed622e583d027ae684de2d3c4bd"
+                "reference": "6a50331d18fa2c1bcf8bf60e4f4a2260e1ec3a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/d6b5c4ac62cd4ed622e583d027ae684de2d3c4bd",
-                "reference": "d6b5c4ac62cd4ed622e583d027ae684de2d3c4bd",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/6a50331d18fa2c1bcf8bf60e4f4a2260e1ec3a1c",
+                "reference": "6a50331d18fa2c1bcf8bf60e4f4a2260e1ec3a1c",
                 "shasum": ""
             },
             "require": {
@@ -2690,7 +2691,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -2724,20 +2725,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1aab00e39cebaef4d8652497f46c15c1b7e45294",
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294",
                 "shasum": ""
             },
             "require": {
@@ -2749,7 +2750,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -2782,20 +2783,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
+                "reference": "a54881ec0ab3b2005c406aed0023c062879031e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a54881ec0ab3b2005c406aed0023c062879031e7",
+                "reference": "a54881ec0ab3b2005c406aed0023c062879031e7",
                 "shasum": ""
             },
             "require": {
@@ -2807,7 +2808,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -2841,7 +2842,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-03-09T19:04:49+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/translation",
