@@ -1175,12 +1175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "ed6edc751ef058b9647328ea1fc9a5876b1ec64e"
+                "reference": "1fc5011e3dbd1bb58aaea6b313cfda634939ed57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/ed6edc751ef058b9647328ea1fc9a5876b1ec64e",
-                "reference": "ed6edc751ef058b9647328ea1fc9a5876b1ec64e",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/1fc5011e3dbd1bb58aaea6b313cfda634939ed57",
+                "reference": "1fc5011e3dbd1bb58aaea6b313cfda634939ed57",
                 "shasum": ""
             },
             "require": {
@@ -1235,7 +1235,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-11T23:18:12+00:00"
+            "time": "2020-05-12T11:36:35+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "830d45571cfadbb9eba0c9bc22b16a45de898d17"
+                "reference": "b6111ac9908effeadcd8d1c56ca0acaa290f049e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/830d45571cfadbb9eba0c9bc22b16a45de898d17",
-                "reference": "830d45571cfadbb9eba0c9bc22b16a45de898d17",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/b6111ac9908effeadcd8d1c56ca0acaa290f049e",
+                "reference": "b6111ac9908effeadcd8d1c56ca0acaa290f049e",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1291,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-12T00:25:51+00:00"
+            "time": "2020-05-12T11:54:46+00:00"
         },
         {
             "name": "silverstripe/assets",
