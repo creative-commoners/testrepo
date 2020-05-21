@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01c0bcc12a23bf27f6b349561d805053",
+    "content-hash": "e34855b1eefa60fa525c64e0f8ebea3a",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "0d7466846c51213e5bd41fa6500fab8eaccdac27"
+                "reference": "dbea24afc14e7919fcd5eb6fda61e16d27a2fb5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/0d7466846c51213e5bd41fa6500fab8eaccdac27",
-                "reference": "0d7466846c51213e5bd41fa6500fab8eaccdac27",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/dbea24afc14e7919fcd5eb6fda61e16d27a2fb5f",
+                "reference": "dbea24afc14e7919fcd5eb6fda61e16d27a2fb5f",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1291,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-21T01:59:58+00:00"
+            "time": "2020-05-21T02:39:00+00:00"
         },
         {
             "name": "silverstripe/assets",
