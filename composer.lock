@@ -1175,12 +1175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "ad5cd123e1ad41440cee5d57d1f19318ffc9fbd2"
+                "reference": "06bb057f1097f3425e540bcd2ffb3a43dcacf19b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/ad5cd123e1ad41440cee5d57d1f19318ffc9fbd2",
-                "reference": "ad5cd123e1ad41440cee5d57d1f19318ffc9fbd2",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/06bb057f1097f3425e540bcd2ffb3a43dcacf19b",
+                "reference": "06bb057f1097f3425e540bcd2ffb3a43dcacf19b",
                 "shasum": ""
             },
             "require": {
@@ -1235,7 +1235,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-19T04:36:47+00:00"
+            "time": "2020-05-21T01:59:21+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1243,12 +1243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-asset-admin.git",
-                "reference": "d16b9e5151f0dc6acfb82884e0007131677603b2"
+                "reference": "0d7466846c51213e5bd41fa6500fab8eaccdac27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/d16b9e5151f0dc6acfb82884e0007131677603b2",
-                "reference": "d16b9e5151f0dc6acfb82884e0007131677603b2",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-asset-admin/zipball/0d7466846c51213e5bd41fa6500fab8eaccdac27",
+                "reference": "0d7466846c51213e5bd41fa6500fab8eaccdac27",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1291,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-asset-admin/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-19T04:37:14+00:00"
+            "time": "2020-05-21T01:59:58+00:00"
         },
         {
             "name": "silverstripe/assets",
@@ -1299,17 +1299,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-assets.git",
-                "reference": "59b607ad54f65704ee2fcb31034b338d40245e80"
+                "reference": "c558a2b53b27e8099cb3b189b352d0b1dd81d678"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/59b607ad54f65704ee2fcb31034b338d40245e80",
-                "reference": "59b607ad54f65704ee2fcb31034b338d40245e80",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-assets/zipball/c558a2b53b27e8099cb3b189b352d0b1dd81d678",
+                "reference": "c558a2b53b27e8099cb3b189b352d0b1dd81d678",
                 "shasum": ""
             },
             "require": {
                 "intervention/image": "^2.3",
-                "php": ">=7.1",
                 "silverstripe/framework": "^4.5",
                 "silverstripe/vendor-plugin": "^1.0"
             },
@@ -1361,7 +1360,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-assets/tree/pulls/1/file-manager-icons"
             },
-            "time": "2020-05-19T21:49:43+00:00"
+            "time": "2020-05-21T02:00:27+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -1585,12 +1584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "295fc7c2ad3e06d4d1f0d8d3ab81d78a52138ccc"
+                "reference": "a24a923d0c5f763a848225072c951b1d95328473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/295fc7c2ad3e06d4d1f0d8d3ab81d78a52138ccc",
-                "reference": "295fc7c2ad3e06d4d1f0d8d3ab81d78a52138ccc",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a24a923d0c5f763a848225072c951b1d95328473",
+                "reference": "a24a923d0c5f763a848225072c951b1d95328473",
                 "shasum": ""
             },
             "require": {
@@ -1694,7 +1693,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2020-05-16T09:46:05+00:00"
+            "time": "2020-05-20T08:36:51+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -1737,6 +1736,61 @@
             ],
             "description": "GraphQL server for SilverStripe models and other data",
             "time": "2020-04-02T22:50:50+00:00"
+        },
+        {
+            "name": "silverstripe/mimevalidator",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-mimevalidator.git",
+                "reference": "1d968748b429e5443aaf55856ce57e82f9e50a37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-mimevalidator/zipball/1d968748b429e5443aaf55856ce57e82f9e50a37",
+                "reference": "1d968748b429e5443aaf55856ce57e82f9e50a37",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "silverstripe/framework": "^4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverStripe\\MimeValidator\\": "src/",
+                    "SilverStripe\\MimeValidator\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Harvey",
+                    "email": "sean@silverstripe.com"
+                }
+            ],
+            "description": "Checks uploaded file content roughly matches a known MIME type for the file extension.",
+            "keywords": [
+                "cwp",
+                "fileinfo",
+                "mime",
+                "silverstripe",
+                "upload",
+                "validator"
+            ],
+            "time": "2020-05-20T03:23:59+00:00"
         },
         {
             "name": "silverstripe/recipe-cms",
@@ -1791,18 +1845,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/recipe-core.git",
-                "reference": "38eab2b74ae0ba88979a9a621b64cb1cec22104d"
+                "reference": "f6edf3a26b2c4ff01ef0eacef1dfb7f484833b78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/recipe-core/zipball/38eab2b74ae0ba88979a9a621b64cb1cec22104d",
-                "reference": "38eab2b74ae0ba88979a9a621b64cb1cec22104d",
+                "url": "https://api.github.com/repos/silverstripe/recipe-core/zipball/f6edf3a26b2c4ff01ef0eacef1dfb7f484833b78",
+                "reference": "f6edf3a26b2c4ff01ef0eacef1dfb7f484833b78",
                 "shasum": ""
             },
             "require": {
                 "silverstripe/assets": "1.x-dev",
                 "silverstripe/config": "1.0.x-dev",
                 "silverstripe/framework": "4.x-dev",
+                "silverstripe/mimevalidator": "2.x-dev",
                 "silverstripe/recipe-plugin": "^1.2"
             },
             "require-dev": {
@@ -1827,7 +1882,7 @@
             ],
             "description": "SilverStripe framework-only core recipe",
             "homepage": "http://silverstripe.org",
-            "time": "2020-03-03T02:13:29+00:00"
+            "time": "2020-05-20T02:30:46+00:00"
         },
         {
             "name": "silverstripe/recipe-form-building",
@@ -2077,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-userforms.git",
-                "reference": "933d14ff73c3666aa23b5a475f9465f7fec100e8"
+                "reference": "1942d18599c1dd1832b9bf7b4560eb0cfd6a33d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-userforms/zipball/933d14ff73c3666aa23b5a475f9465f7fec100e8",
-                "reference": "933d14ff73c3666aa23b5a475f9465f7fec100e8",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-userforms/zipball/1942d18599c1dd1832b9bf7b4560eb0cfd6a33d3",
+                "reference": "1942d18599c1dd1832b9bf7b4560eb0cfd6a33d3",
                 "shasum": ""
             },
             "require": {
@@ -2148,7 +2203,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-userforms/tree/pulls/5/file-manager-icons"
             },
-            "time": "2020-05-19T22:15:58+00:00"
+            "time": "2020-05-21T02:00:53+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
