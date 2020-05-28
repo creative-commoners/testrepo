@@ -7,28 +7,12 @@
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.x-dev",
         "silverstripe/recipe-form-building": "1.x-dev",
-        "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
-        "silverstripe/asset-admin": "dev-pulls/1/file-manager-icons as 1.x-dev",
-        "silverstripe/assets": "dev-pulls/1/file-manager-icons as 1.x-dev",
-        "silverstripe/userforms": "dev-pulls/5/file-manager-icons as 5.x-dev"
+        "silverstripe-themes/simple": "~3.2.0"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-asset-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-assets.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:creative-commoners/silverstripe-userforms.git"
+            "url": "git@github.com:creative-commoners/silverstripe-crazy-egg.git"
         }
     ],
     "require-dev": {
